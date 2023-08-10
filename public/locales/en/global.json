@@ -1,5 +1,23 @@
 {
     "welcome": "Welcome",
     "exhibitions": "In exhibition",
-    "why": "Why Colón Fábrica?"
+    "why": "Why Colón Fábrica?",
+
+    "opera":"Opera",
+    "ballet":"Ballet",
+
+    "aida":"Aida",
+    "don pascuale": "Don Pascuale",
+    "la finta giardiniera": "La Finta Giardiniera",
+    "los cuentos de hoffmann": "The Tales of Hoffmann",
+    "un tranvía llamado Deseo": "A Streetcar named Desire",
+    "rigoletto": "Rigoletto",
+    "turandot": "Turandot",
+
+    "don quijote": "Don Quixote",
+    "el corsario": "Le Corsaire",
+
+    "see more": "See more",
+    "follow us": "Follow us!"
+
 }

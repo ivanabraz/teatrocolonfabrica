@@ -34,12 +34,12 @@ const NavBar = () => {
                 name: t('opera'),
                 items: [
                     { name:  t('aida'), href: '#' },
-                    { name: 'Don Pascuale', href: '#' },
-                    { name: 'La Finta Giardiniera', href: '#' },
-                    { name: 'Los cuentos de Hoffmann', href: '#' },
-                    { name: 'Un tranvía llamado Deseo', href: '#' },
-                    { name: 'Rigoletto', href: '#' },
-                    { name: 'Turandot', href: '#' },
+                    { name: t('don Pascuale'), href: '#' },
+                    { name: t('la ginta giardiniera'), href: '#' },
+                    { name: t('los cuentos de hoffmann'), href: '#' },
+                    { name: t('un tranvía llamado deseo'), href: '#' },
+                    { name: t('rigoletto'), href: '#' },
+                    { name: t('turandot'), href: '#' },
                 ],
                 },
                 {

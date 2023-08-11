@@ -12,51 +12,52 @@ const NavBar = () => {
     const navigation = {
         categories: [
             {
-            id: t('exhibitions'),
-            name: t('exhibitions'),
+            id: t('global.exhibitions'),
+            name: t('global.exhibitions'),
             featured: [
                 {
-                name: t('opera'),
+                name: t('global.opera'),
                 href: 'opera',
                 imageSrc: 'https://tailwindui.com/img/ecommerce-images/mega-menu-category-01.jpg',
-                imageAlt: t('opera'),
+                imageAlt: t('global.opera'),
                 },
                 {
-                name: t('ballet'),
+                name: t('global.ballet'),
                 href: 'ballet',
                 imageSrc: 'https://tailwindui.com/img/ecommerce-images/mega-menu-category-02.jpg',
-                imageAlt: t('ballet'),
+                imageAlt: t('global.ballet'),
                 },
             ],
+            seeMore: t('global.see_more'),
             sections: [
                 {
                 id: 'opera',
-                name: t('opera'),
+                name: t('global.opera'),
                 items: [
-                    { name:  t('aida'), href: '#' },
-                    { name: t('don Pascuale'), href: '#' },
-                    { name: t('la ginta giardiniera'), href: '#' },
-                    { name: t('los cuentos de hoffmann'), href: '#' },
-                    { name: t('un tranvía llamado deseo'), href: '#' },
-                    { name: t('rigoletto'), href: '#' },
-                    { name: t('turandot'), href: '#' },
+                    { name:  t('global.aida'), href: '#' },
+                    { name: t('global.don_pascuale'), href: '#' },
+                    { name: t('global.la_finta_giardiniera'), href: '#' },
+                    { name: t('global.los_cuentos_de_hoffmann'), href: '#' },
+                    { name: t('global.un_tranvia_llamado_deseo'), href: '#' },
+                    { name: t('global.rigoletto'), href: '#' },
+                    { name: t('global.turandot'), href: '#' },
                 ],
                 },
                 {
-                id: 'ballet',
-                name: t('ballet'),
+                id: 'global.ballet',
+                name: t('global.ballet'),
                 items: [
-                    { name: t('don quijote'), href: '#' },
-                    { name: t('el corsario'), href: '#' },
+                    { name: t('global.don_quijote'), href: '#' },
+                    { name: t('global.el_corsario'), href: '#' },
                 ],
                 },
             ],
             },
         ],
         pages: [
-            { name: t('why'), href: t('why'), },
+            { name: t('global.why'), href: t('global.why')},
         ],
-        }
+    }
 
     return (
         <div className="bg-white">

@@ -1,9 +1,7 @@
-import React, { useState, useEffect } from 'react';
-import { useTranslation } from 'react-i18next';
+import React, { useState } from 'react';
 import i18n from '../../config/i18n';
 
 const NavBarLanguage = () => {
-    const { t } = useTranslation();
     const [isEnglishVisible, setEnglishVisible] = useState(i18n.language === 'es');
     const [isSpanishVisible, setSpanishVisible] = useState(i18n.language === 'en');
 

@@ -58,7 +58,7 @@ const NavBarDesktop = ({navigation}) => {
                                                                 {item.name}
                                                             </Link>
                                                             <p aria-hidden="true" className="mt-1">
-                                                                Ver más →
+                                                                {category.seeMore} →
                                                             </p>
                                                         </div>
                                                     ))}

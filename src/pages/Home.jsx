@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next';
 
 //IMAGES
 import headerVideo from '../images/home/header.mp4';
+import ItemList from '../components/ItemList/ItemList';
 
 const Home = () => {
     const {t} = useTranslation();
@@ -12,8 +13,9 @@ const Home = () => {
         <>
             <HeroImage 
                 video={true} headerVideo={headerVideo} 
-                title={t('welcome')}
+                title={t('global.welcome')}
             />
+            <ItemList/>
         </>
     );
 }

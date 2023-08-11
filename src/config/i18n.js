@@ -8,14 +8,18 @@ i18n.use(Backend)
 	.use(initReactI18next)
 	.init({
 		fallbackLng: "es",
+		supportedLngs: ['es', 'en'],
 		debug: true,
 		interpolation: {
 			espaceValue: false,
 		},
+		react: {
+			useSuspense: true
+		},
 		backend: {
 			loadPath: '/locales/{{lng}}/{{ns}}.json',
 		},
-		ns: ['global'],
+		ns: ['global']
 	});
 
 export default i18n;

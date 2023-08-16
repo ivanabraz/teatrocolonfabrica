@@ -1,44 +1,53 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-
-//IMAGES
-import headerVideo from '../../images/home/header.mp4';
 import HeroImage from '../HeroImage/HeroImage';
+import SwiperSlider from '../SwiperSlider/SwiperSlider';
+
+// Función para verificar si una imagen existe
+const checkImageExists = (url) => {
+    return fetch(url)
+        .then(response => response.ok)
+        .catch(() => false);
+};
 
 const ItemDetailContainer = () => {
-    const { id } = useParams();
-    const { t, i18n } = useTranslation();
-
-    // Mapeo entre IDs en español e inglés
-    const idMapping = {
-        don_quijote: 'don_quixote',
-        un_tranvia_llamado_deseo: 'a_streetcar_named_desire',
-        los_cuentos_de_hoffmann: 'the_tales_of_hoffmann',
-        el_corsario: 'le_corsaire',
-    };
-
-    // Obtén el ID correspondiente al idioma actual
-    const currentId = i18n.language === 'es' ? id : idMapping[id];
+    const { t } = useTranslation();
 
     // Busca el elemento en el arreglo "productions" con el id correspondiente en el idioma actual
     const productions = t('productions', { returnObjects: true });
-    const item = productions.find(prod => prod.id === currentId);
+    const item = productions.find(prod => prod.id);
 
     // Si se encontró el elemento, obtén las propiedades necesarias en el idioma actual
     const title = item?.title || '';
-    const header = item?.header || '';
+    const header = `https://teatrocolon.dreamhosters.com/teatrocolonfabrica/src/images/productions/${item.id}/img-header`;
     const subtitle = item?.subtitle || '';
-    // const textLong = item?.text_long?.join('\n') || '';
+
+    // Crear array dinámico de imágenes
+    const imageArray = [];
+    let imageIndex = 1;
+    const loadImage = async () => {
+        const imageUrl = `https://teatrocolon.dreamhosters.com/teatrocolonfabrica/src/images/productions/${item.id}/img-${imageIndex}.jpg`;
+
+        // Verificar si la imagen existe usando la función checkImageExists
+        const imageExists = await checkImageExists(imageUrl);
+
+        if (imageExists) {
+            imageArray.push({ imgUrl: imageUrl, imgAlt: `Image ${imageIndex}` });
+            imageIndex++;
+            await loadImage();
+        }
+    };
+
+    loadImage();
 
     return (
         <>
-            {/* <p>{textLong}</p> */}
             <HeroImage 
                 video={false} header={header} 
                 title={title}
                 subtitle={subtitle}
             />
+            <SwiperSlider images={imageArray} title={title} />
         </>
     );
 };

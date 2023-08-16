@@ -1,12 +1,13 @@
 import React from "react";
+import NavBarLogo from "../NavBar/NavBarLogo";
 
 const Footer = () => {
     return (
-        <>
-        </>
-        // <footer className="pt-14 pb-14 w-full h-20 text-md text-neutral-100 flex justify-between p-5 bg-white dark:bg-black">
-        //     <p>© 2023 Colón Fábrica</p>
-        // </footer>
+        <footer className="w-full h-auto p-10 text-md text-white bg-black text-center flex justify-around">
+            <NavBarLogo customClassName={"invert"} />
+
+            <p>© 2023</p>
+        </footer>
     )
 }
 

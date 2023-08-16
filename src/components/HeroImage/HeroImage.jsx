@@ -11,7 +11,7 @@ const HeroImage = (props) => {
                 )}
         >
             <div className="flex flex-col">
-                <p className="text-2xl xs:text-3xl sm:text-5xl md:text-5xl lg:text-5xl xl:text-5xl 2xl:text-8xl">
+                <p className="font-serif text-2xl xs:text-3xl sm:text-5xl md:text-5xl lg:text-5xl xl:text-5xl 2xl:text-8xl">
                     {props.title}
                 </p>
                 {(props?.subtitle !== null

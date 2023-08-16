@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
+import { useTranslation } from 'react-i18next';
 import NavBarMobile from "./NavBarMobile";
 import NavBarLogo from "./NavBarLogo";
 import NavBarBurger from "./NavBarBurger";
 import NavBarDesktop from "./NavBarDesktop";
-import { useTranslation } from 'react-i18next';
 
 const NavBar = () => {
     const { t, i18n } = useTranslation();
@@ -86,7 +86,7 @@ const NavBar = () => {
     
     return (
         <div className="bg-white">
-            <NavBarMobile navigation={navigation} />
+            <NavBarMobile navigation={navigation} balletProductions={balletProductions} operaProductions={operaProductions} lang={i18n.language} />
             <header className="relative bg-white mx-auto px-4 sm:px-6 lg:px-8 flex h-16 items-center max-w-7xl z-60">
                 <NavBarBurger />
                 <NavBarLogo />

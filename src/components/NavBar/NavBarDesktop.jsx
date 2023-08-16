@@ -1,8 +1,8 @@
 import React, { Fragment } from "react";
 import { Popover, Transition } from '@headlessui/react';
 import { Link } from "react-router-dom";
-import NavBarLanguage from "./NavBarLanguage";
 import { useTranslation } from 'react-i18next';
+import NavBarLanguage from "./NavBarLanguage";
 
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ')

@@ -1,17 +1,19 @@
 import React, { Fragment, useContext } from "react";
 import { Dialog, Tab, Transition } from '@headlessui/react'
 import { XMarkIcon } from '@heroicons/react/24/outline'
+import { useTranslation } from 'react-i18next';
+import { Link } from "react-router-dom";
+import NavBarLanguage from "./NavBarLanguage";
 
 // CONTEXT
 import { NavBarContext } from '../../context/NavBarContext';
-import { Link } from "react-router-dom";
-import NavBarLanguage from "./NavBarLanguage";
 
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
     }
 
-const NavBarMobile = ({navigation}) => {
+const NavBarMobile = ({ navigation, balletProductions, operaProductions, lang }) => {
+    const { t } = useTranslation();
     const { open, setOpen } = useContext(NavBarContext);
 
     return (
@@ -88,25 +90,34 @@ const NavBarMobile = ({navigation}) => {
                                                     </div>
                                                 ))}
                                             </div>
-                                            {category.sections.map((section) => (
-                                                <div key={section.id}>
-                                                    <p id={`${category.id}-${section.id}-heading-mobile`} className="font-medium text-gray-900">
-                                                        {section.name}
-                                                    </p>
-                                                    <ul
-                                                    aria-labelledby={`${category.id}-${section.id}-heading-mobile`}
-                                                    className="mt-6 flex flex-col space-y-6"
-                                                    >
-                                                        {section.items.map((item) => (
-                                                            <li key={item.id} className="flow-root">
-                                                            <Link to={item.id} className="-m-2 block p-2 text-gray-500">
-                                                                {item.name}
+                                            <div>
+                                                <p className="font-medium text-gray-900">
+                                                    {t('global.ballet')}
+                                                </p>
+                                                <ul className="mt-6 flex flex-col space-y-6">
+                                                    {balletProductions.map((production, index) => (
+                                                        <li key={index} className="flow-root">
+                                                            <Link to={`/${lang}/${production.id}`} className="-m-2 block p-2 text-gray-500">
+                                                                {t(production.title)}
                                                             </Link>
-                                                            </li>
-                                                        ))}
-                                                    </ul>
-                                                </div>
-                                            ))}
+                                                        </li>
+                                                    ))}
+                                                </ul>
+                                            </div>
+                                            <div>
+                                                <p className="font-medium text-gray-900">
+                                                    {t('global.opera')}
+                                                </p>
+                                                <ul className="mt-6 flex flex-col space-y-6">
+                                                    {operaProductions.map((production, index) => (
+                                                        <li key={index} className="flow-root">
+                                                            <Link to={`/${lang}/${production.id}`} className="-m-2 block p-2 text-gray-500">
+                                                                {t(production.title)}
+                                                            </Link>
+                                                        </li>
+                                                    ))}
+                                                </ul>
+                                            </div>
                                         </Tab.Panel>
                                     ))}
                                 </Tab.Panels>

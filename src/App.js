@@ -8,6 +8,7 @@ import { NavBarProvider } from './context/NavBarContext';
 
 // PAGES
 import Home from './pages/Home';
+import Sobre from './pages/Sobre';
 
 // COMPONENTS
 import NavBar from './components/NavBar/NavBar';
@@ -32,6 +33,7 @@ const App = () => {
                 <NavBar/>
                 <Routes>
                     <Route path={`/:lang?`} element={ <Home /> }/>
+                    <Route path={`/:lang?`} element={ <Sobre /> }/>
                     <Route path={`/:lang?/:id`} element={ <ItemDetailContainer t={t}/> }/>
                 </Routes>
                 <Footer/>

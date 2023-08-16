@@ -5,19 +5,8 @@
         "why": "¿Por qué Colón Fábrica?",
         "see_more": "Ver más",
         "follow_us": "¡Seguínos en las redes!",
-
         "opera":"Ópera",
-        "aida":"Aida",
-        "don_pascuale": "Don Pascuale",
-        "la_finta_giardiniera": "La Finta Giardiniera",
-        "los_cuentos_de_hoffmann": "Los cuentos de Hoffmann",
-        "un_tranvia_llamado_deseo": "Un tranvía llamado Deseo",
-        "rigoletto": "Rigoletto",
-        "turandot": "Turandot",
-
-        "ballet":"Ballet",
-        "don_quijote": "Don Quijote",
-        "el_corsario": "El Corsario"
+        "ballet":"Ballet"
     }
     ,
 
@@ -27,7 +16,7 @@
             "id": "don_quijote",
             "title": "Don Quijote",
             "subtitle": "Ludwig Minkus, 1869",
-            "img_header": "xxxx",
+            "header": "https://teatrocolon.dreamhosters.com/colonfabrica/multimedia/donquijote/donquijote_img-card.jpg",
             "img_card": "https://teatrocolon.dreamhosters.com/colonfabrica/multimedia/donquijote/donquijote_img-card.jpg",
             "text_long": [
                 "xxx",
@@ -41,7 +30,7 @@
             "id": "la_finta_giardiniera",
             "title": "La Finta Giardiniera",
             "subtitle": "Wolfgang Amadeus Mozart, 1775",
-            "img_header": "xxx",
+            "header": "xxx",
             "img_card": "https://teatrocolon.dreamhosters.com/colonfabrica/multimedia/lafintagiardiniera/lafintagiardiniera_img-card.jpg",
             "text_long": [
                 "xxx",
@@ -51,11 +40,11 @@
             ]
         },
         {
-            "category": "Opera",
+            "category": "Ópera",
             "id": "un_tranvia_llamado_deseo",
             "title": "Un tranvía llamado Deseo",
             "subtitle": "André Previn, 1998",
-            "img_header": "https://teatrocolon.dreamhosters.com/colonfabrica/multimedia/un-tranvia-llamado-deseo/un-tranvia-llamado-deseo_img-header.jpg",
+            "header": "https://teatrocolon.dreamhosters.com/colonfabrica/multimedia/un-tranvia-llamado-deseo/un-tranvia-llamado-deseo_img-header.jpg",
             "img_card": "https://teatrocolon.dreamhosters.com/colonfabrica/multimedia/un-tranvia-llamado-deseo/un-tranvia-llamado-deseo_img-card.jpg",
             "text_long": [
                 "Un tranvía llamado Deseo es la versión lírica del compositor estadounidense André Previn sobre el clásico teatral de Tennessee Williams. Cuenta la historia de Blanche, una mujer madura del sur de los Estados Unidos con aires aristocráticos pero venida a menos, que se ve obligada a mudarse al estrecho departamento de su hermana Stella. Ante la indiferencia y luego el ataque salvaje de su cuñado Stanley, solo encuentra amparo en la locura.",
@@ -73,7 +62,7 @@
             "id": "el_corsario",
             "title": "El Corsario",
             "subtitle": "Adolphe Adam, Cesare Pugni, Leo Delibes, Riccardo Drigo, 1856",
-            "img_header": "https://teatrocolon.dreamhosters.com/colonfabrica/multimedia/un-tranvia-llamado-deseo/un-tranvia-llamado-deseo_img-header.jpg",
+            "header": "https://teatrocolon.dreamhosters.com/colonfabrica/multimedia/un-tranvia-llamado-deseo/un-tranvia-llamado-deseo_img-header.jpg",
             "img_card": "https://teatrocolon.dreamhosters.com/colonfabrica/multimedia/el-corsario/el-corsario_img-card.jpg",
             "text_long": [
                 "xxx",
@@ -84,10 +73,10 @@
         },
         {
             "category": "Ópera",
-            "id": "un_tranvia_llamado_deseo",
+            "id": "los_cuentos_de_hoffmann",
             "title": "Los cuentos de Hoffmann",
             "subtitle": "Adolphe Adam, Cesare Pugni, Leo Delibes, Riccardo Drigo, 1856",
-            "img_header": "xxx",
+            "header": "xxx",
             "img_card": "https://teatrocolon.dreamhosters.com/colonfabrica/multimedia/los-cuentos-de-hoffmann/los-cuentos-de-hoffmann_img-card.jpg",
             "text_long": [
                 "xxx",
@@ -101,7 +90,7 @@
             "id": "don_pascuale",
             "title": "Don Pascuale",
             "subtitle": "Gaetano Donizetti, 1843",
-            "img_header": "xxx",
+            "header": "xxx",
             "img_card": "https://teatrocolon.dreamhosters.com/colonfabrica/multimedia/don-pascuale/don-pascuale_img-card.jpg",
             "text_long": [
                 "xxx",
@@ -115,7 +104,7 @@
             "id": "rigoletto",
             "title": "Rigoletto",
             "subtitle": "Giuseppe Verdi, 1851",
-            "img_header": "xxx",
+            "header": "xxx",
             "img_card": "https://teatrocolon.dreamhosters.com/colonfabrica/multimedia/rigoletto/rigoletto_img-card.jpg",
             "text_long": [
                 "xxx",
@@ -129,7 +118,7 @@
             "id": "aida",
             "title": "Aida",
             "subtitle": "Giuseppe Verdi, 1871",
-            "img_header": "xxx",
+            "header": "xxx",
             "img_card": "https://teatrocolon.dreamhosters.com/colonfabrica/multimedia/aida/aida_img-card.jpg",
             "text_long": [
                 "xxx",
@@ -143,7 +132,7 @@
             "id": "turandot",
             "title": "Turandot",
             "subtitle": "Giacomo Puccini, 1926",
-            "img_header": "xxx",
+            "header": "xxx",
             "img_card": "https://teatrocolon.dreamhosters.com/colonfabrica/multimedia/turandot/turandot_img-card.jpg",
             "text_long": [
                 "xxx",

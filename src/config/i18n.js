@@ -1,15 +1,20 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
-import Backend from "i18next-http-backend";
 import LanguageDetector from "i18next-browser-languagedetector";
+import HttpApi from 'i18next-http-backend'
 
-i18n.use(Backend)
-	.use(LanguageDetector)
+i18n
+	.use(HttpApi)
 	.use(initReactI18next)
+	.use(LanguageDetector)
 	.init({
-		fallbackLng: "es",
 		supportedLngs: ['es', 'en'],
-		debug: true,
+		fallbackLng: "es",
+		detection: {
+			order: ['path', 'cookie', 'htmlTag', 'localStorage', 'domain'],
+			caches: ['cookie'],
+		},
+		debug: false,
 		interpolation: {
 			espaceValue: false,
 		},

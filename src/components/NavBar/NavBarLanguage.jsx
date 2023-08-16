@@ -1,47 +1,52 @@
-import React, { useState } from 'react';
-import i18n from '../../config/i18n';
+import React from 'react';
+import { useTranslation } from 'react-i18next';
+import { useNavigate, useLocation } from 'react-router-dom';
 
 const NavBarLanguage = () => {
-    const [isEnglishVisible, setEnglishVisible] = useState(i18n.language === 'es');
-    const [isSpanishVisible, setSpanishVisible] = useState(i18n.language === 'en');
+    const { i18n } = useTranslation();
+    const navigate = useNavigate();
+    const location = useLocation();
+    const currentLanguage = i18n.language;
 
-    const changeLanguage = (language) => {
-    i18n.changeLanguage(language);
-    if (language === 'en') {
-        setEnglishVisible(false);
-        setSpanishVisible(true);
-    } else {
-        setEnglishVisible(true);
-        setSpanishVisible(false);
-    }
+    const languages = [
+        {
+            code: 'es',
+            name: 'Español',
+            flag: 'https://hatscripts.github.io/circle-flags/flags/es.svg',
+            text: ', change language',
+        },
+        {
+            code: 'en',
+            name: 'English',
+            flag: 'https://hatscripts.github.io/circle-flags/flags/uk.svg',
+            text: ', cambiar idioma',
+        },
+    ];
+
+    const toggleLanguage = () => {
+        const newLanguage = currentLanguage === 'en' ? 'es' : 'en';
+        i18n.changeLanguage(newLanguage);
+
+        const pathnameWithoutLang = location.pathname.replace(/^\/[a-z]{2}\//, '/');
+        const newPath = `/${newLanguage}${pathnameWithoutLang}`;
+        navigate(newPath);
     };
+
+    const oppositeLanguageIndex = currentLanguage === 'en' ? 0 : 1;
 
     return (
         <div className="flex border-t border-gray-200 lg:border-none px-4 py-6">
-            {isEnglishVisible && (
-                <button onClick={() => changeLanguage('en')} className="-m-2 flex items-center p-2">
-                    <img
-                        src="https://hatscripts.github.io/circle-flags/flags/uk.svg"
-                        alt="English"
-                        className="block h-auto w-5 flex-shrink-0"
-                    />
-                    <span className="ml-3 block text-base font-medium text-gray-900">EN</span>
-                    <span className="sr-only">, change language</span>
-                </button>
-                )}
-                {isSpanishVisible && (
-                <button onClick={() => changeLanguage('es')} className="-m-2 flex items-center p-2">
-                    <img
-                        src="https://hatscripts.github.io/circle-flags/flags/es.svg"
-                        alt="Español"
-                        className="block h-auto w-5 flex-shrink-0"
-                    />
-                    <span className="ml-3 block text-base font-medium text-gray-900">ES</span>
-                    <span className="sr-only">, cambiar idioma</span>
-                </button>
-            )}
+            <button onClick={toggleLanguage} className={'m-2 flex items-center'}>
+                <img
+                    src={languages[oppositeLanguageIndex].flag}
+                    alt={languages[oppositeLanguageIndex].name}
+                    className="block h-auto w-5 flex-shrink-0"
+                />
+                <span className="ml-3 block text-base font-medium text-gray-900 uppercase">{languages[oppositeLanguageIndex].code}</span>
+                <span className="sr-only">{languages[oppositeLanguageIndex].text}</span>
+            </button>
         </div>
-    )
+    );
 }
 
 export default NavBarLanguage;

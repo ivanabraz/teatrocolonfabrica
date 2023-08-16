@@ -15,7 +15,7 @@ const HeroImage = (props) => {
                     {props.title}
                 </p>
                 {(props?.subtitle !== null
-                    ?   <p className="text-lg xs:text-xl sm:text-2xl md:text-2xl lg:text-2xl xl:text-2xl 2xl:text-3xl">
+                    ?   <p className="text-lg mt-10 xs:text-xl sm:text-2xl md:text-2xl lg:text-2xl xl:text-2xl 2xl:text-3xl">
                             {props.subtitle}
                         </p>
                     :   <></>

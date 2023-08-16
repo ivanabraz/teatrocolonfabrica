@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const ItemListCard = ({item}) => {
+const ItemListCard = ({ item, lang }) => {
     return (
-        <Link to={item.id} className="group">
-            <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+        <Link to={`/${lang}/${item.id}`} className="group">
+        <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
                 <img
                 src={item.img_card}
                 alt={item.title}

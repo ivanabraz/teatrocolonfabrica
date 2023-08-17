@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import { useTranslation } from 'react-i18next';
 import NavBarMobile from "./NavBarMobile";
 import NavBarLogo from "./NavBarLogo";
@@ -8,6 +8,16 @@ import NavBarDesktop from "./NavBarDesktop";
 const NavBar = () => {
     const { t, i18n } = useTranslation();
     const [productions, setProductions] = useState({ es: [], en: [] });
+    const [balletProductions, setBalletProductions] = useState([]);
+    const [operaProductions, setOperaProductions] = useState([]);
+
+    const normalizeCategory = useCallback((category) => {
+        const normalized = category
+            .normalize("NFD")
+            .replace(/[\u0300-\u036f]/g, "")
+            .toLocaleLowerCase();
+        return normalized;
+    }, []);
 
     useEffect(() => {
         // Fetch the JSON data for both languages
@@ -28,9 +38,24 @@ const NavBar = () => {
             });
     }, []);
 
-    const balletProductions = productions['es'].filter(production => production.category.toLowerCase() === 'ballet');
-    const operaProductions = productions['es'].filter(production => production.category.toLowerCase() === 'ópera');
+    useEffect(() => {
+        // Update ballet and opera productions based on the selected language
+        const langProductions = productions[i18n.language];
+
+        const normalizedBallet = normalizeCategory('ballet');
+        const normalizedOpera = normalizeCategory('ópera');
+        
+        const updatedBalletProductions = langProductions.filter(
+            production => normalizeCategory(production.category) === normalizedBallet
+        );
+        const updatedOperaProductions = langProductions.filter(
+            production => normalizeCategory(production.category) === normalizedOpera
+        );
     
+        setBalletProductions(updatedBalletProductions);
+        setOperaProductions(updatedOperaProductions);
+
+    }, [productions, i18n.language, normalizeCategory]);
 
     const navigation = {
         categories: [

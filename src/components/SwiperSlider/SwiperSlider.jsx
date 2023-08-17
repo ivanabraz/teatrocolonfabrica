@@ -10,7 +10,7 @@ const SwiperSlider = ({ images, title }) => {
         <Swiper navigation={true} modules={[Navigation]} className="mySwiper my-10">
             {images.map((image, index) => (
                 <SwiperSlide key={index}>
-                    <img src={image.imgUrl} alt={`${title} - Image ${index + 1}`} />
+                    <img src={image.imgUrl} alt={`${title} ${index + 1}`} />
                 </SwiperSlide>
             ))}
         </Swiper>

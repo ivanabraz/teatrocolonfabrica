@@ -72,20 +72,25 @@ const NavBarMobile = ({ navigation, balletProductions, operaProductions, lang })
                                     </Tab.List>
                                 </div>
                                 <Tab.Panels as={Fragment}>
-                                    {navigation.categories.map((category) => (
-                                        <Tab.Panel key={category.id} className="space-y-10 px-4 pb-8 pt-10">
+                                        <Tab.Panel className="space-y-10 px-4 pb-8 pt-10">
                                             <div className="grid grid-cols-2 gap-x-4">
-                                                {category.featured.map((item) => (
+                                                {navigation.featured.map((item) => (
                                                     <div key={item.id} className="group relative text-sm">
                                                         <div className="aspect-h-1 aspect-w-1 overflow-hidden rounded-lg bg-gray-100 group-hover:opacity-75">
+                                                            {/* IMAGE */}
                                                             <img src={item.imageSrc} alt={item.imageAlt} className="object-cover object-center" />
+                                                            {/* NEW BADGE */}
+                                                            {item.new === true
+                                                                ?   <span class="bg-green-600 text-white text-xs font-medium px-2.5 py-0.5 rounded-full w-fit h-fit mt-2 ml-2">{t('global.new')}</span>
+                                                                : <></>
+                                                            }
                                                         </div>
-                                                        <Link to={item.id} className="mt-6 block font-medium text-gray-900">
+                                                        <Link to={item} className="mt-6 block font-medium text-gray-900">
                                                             <span className="absolute inset-0 z-10" aria-hidden="true" />
                                                             {item.name}
                                                         </Link>
                                                         <p aria-hidden="true" className="mt-1">
-                                                            {category.seeMore} →
+                                                            {t('global.see_more')} →
                                                         </p>
                                                     </div>
                                                 ))}
@@ -119,18 +124,20 @@ const NavBarMobile = ({ navigation, balletProductions, operaProductions, lang })
                                                 </ul>
                                             </div>
                                         </Tab.Panel>
-                                    ))}
                                 </Tab.Panels>
                             </Tab.Group>
-                            <div className="space-y-6 border-t border-gray-200 px-4 py-6">
-                                {navigation.pages.map((page) => (
-                                    <div key={page.id} className="flow-root">
-                                        <Link to={page.href} className="-m-2 block p-2 font-medium text-gray-900">
-                                            {page.name}
-                                        </Link>
+                                {navigation.pages.length === 0
+                                    ?   <></>
+                                    : <div className="space-y-6 border-t border-gray-200 px-4 py-6">
+                                        {navigation.pages.map((page) => (
+                                            <div key={page.id} className="flow-root">
+                                                <Link to={page.href} className="-m-2 block p-2 font-medium text-gray-900">
+                                                    {page.name}
+                                                </Link>
+                                            </div>
+                                        ))}
                                     </div>
-                                ))}
-                            </div>
+                                }
                             <NavBarLanguage/>
                         </Dialog.Panel>
                     </Transition.Child>

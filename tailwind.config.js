@@ -8,8 +8,8 @@ module.exports = {
         ...defaultTheme.screens,
         },
         fontFamily: {
-            'sans': ['"Work Sans"'],
-            'body': ['"Work Sans""'],
+            'sans': ['"Open Sans"'],
+            'body': ['"Open Sans""'],
             'serif': ['"Colon Serif"'],
         },
 

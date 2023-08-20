@@ -6,7 +6,13 @@
         "see_more": "See more",
         "follow_us": "Follow us!",
         "opera":"Opera",
-        "ballet":"Ballet"
+        "ballet":"Ballet",
+        "text_home": "Get ready to discover the magic that beats behind the scenes at one of the most important theaters in the world: the Teatro Colón.",
+        "subtext_home": "These are the great productions of the Teatro Colón workshops that you will enjoy in this tour.",
+        "new":"New!",
+        "featured_n1-name":"Why TeatroColónFábrica?",
+        "featured_n2-name":"A Streetcar named Desire",
+        "featured_n2-href":"en/un_tranvia_llamado_deseo"
     },
 
     "productions": [

@@ -3,15 +3,16 @@ import React from "react";
 const HeroImage = (props) => {
     return (
         <div 
-            className={`relative flex justify-center items-center text-center w-screen bg-no-repeat bg-cover h-[70vh] text-white`}
+            className={`relative flex justify-center items-center text-center w-screen bg-no-repeat bg-cover bg-center h-[70vh] text-white`}
             style={
                 (props.video === true
                     ?   {}
-                    :   {backgroundImage: `url(${props.header})`, backgroundPosition:`${props.imgBackgroundPosition}`}
+                    :   {backgroundImage: `url(${props.header})`}
                 )}
         >
-            <div className="flex flex-col">
-                <p className="font-serif text-2xl xs:text-3xl sm:text-5xl md:text-5xl lg:text-5xl xl:text-5xl 2xl:text-8xl">
+            <div className="absolute top-0 left-0 w-full h-full bg-black opacity-40"></div>            
+            <div className="flex flex-col relative z-5 break-words">
+                <p className="font-serif text-2xl xs:text-3xl sm:text-5xl md:text-5xl lg:text-5xl xl:text-6xl 2xl:text-8xl">
                     {props.title}
                 </p>
                 {(props?.subtitle !== null

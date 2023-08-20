@@ -1,44 +1,59 @@
-import React from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
+import { useParams } from 'react-router-dom';
 import HeroImage from '../HeroImage/HeroImage';
 import SwiperSlider from '../SwiperSlider/SwiperSlider';
 
-// Función para verificar si una imagen existe
-const checkImageExists = (url) => {
-    return fetch(url)
-        .then(response => response.ok)
-        .catch(() => false);
-};
-
 const ItemDetailContainer = () => {
     const { t } = useTranslation();
+    const { id } = useParams();
 
-    // Busca el elemento en el arreglo "productions" con el id correspondiente en el idioma actual
+    const [imageArray, setImageArray] = useState([]);
+    const imageRef = useRef([]);
+
     const productions = t('productions', { returnObjects: true });
-    const item = productions.find(prod => prod.id);
+    const item = productions.find(prod => prod.id === id);
 
-    // Si se encontró el elemento, obtén las propiedades necesarias en el idioma actual
-    const title = item?.title || '';
-    const header = `https://teatrocolon.dreamhosters.com/teatrocolonfabrica/src/images/productions/${item.id}/img-header`;
-    const subtitle = item?.subtitle || '';
-
-    // Crear array dinámico de imágenes
-    const imageArray = [];
-    let imageIndex = 1;
-    const loadImage = async () => {
-        const imageUrl = `https://teatrocolon.dreamhosters.com/teatrocolonfabrica/src/images/productions/${item.id}/img-${imageIndex}.jpg`;
-
-        // Verificar si la imagen existe usando la función checkImageExists
-        const imageExists = await checkImageExists(imageUrl);
-
-        if (imageExists) {
-            imageArray.push({ imgUrl: imageUrl, imgAlt: `Image ${imageIndex}` });
-            imageIndex++;
-            await loadImage();
+    useEffect(() => {
+        if (!item) return;
+    
+        const loadImages = async () => {
+        const imagesToLoad = [];
+    
+        for (let index = 1; index <= 10; index++) {
+            const filename = `img-${index}.jpg`;
+            const imageUrl = `${process.env.PUBLIC_URL}/images/productions/${item.id}/${filename}`;
+    
+            if (imageRef.current.includes(imageUrl)) {
+            break;
+            }
+            try {
+            const response = await fetch(imageUrl);
+            if (response.ok) {
+                imagesToLoad.push({ imgUrl: imageUrl, imgAlt: filename });
+                imageRef.current.push(imageUrl);
+            } else {
+                console.log(`Image not found: ${imageUrl}`);
+            }
+            } catch (error) {
+            console.error("Error loading image:", error);
+            break;
+            }
         }
-    };
+    
+        setImageArray(imagesToLoad.slice(0, 10)); // Solo cargar 10 imágenes
+        };
+    
+        loadImages();
+    }, [id]);
 
-    loadImage();
+    if (!item) {
+        return <div>Item not found</div>;
+    }
+
+    const title = item.title || '';
+    const header = `${process.env.PUBLIC_URL}/images/productions/${item.id}/img-header.jpg`;
+    const subtitle = item.subtitle || '';
 
     return (
         <>

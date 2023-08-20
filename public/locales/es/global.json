@@ -6,9 +6,14 @@
         "see_more": "Ver más",
         "follow_us": "¡Seguínos en las redes!",
         "opera":"Ópera",
-        "ballet":"Ballet"
-    }
-    ,
+        "ballet":"Ballet",
+        "text_home": "Preparate para descubrir la magia que late detrás de escena en uno de los teatros más importantes del mundo: el Teatro Colón.",
+        "subtext_home": "Estas son las grandes producciones de los talleres del Teatro Colón que vas a poder disfrutar en este recorrido.",
+        "new":"¡Nuevo!",
+        "featured_n1-name":"¿Por qué TeatroColónFábrica?",
+        "featured_n2-name":"Un tranvía llamado Deseo",
+        "featured_n2-href":"es/un_tranvia_llamado_deseo"
+    },
 
     "productions": [
         {

@@ -79,7 +79,7 @@ const NavBar = () => {
                         id: 'ballet',
                         name: t('global.ballet'),
                         items: balletProductions.flatMap((production, index) =>
-                            production.text_long.map((item, subIndex) => ({
+                            production.text.map((item, subIndex) => ({
                                 id: production.id,
                                 name: item.title,
                                 href: `#ballet-${index}-${subIndex}`,
@@ -90,7 +90,7 @@ const NavBar = () => {
                         id: 'opera',
                         name: t('global.opera'),
                         items: operaProductions.flatMap((production, index) =>
-                            production.text_long.map((item, subIndex) => ({
+                            production.text.map((item, subIndex) => ({
                                 id: production.id,
                                 name: item.title,
                                 href: `#opera-${index}-${subIndex}`,

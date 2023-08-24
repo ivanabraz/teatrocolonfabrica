@@ -2,7 +2,7 @@
     "global": {
         "welcome": "Welcome",
         "exhibitions": "In exhibition",
-        "why": "Why TeatroColónFábrica?",
+        "why": "Why Teatro Colón Fábrica?",
         "see_more": "See more",
         "follow_us": "Follow us!",
         "opera":"Opera",
@@ -11,8 +11,8 @@
         "subtext_home": "These are the great productions of the Teatro Colón workshops that you will enjoy in this tour.",
         "new":"New!",
         "featured_n1-name":"Why TeatroColónFábrica?",
-        "featured_n2-name":"A Streetcar named Desire",
-        "featured_n2-href":"en/un_tranvia_llamado_deseo"
+        "featured_n2-name":"The rake’s progress",
+        "featured_n2-href":"en/la_carrera_del_libertino"
     },
 
     "productions": [
@@ -21,7 +21,7 @@
             "id": "don_quijote",
             "title": "Don Quixote",
             "subtitle": "Ludwig Minkus, 1869",
-            "text_long": [
+            "text": [
                 "xxx",
                 "xxx",
                 "xxx",
@@ -33,7 +33,7 @@
             "id": "la_finta_giardiniera",
             "title": "La Finta Giardiniera",
             "subtitle": "Wolfgang Amadeus Mozart, 1775",
-            "text_long": [
+            "text": [
                 "xxx",
                 "xxx",
                 "xxx",
@@ -45,7 +45,7 @@
             "id": "un_tranvia_llamado_deseo",
             "title": "A Streetcar named Desire",
             "subtitle": "André Previn, 1998",
-            "text_long": [
+            "text": [
                 "Un tranvía llamado Deseo es la versión lírica del compositor estadounidense André Previn sobre el clásico teatral de Tennessee Williams. Cuenta la historia de Blanche, una mujer madura del sur de los Estados Unidos con aires aristocráticos pero venida a menos, que se ve obligada a mudarse al estrecho departamento de su hermana Stella. Ante la indiferencia y luego el ataque salvaje de su cuñado Stanley, solo encuentra amparo en la locura.",
                 "Rita Cosentino fue la directora de escena de esta producción con escenografía de Enrique Bordolini y vestuario de Gino Bogani.",
                 "Estrenada en 1998 en la Ópera de San Francisco, se presentó por primera vez en el Teatro Colón en 2019 con esta producción que demandó dos meses y medio de realización.",
@@ -62,7 +62,7 @@
             "title": "Le Corsaire",
             "subtitle": "Adolphe Adam, Cesare Pugni, Leo Delibes, Riccardo Drigo, 1856",
             "header": "xxx",
-            "text_long": [
+            "text": [
                 "xxx",
                 "xxx",
                 "xxx",
@@ -74,7 +74,7 @@
             "id": "los_cuentos_de_hoffmann",
             "title": "The Tales of Hoffmann",
             "subtitle": "Adolphe Adam, Cesare Pugni, Leo Delibes, Riccardo Drigo, 1856",
-            "text_long": [
+            "text": [
                 "xxx",
                 "xxx",
                 "xxx",
@@ -86,7 +86,7 @@
             "id": "don_pascuale",
             "title": "Don Pascuale",
             "subtitle": "Gaetano Donizetti, 1843",
-            "text_long": [
+            "text": [
                 "xxx",
                 "xxx",
                 "xxx",
@@ -98,7 +98,7 @@
             "id": "rigoletto",
             "title": "Rigoletto",
             "subtitle": "Giuseppe Verdi, 1851",
-            "text_long": [
+            "text": [
                 "xxx",
                 "xxx",
                 "xxx",
@@ -110,7 +110,7 @@
             "id": "aida",
             "title": "Aida",
             "subtitle": "Giuseppe Verdi, 1871",
-            "text_long": [
+            "text": [
                 "xxx",
                 "xxx",
                 "xxx",
@@ -122,7 +122,31 @@
             "id": "turandot",
             "title": "Turandot",
             "subtitle": "Giacomo Puccini, 1926",
-            "text_long": [
+            "text": [
+                "xxx",
+                "xxx",
+                "xxx",
+                "xxx"
+            ]
+        },
+        {
+            "category": "Ópera",
+            "id": "la_carrera_del_libertino",
+            "title": "The rake’s progress",
+            "subtitle": "Igor Stravinsky, 1951",
+            "text": [
+                "xxx",
+                "xxx",
+                "xxx",
+                "xxx"
+            ]
+        },
+        {
+            "category": "Ópera",
+            "id": "lelisirdamore",
+            "title": "L'elisir d'amore",
+            "subtitle": " Gaetano Donizetti, 2022",
+            "text": [
                 "xxx",
                 "xxx",
                 "xxx",

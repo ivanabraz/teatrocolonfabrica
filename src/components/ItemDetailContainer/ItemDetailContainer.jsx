@@ -3,6 +3,8 @@ import { useTranslation } from 'react-i18next';
 import { useParams } from 'react-router-dom';
 import HeroImage from '../HeroImage/HeroImage';
 import SwiperSlider from '../SwiperSlider/SwiperSlider';
+import DataSheet from '../DataSheet/DataSheet';
+import ItemContent from '../ItemContent/ItemContent';
 
 const ItemDetailContainer = () => {
     const { t } = useTranslation();
@@ -51,18 +53,22 @@ const ItemDetailContainer = () => {
         return <div>Item not found</div>;
     }
 
+    const category = item.category || '';
     const title = item.title || '';
     const header = `${process.env.PUBLIC_URL}/images/productions/${item.id}/img-header.jpg`;
+    const image = `${process.env.PUBLIC_URL}/images/productions/${item.id}/img-header.jpg`;
     const subtitle = item.subtitle || '';
+    const text = item.text || '';
+    const datasheet = item.data_sheet || '';
+
 
     return (
         <>
-            <HeroImage 
-                video={false} header={header} 
-                title={title}
-                subtitle={subtitle}
-            />
+            <HeroImage video={false} header={header} title={title} subtitle={subtitle}/>
+            <ItemContent category={category} title={title} text={text} image={image}/>
+            <DataSheet datasheet={datasheet} sliceStart={0} sliceEnd={3} />
             <SwiperSlider images={imageArray} title={title} />
+            <DataSheet datasheet={datasheet} sliceStart={3} sliceEnd={6}/>
         </>
     );
 };

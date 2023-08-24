@@ -2,7 +2,7 @@
     "global": {
         "welcome": "Bienvenido",
         "exhibitions": "En exposición",
-        "why": "¿Por qué TeatroColónFábrica?",
+        "why": "¿Por qué Teatro Colón Fábrica?",
         "see_more": "Ver más",
         "follow_us": "¡Seguínos en las redes!",
         "opera":"Ópera",
@@ -11,8 +11,8 @@
         "subtext_home": "Estas son las grandes producciones de los talleres del Teatro Colón que vas a poder disfrutar en este recorrido.",
         "new":"¡Nuevo!",
         "featured_n1-name":"¿Por qué TeatroColónFábrica?",
-        "featured_n2-name":"Un tranvía llamado Deseo",
-        "featured_n2-href":"es/un_tranvia_llamado_deseo"
+        "featured_n2-name":"La carrera del libertino",
+        "featured_n2-href":"es/la_carrera_del_libertino"
     },
 
     "productions": [
@@ -21,7 +21,7 @@
             "id": "don_quijote",
             "title": "Don Quijote",
             "subtitle": "Ludwig Minkus, 1869",
-            "text_long": [
+            "text": [
                 "xxx",
                 "xxx",
                 "xxx",
@@ -33,7 +33,7 @@
             "id": "la_finta_giardiniera",
             "title": "La Finta Giardiniera",
             "subtitle": "Wolfgang Amadeus Mozart, 1775",
-            "text_long": [
+            "text": [
                 "xxx",
                 "xxx",
                 "xxx",
@@ -45,7 +45,7 @@
             "id": "un_tranvia_llamado_deseo",
             "title": "Un tranvía llamado Deseo",
             "subtitle": "André Previn, 1998",
-            "text_long": [
+            "text": [
                 "Un tranvía llamado Deseo es la versión lírica del compositor estadounidense André Previn sobre el clásico teatral de Tennessee Williams. Cuenta la historia de Blanche, una mujer madura del sur de los Estados Unidos con aires aristocráticos pero venida a menos, que se ve obligada a mudarse al estrecho departamento de su hermana Stella. Ante la indiferencia y luego el ataque salvaje de su cuñado Stanley, solo encuentra amparo en la locura.",
                 "Rita Cosentino fue la directora de escena de esta producción con escenografía de Enrique Bordolini y vestuario de Gino Bogani.",
                 "Estrenada en 1998 en la Ópera de San Francisco, se presentó por primera vez en el Teatro Colón en 2019 con esta producción que demandó dos meses y medio de realización.",
@@ -61,7 +61,7 @@
             "id": "el_corsario",
             "title": "El Corsario",
             "subtitle": "Adolphe Adam, Cesare Pugni, Leo Delibes, Riccardo Drigo, 1856",
-            "text_long": [
+            "text": [
                 "xxx",
                 "xxx",
                 "xxx",
@@ -73,7 +73,7 @@
             "id": "los_cuentos_de_hoffmann",
             "title": "Los cuentos de Hoffmann",
             "subtitle": "Adolphe Adam, Cesare Pugni, Leo Delibes, Riccardo Drigo, 1856",
-            "text_long": [
+            "text": [
                 "xxx",
                 "xxx",
                 "xxx",
@@ -85,7 +85,7 @@
             "id": "don_pascuale",
             "title": "Don Pascuale",
             "subtitle": "Gaetano Donizetti, 1843",
-            "text_long": [
+            "text": [
                 "xxx",
                 "xxx",
                 "xxx",
@@ -97,7 +97,7 @@
             "id": "rigoletto",
             "title": "Rigoletto",
             "subtitle": "Giuseppe Verdi, 1851",
-            "text_long": [
+            "text": [
                 "xxx",
                 "xxx",
                 "xxx",
@@ -109,7 +109,7 @@
             "id": "aida",
             "title": "Aida",
             "subtitle": "Giuseppe Verdi, 1871",
-            "text_long": [
+            "text": [
                 "xxx",
                 "xxx",
                 "xxx",
@@ -121,7 +121,68 @@
             "id": "turandot",
             "title": "Turandot",
             "subtitle": "Giacomo Puccini, 1926",
-            "text_long": [
+            "text": [
+                "Ambientada en la China antigua, la idea original, la concepción escénica y la escenografía de esta puesta de Turandot de 1993 pertenecen a Roberto Oswald. Su reposición en 2018 estuvo a cargo de Matías Cambiasso. Las estructuras colosales y la magia escénica creada con telas y luces se combinan con las procesiones de una obra de masas, donde el pueblo tiene un papel fundamental, encarnado por numerosos actores figurantes y cantantes.",
+                "Ambientada en la China antigua, esta ópera narra la historia de Turandot, hija del emperador, y Calaf, el único de sus pretendientes que evitó la muerte al descifrar los enigmas impuestos como condición para casarse con la cruel princesa.",
+                "La reposición de Turandot de Giacomo Puccini en 2019 estuvo a cargo de Matías Cambiasso sobre la versión realizada en el Teatro Colón en 1993. Aquella versión de 1993 tenía idea original, concepción escénica y escenografía de Roberto Oswald, y se presentó también en 2006 en el Luna Park. Según Cambiasso, para concretar las decisiones estéticas que debió tomar para la puesta de 2019 dialogó mucho con Cristian Prego y Aníbal Lápiz, responsables de la escenografía y el vestuario.",
+                "Turandot es una ópera que tiene menos de un siglo. Se estrenó en la Scala de Milán en 1926. Con libreto de Giuseppe Adami y Renato Simoni, su partitura quedó inconclusa por la muerte de Puccini, y fue completada por el compositor Franco Alfano.",
+                "Las estructuras colosales y la magia escénica creada con telas y luces se combinan con las procesiones de una obra de masas, donde el pueblo tiene un papel fundamental, y numerosos actores figurantes y cantantes, con la participación del Coro Estable y el Coro de Niños del Teatro Colón, se conjugan la obra presenta por momentos más de un centenar de artistas en escena.",
+                "Turandot fue una superproducción que incluyó la realización de 200 trajes, 300 pelucas, 400 tocados, 200 postizos y 160 pares de zapatos. Los objetos de esta producción están inspirados en la ciudad prohibida de Beijing. El maquillaje se realizó en base a documentación histórica entregada por el responsable del vestuario, así como los tocados y todos los accesorios de indumentaria.",
+                "Entre los elementos que desacan en la puesta está el trono del emperador, realizado por el sector Utilería en madera, con calados y ornamentación tallada por escultura posteriormente protegida con cartapesta, dorado a la hoja y patinado. También las esculturas gigantes de los guerreros, que tienen una altura de 4,50 metros, 2,50 metros de ancho y 1,80 de profundidad. Los 19 banderines imperiales que forman parte de la escenografía tienen entre 7 y 10 metros de largo. Pero sin dudas, el gong es el emblema de la puesta. Tiene un diámetro de 4,60 metros y en su interior posee una estructura de hierro denominada 'alma' que da sostén a la pieza y permite su traslado. En el taller de Escultura, se talló la figura corpórea en telgopor y se la revistió con cartapesta y dorado a la hoja, para darle su aspecto final."
+            ],
+            "data_sheet": [
+                {
+                    "item_title":"Personal escenotécnico trabajando durante la puesta",
+                    "item_data":"125"
+                },
+                {
+                    "item_title":"Personal escenotécnico de realización",
+                    "item_data":"400"
+                },
+                {
+                    "item_title":"Tiempo de pre producción y realización",
+                    "item_data":"4 meses"
+                },
+                {
+                    "item_title":"Cantidad de trajes",
+                    "item_data":"200"
+                },
+                {
+                    "item_title":"Pelucas",
+                    "item_data":"300"
+                },
+                {
+                    "item_title":"Tocados",
+                    "item_data":"400"
+                },
+                {
+                    "item_title":"Postizos",
+                    "item_data":"200"
+                },
+                {
+                    "item_title":"Pares de zapatos",
+                    "item_data":"160"
+                }
+            ]
+        },
+        {
+            "category": "Ópera",
+            "id": "la_carrera_del_libertino",
+            "title": "La carrera del libertino",
+            "subtitle": "Igor Stravinsky, 1951",
+            "text": [
+                "xxx",
+                "xxx",
+                "xxx",
+                "xxx"
+            ]
+        },
+        {
+            "category": "Ópera",
+            "id": "lelisirdamore",
+            "title": "L'elisir d'amore",
+            "subtitle": "Gaetano Donizetti, 2022",
+            "text": [
                 "xxx",
                 "xxx",
                 "xxx",

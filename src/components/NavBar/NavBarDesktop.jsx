@@ -3,6 +3,7 @@ import { Popover, Transition } from '@headlessui/react';
 import { Link } from "react-router-dom";
 import { useTranslation } from 'react-i18next';
 import NavBarLanguage from "./NavBarLanguage";
+import NewBadge from "../NewBadge/NewBadge";
 
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
@@ -79,8 +80,8 @@ const NavBarDesktop = ({ navigation, productions }) => {
                                                                         <img src={item.imageSrc} alt={item.imageAlt} className="object-cover object-center"/>
                                                                         {/* NEW BADGE */}
                                                                         {item.new === true
-                                                                            ?   <span className="bg-green-600 text-white text-xs font-medium px-2.5 py-0.5 rounded-full w-fit h-fit mt-2 ml-2">{t('global.new')}</span>
-                                                                            :   <></>
+                                                                            ? <NewBadge customClass={"m-2"}/>
+                                                                            : <></>
                                                                         }
                                                                     </div>
                                                                     <Link to={item.href} className="mt-6 block font-medium text-gray-900">

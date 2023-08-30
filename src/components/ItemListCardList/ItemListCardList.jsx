@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
+import ReactHtmlParser from 'react-html-parser';
 import NewBadge from '../NewBadge/NewBadge';
 
 const ItemListCardList = ({ item, lang }) => {
@@ -32,7 +33,7 @@ const ItemListCardList = ({ item, lang }) => {
                         {item.title}
                     </h3>
                     <p className="text-gray-500 text-xs">
-                        {item.short_text}
+                        {ReactHtmlParser(item.short_text)}
                     </p>
                     <p className="text-base text-gray-600">
                         {t('global.see_more')}  →

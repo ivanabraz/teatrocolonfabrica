@@ -5,93 +5,58 @@ import { XMarkIcon } from '@heroicons/react/24/outline';
 import { FunnelIcon, Squares2X2Icon, ListBulletIcon } from '@heroicons/react/20/solid';
 import ItemListCardGrid from '../ItemListCardGrid/ItemListCardGrid';
 import ItemListCardList from '../ItemListCardList/ItemListCardList';
-import { useNavigate, useLocation } from 'react-router-dom';
-
-const filterMap = {
-    en: {
-        ballet: 'en/ballet',
-        opera: 'en/opera',
-        all: 'en/all',
-    },
-    es: {
-        ballet: 'es/ballet',
-        opera: 'es/opera',
-        all: 'es/todos',
-    },
-};
-
 
 const ItemList = () => {
-const { t, i18n } = useTranslation();
-const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
-const [isGridView, setIsGridView] = useState(true);
-const [selectedFilters, setSelectedFilters] = useState({
-    category: [],
-});
-const [section, setSection] = useState([]);
-const [dynamicFilters, setDynamicFilters] = useState([]);
-const navigate = useNavigate();
-const location = useLocation();
+    const { t, i18n } = useTranslation();
+    const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
+    const [isGridView, setIsGridView] = useState(true);
+    const [selectedFilters, setSelectedFilters] = useState({
+        category: [],
+    });
+    const [section, setSection] = useState([]);
+    const [dynamicFilters, setDynamicFilters] = useState([]);
 
-useEffect(() => {
-    const fetchData = async () => {
-    try {
-        const response = await fetch(`/locales/${i18n.language}/global.json`);
-        const data = await response.json();
+    useEffect(() => {
+        const fetchData = async () => {
+        try {
+            const response = await fetch(`/locales/${i18n.language}/global.json`);
+            const data = await response.json();
 
-        const balletProductions = data.productions.ballet.map(item => ({ ...item, category: 'ballet' }));
-        const operaProductions = data.productions.opera.map(item => ({ ...item, category: 'opera' }));
-        const mergedProductions = [...balletProductions, ...operaProductions];
-                
-        setSection(mergedProductions);
+            const balletProductions = data.productions.ballet.map(item => ({ ...item, category: 'ballet' }));
+            const operaProductions = data.productions.opera.map(item => ({ ...item, category: 'opera' }));
+            const mergedProductions = [...operaProductions, ...balletProductions];
+                    
+            setSection(mergedProductions);
 
-        const uniqueCategories = [...new Set(mergedProductions.map(item => item.category))];
+            const uniqueCategories = [...new Set(mergedProductions.map(item => item.category))];
 
-        const newDynamicFilters = [
-        {
-            id: 'category',
-            name: 'Category',
-            options: uniqueCategories.map(category => ({
-            value: category,
-            label: category === 'ballet' ? t('global.ballet') : t('global.opera'),
-            checked: selectedFilters['category']?.includes(category) || false,
-            })),
-        },
-        ];
+            const newDynamicFilters = [
+            {
+                id: 'category',
+                name: 'Category',
+                options: uniqueCategories.map(category => ({
+                value: category,
+                label: category === 'ballet' ? t('global.ballet') : t('global.opera'),
+                checked: selectedFilters['category']?.includes(category) || false,
+                })),
+            },
+            ];
 
-        setSection(mergedProductions);
-        setDynamicFilters(newDynamicFilters);
+            setSection(mergedProductions);
+            setDynamicFilters(newDynamicFilters);
 
-    } catch (error) {
-        console.error('Error fetching data:', error);
-    }
-    };
+        } catch (error) {
+            console.error('Error fetching data:', error);
+        }
+        };
 
-    fetchData();
-}, [i18n.language, selectedFilters]);
+        fetchData();
+    }, [t, i18n.language, selectedFilters]);
 
-const handleFilterChange = (sectionId, optionValue, isChecked) => {
-    const selectedValues = selectedFilters[sectionId] || [];
-    const newSelectedValues = isChecked
-    ? [...selectedValues, optionValue]
-    : selectedValues.filter(val => val !== optionValue);
-
-    setSelectedFilters(prevState => ({
-    ...prevState,
-    [sectionId]: newSelectedValues,
-    }));
-
-    const selectedCategory = newSelectedValues.length === 1 ? newSelectedValues[0] : 'all';
-    const lang = i18n.language;
-    const newUrl = filterMap[lang][selectedCategory];
-
-    navigate(newUrl, { state: { ...location.state, filters: selectedFilters } });
-};
-
-const filteredItems = section.filter(item => {
-    const categoryFilterValues = selectedFilters['category'] || [];
-    return categoryFilterValues.length === 0 || categoryFilterValues.includes(item.category);
-});
+    const filteredItems = section.filter(item => {
+        const categoryFilterValues = selectedFilters['category'] || [];
+        return categoryFilterValues.length === 0 || categoryFilterValues.includes(item.category);
+    });
 
     return (
         <div className="bg-white">

@@ -18,11 +18,11 @@ const HeroImage = (props) => {
                         </p>
                     :   <></>
                 )}
-                <p className="tracking-wide uppercase font-semibold text-2xl xs:text-3xl sm:text-5xl md:text-5xl lg:text-5xl xl:text-6xl 2xl:text-8xl">
+                <p className="tracking-wide font-semibold text-2xl xs:text-3xl sm:text-5xl md:text-5xl lg:text-5xl xl:text-6xl 2xl:text-8xl">
                     {props.title}
                 </p>
                 {(props?.subtitle !== null
-                    ?   <p className="tracking-wide mt-10 uppercase text-xl">
+                    ?   <p className="tracking-wide mt-10 text-xl">
                             {props.subtitle}
                         </p>
                     :   <></>

@@ -9,6 +9,7 @@ import NavBar from './components/NavBar/NavBar';
 import Footer from './components/Footer/Footer';
 import MessageBar from './components/MessageBar/MessageBar';
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
+import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 
 const App = () => {
     const { t, i18n } = useTranslation();
@@ -23,6 +24,7 @@ const App = () => {
             <BrowserRouter>
                 <MessageBar/>
                 <NavBar/>
+                <ScrollToTop/>
                 <Routes>
                     <Route path={`/:lang?`} element={ <Home /> }/>
                     <Route path={`/:lang/sobre`} element={ <Sobre /> }/>

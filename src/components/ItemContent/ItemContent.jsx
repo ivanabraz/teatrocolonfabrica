@@ -1,7 +1,7 @@
 import React from "react";
+import ReactHtmlParser from "react-html-parser";
 
 const ItemContent = ({ category, title, text }) => {
-
     return (
         (text.length >= 1
             ?   <div className="relative isolate overflow-hidden bg-white px-6 py-12 flex justify-center">
@@ -11,12 +11,12 @@ const ItemContent = ({ category, title, text }) => {
                         </p>
                         {text.slice(0, 1).map((text, index) => (
                             <p key={index} className="mt-12 mb-8 text-xl leading-8 text-gray-700">
-                                {text}
+                                {ReactHtmlParser(text)}
                             </p>
                         ))}
                         {text.slice(2).map((text, index) => (
                             <p key={index} className="mt-3 text-base leading-7 text-gray-600">
-                                {text}
+                                {ReactHtmlParser(text)}
                             </p>
                         ))}
                     </div>

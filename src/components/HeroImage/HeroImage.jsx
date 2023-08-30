@@ -3,7 +3,7 @@ import React from "react";
 const HeroImage = (props) => {
     return (
         <div 
-            className={`relative flex justify-center items-center text-center w-screen bg-no-repeat bg-cover bg-center h-[70vh] text-white`}
+            className={`relative flex justify-center items-center text-center w-screen bg-no-repeat bg-cover bg-center h-[70vh] text-white p-10`}
             style={
                 (props.video === true
                     ?   {}
@@ -18,7 +18,7 @@ const HeroImage = (props) => {
                         </p>
                     :   <></>
                 )}
-                <p className="tracking-wide font-semibold text-2xl xs:text-3xl sm:text-5xl md:text-5xl lg:text-5xl xl:text-6xl 2xl:text-8xl">
+                <p className="tracking-wide font-semibold leading-tight text-5xl xs:text-5xl lg:text-7xl 2xl:text-8xl">
                     {props.title}
                 </p>
                 {(props?.subtitle !== null

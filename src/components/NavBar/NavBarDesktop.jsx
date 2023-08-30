@@ -8,8 +8,11 @@ function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
 }
 
-const NavBarDesktop = ({ navigation, balletProductions, operaProductions, lang }) => {
-    const { t } = useTranslation();
+const NavBarDesktop = ({ navigation, productions }) => {
+    const { t, i18n } = useTranslation();
+
+    const balletProductions = productions[i18n.language]?.ballet || [];
+    const operaProductions = productions[i18n.language]?.opera || [];
 
     return (
         <>
@@ -52,7 +55,7 @@ const NavBarDesktop = ({ navigation, balletProductions, operaProductions, lang }
                                                                     {t('global.ballet')}
                                                                 </p>
                                                                 {balletProductions.map((production, index) => (
-                                                                    <Link to={`/${lang}/${production.id}`} className="flex mb-5" key={index}>
+                                                                    <Link to={`/${i18n.language}/${production.id}`} className="flex mb-5" key={index}>
                                                                         {t(production.title)}
                                                                     </Link>
                                                                 ))}
@@ -62,7 +65,7 @@ const NavBarDesktop = ({ navigation, balletProductions, operaProductions, lang }
                                                                     {t('global.opera')}
                                                                 </p>
                                                                 {operaProductions.map((production, index) => (
-                                                                    <Link to={`/${lang}/${production.id}`} className="flex mb-5" key={index}>
+                                                                    <Link to={`/${i18n.language}/${production.id}`} className="flex mb-5" key={index}>
                                                                         {t(production.title)}
                                                                     </Link>
                                                                 ))}
@@ -76,7 +79,7 @@ const NavBarDesktop = ({ navigation, balletProductions, operaProductions, lang }
                                                                         <img src={item.imageSrc} alt={item.imageAlt} className="object-cover object-center"/>
                                                                         {/* NEW BADGE */}
                                                                         {item.new === true
-                                                                            ?   <span class="bg-green-600 text-white text-xs font-medium px-2.5 py-0.5 rounded-full w-fit h-fit mt-2 ml-2">{t('global.new')}</span>
+                                                                            ?   <span className="bg-green-600 text-white text-xs font-medium px-2.5 py-0.5 rounded-full w-fit h-fit mt-2 ml-2">{t('global.new')}</span>
                                                                             :   <></>
                                                                         }
                                                                     </div>

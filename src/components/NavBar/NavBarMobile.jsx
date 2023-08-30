@@ -4,6 +4,7 @@ import { XMarkIcon } from '@heroicons/react/24/outline'
 import { useTranslation } from 'react-i18next';
 import { Link } from "react-router-dom";
 import NavBarLanguage from "./NavBarLanguage";
+import NewBadge from "../NewBadge/NewBadge";
 
 // CONTEXT
 import { NavBarContext } from '../../context/NavBarContext';
@@ -12,9 +13,12 @@ function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
     }
 
-const NavBarMobile = ({ navigation, balletProductions, operaProductions, lang }) => {
-    const { t } = useTranslation();
+const NavBarMobile = ({ navigation, productions }) => {
+    const { t, i18n } = useTranslation();
     const { open, setOpen } = useContext(NavBarContext);
+
+    const balletProductions = productions[i18n.language]?.ballet || [];
+    const operaProductions = productions[i18n.language]?.opera || [];
 
     return (
         <Transition.Root show={open} as={Fragment}>
@@ -81,7 +85,7 @@ const NavBarMobile = ({ navigation, balletProductions, operaProductions, lang })
                                                             <img src={item.imageSrc} alt={item.imageAlt} className="object-cover object-center" />
                                                             {/* NEW BADGE */}
                                                             {item.new === true
-                                                                ?   <span class="bg-green-600 text-white text-xs font-medium px-2.5 py-0.5 rounded-full w-fit h-fit mt-2 ml-2">{t('global.new')}</span>
+                                                                ? <NewBadge customClass={"m-2"}/>
                                                                 : <></>
                                                             }
                                                         </div>
@@ -102,7 +106,7 @@ const NavBarMobile = ({ navigation, balletProductions, operaProductions, lang })
                                                 <ul className="mt-6 flex flex-col space-y-6">
                                                     {balletProductions.map((production, index) => (
                                                         <li key={index} className="flow-root">
-                                                            <Link to={`/${lang}/${production.id}`} className="-m-2 block p-2 text-gray-500">
+                                                            <Link to={`/${i18n.language}/${production.id}`} className="-m-2 block p-2 text-gray-500">
                                                                 {t(production.title)}
                                                             </Link>
                                                         </li>
@@ -116,7 +120,7 @@ const NavBarMobile = ({ navigation, balletProductions, operaProductions, lang })
                                                 <ul className="mt-6 flex flex-col space-y-6">
                                                     {operaProductions.map((production, index) => (
                                                         <li key={index} className="flow-root">
-                                                            <Link to={`/${lang}/${production.id}`} className="-m-2 block p-2 text-gray-500">
+                                                            <Link to={`/${i18n.language}/${production.id}`} className="-m-2 block p-2 text-gray-500">
                                                                 {t(production.title)}
                                                             </Link>
                                                         </li>

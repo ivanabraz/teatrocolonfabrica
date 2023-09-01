@@ -79,7 +79,7 @@ const NavBarMobile = ({ navigation, productions }) => {
                                         <Tab.Panel className="space-y-10 px-4 pb-8 pt-10">
                                             <div className="grid grid-cols-2 gap-x-4">
                                                 {navigation.featured.map((item) => (
-                                                    <div key={item.id} className="group relative text-sm">
+                                                    <Link to={`/${i18n.language}/${item.id}`} key={item.id} className="group relative text-sm">
                                                         <div className="aspect-h-1 aspect-w-1 overflow-hidden rounded-lg bg-gray-100 group-hover:opacity-75">
                                                             {/* IMAGE */}
                                                             <img src={item.imageSrc} alt={item.imageAlt} className="object-cover object-center" />
@@ -89,14 +89,14 @@ const NavBarMobile = ({ navigation, productions }) => {
                                                                 : <></>
                                                             }
                                                         </div>
-                                                        <Link to={item} className="mt-6 block font-medium text-gray-900">
+                                                        <p className="mt-6 block font-medium text-gray-900">
                                                             <span className="absolute inset-0 z-10" aria-hidden="true" />
                                                             {item.name}
-                                                        </Link>
+                                                        </p>
                                                         <p aria-hidden="true" className="mt-1">
                                                             {t('global.see_more')} →
                                                         </p>
-                                                    </div>
+                                                    </Link>
                                                 ))}
                                             </div>
                                             <div>

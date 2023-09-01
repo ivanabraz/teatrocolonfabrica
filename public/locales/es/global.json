@@ -24,6 +24,7 @@
         "opera": [
             {
                 "new": true,
+                "featured": true,
                 "id": "la_carrera_del_libertino",
                 "title": "La carrera del libertino",
                 "subtitle": "Igor Stravinsky, 1951",
@@ -65,6 +66,7 @@
             },
             {
                 "new": true,
+                "featured": true,
                 "id": "lelisirdamore",
                 "title": "L'elisir d'amore",
                 "subtitle": "Gaetano Donizetti, 2022",

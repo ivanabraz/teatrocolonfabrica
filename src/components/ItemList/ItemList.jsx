@@ -195,7 +195,7 @@ const ItemList = () => {
                                 {section.options.map((option, optionIdx) => (
                                     <div key={option.value} className="flex items-center mt-10">
                                         <input
-                                            id={`filter-mobile-${section.id}-${optionIdx}`}
+                                            id={`filter-${section.id}-${optionIdx}`}
                                             name={`${section.id}[]`}
                                             value={option.value}
                                             type="checkbox"

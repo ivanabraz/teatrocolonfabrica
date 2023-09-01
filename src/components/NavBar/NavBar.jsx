@@ -8,47 +8,59 @@ import NavBarDesktop from "./NavBarDesktop";
 const NavBar = () => {
     const { t, i18n } = useTranslation();
     const [productions, setProductions] = useState({ es: [], en: [] });
+    const [featuredIndices, setFeaturedIndices] = useState([]);
 
     useEffect(() => {
-        // Fetch the JSON data for both languages
-        const fetchJson = async () => {
+        const fetchJson = async (language) => {
             try {
-                const response = await fetch(`/locales/${i18n.language}/global.json`);
+                const response = await fetch(`/locales/${language}/global.json`);
                 if (!response.ok) {
                     throw new Error('Fetch error: ' + response.statusText);
                 }
                 const data = await response.json();
-                return data.productions;
+                return data;
             } catch (error) {
                 console.error('Error fetching data:', error);
                 return {};
             }
         };
         Promise.all([fetchJson('es'), fetchJson('en')])
-            .then(([esProductions, enProductions]) => {
-                setProductions({ es: esProductions, en: enProductions });
+            .then(([esData, enData]) => {
+                setProductions({ es: esData.productions, en: enData.productions });
             });
     }, [i18n.language]);
 
+    useEffect(() => {
+        if (productions.es.opera && productions.en.opera) {
+            const totalFeatured = Math.min(2, productions.es.opera.length, productions.en.opera.length);
+            const availableIndices = productions[i18n.language].opera
+                .map((production, index) => production.featured === true ? index : null)
+                .filter(index => index !== null);
+
+            const randomIndices = [];
+
+            while (randomIndices.length < totalFeatured) {
+                const randomIndex = Math.floor(Math.random() * availableIndices.length);
+                if (!randomIndices.includes(availableIndices[randomIndex])) {
+                    randomIndices.push(availableIndices[randomIndex]);
+                }
+            }
+
+            setFeaturedIndices(randomIndices);
+        }
+    }, [productions, i18n.language]);
+
     const navigation = {
-        featured: [
-            {
-                id: "featured_1",
-                new: false,
-                name: t('global.why'),
-                href: t('global.why'),
-                imageSrc: `${process.env.PUBLIC_URL}/images/global/teatrocolonfabrica_img-1.jpg`,
-                imageAlt: t('global.why'),
-            },
-            {
-                id: "featured_2",
-                new: true,
-                name: t('global.featured_n2-name'),
-                href: t('global.featured_n2-href'),
-                imageSrc: `${process.env.PUBLIC_URL}/images/global/teatrocolonfabrica_img-2.jpg`,
-                imageAlt: t('global.featured_n2-name'),
-            },
-        ],
+        featured: featuredIndices.map((index) => {
+            const production = productions[i18n.language].opera[index];
+            return {
+                id: production.id,
+                name: production.title,
+                new: production.new,
+                imageSrc: `${process.env.PUBLIC_URL}/images/productions/${production.id}/img-card.jpg`,
+                imageAlt: production.title,
+            };
+        }),
         categories: [
             {
                 id: t('global.exhibitions'),
@@ -61,7 +73,6 @@ const NavBar = () => {
                             production.text.map((item, subIndex) => ({
                                 id: production.id,
                                 name: item.title,
-                                href: `#ballet-${index}-${subIndex}`,
                             }))
                         ) || [],
                     },
@@ -72,7 +83,6 @@ const NavBar = () => {
                             production.text.map((item, subIndex) => ({
                                 id: production.id,
                                 name: item.title,
-                                href: `#opera-${index}-${subIndex}`,
                             }))
                         ) || [],
                     },
@@ -80,14 +90,14 @@ const NavBar = () => {
             },
         ],
         pages: [
-            // { 
-            //     id: t('global.why'),
-            //     name: t('global.why'), 
-            //     href: t('global.why') 
-            // },
+            { 
+                id: t('global.why'),
+                name: t('global.why'), 
+                href: t('global.why') 
+            },
         ],
     };
-    
+
     return (
         <div className="bg-white">
             <NavBarMobile navigation={navigation} productions={productions} />

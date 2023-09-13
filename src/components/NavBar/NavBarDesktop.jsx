@@ -2,14 +2,14 @@ import React, { Fragment } from "react";
 import { Popover, Transition } from '@headlessui/react';
 import { Link } from "react-router-dom";
 import { useTranslation } from 'react-i18next';
-import NavBarLanguage from "./NavBarLanguage";
 import NewBadge from "../NewBadge/NewBadge";
+import NavBarReturn from "./NavBarReturn";
 
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
 }
 
-const NavBarDesktop = ({ navigation, productions }) => {
+const NavBarDesktop = ({ navigation, productions, children }) => {
     const { t, i18n } = useTranslation();
 
     const balletProductions = productions[i18n.language]?.ballet || [];
@@ -17,8 +17,8 @@ const NavBarDesktop = ({ navigation, productions }) => {
 
     return (
         <>
-        <Popover.Group className="hidden w-full lg:ml-8 lg:block">
-            <div className="flex justify-between h-full">
+        <Popover.Group className="hidden w-full lg:block">
+            <div className="flex justify-between h-full items-center">
                 <div className="flex space-x-8">
                     {navigation.categories.map((category) => (
                         <Popover key={category.id} className="flex">
@@ -29,7 +29,7 @@ const NavBarDesktop = ({ navigation, productions }) => {
                                             className={classNames(
                                                 open
                                                     ? 'border-indigo-600 text-indigo-600'
-                                                    : 'border-transparent text-gray-700 hover:text-gray-800',
+                                                    : 'border-transparent text-white focus:outline-none hover:text-gray-300',
                                                 'relative z-70 -mb-px flex items-center border-b-2 pt-px text-sm font-medium transition-colors duration-200 ease-out'
                                             )}
                                         >
@@ -109,14 +109,15 @@ const NavBarDesktop = ({ navigation, productions }) => {
                                 <Link
                                     key={page.name}
                                     to={page.href}
-                                    className="flex items-center text-sm font-medium text-gray-700 hover:text-gray-800"
+                                    className="flex items-center text-sm font-medium text-white hover:text-gray-300"
                                 >
                                     {page.name}
                                 </Link>
                             ))
                     }
+                    <NavBarReturn/>
                 </div>
-                <NavBarLanguage />
+                {children}
             </div>
         </Popover.Group>
         </>

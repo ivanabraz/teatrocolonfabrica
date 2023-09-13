@@ -1,38 +1,46 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 const HeroImage = (props) => {
+
     return (
-        <div 
-            className={`relative flex justify-center items-center text-center w-screen bg-no-repeat bg-cover bg-center h-[70vh] text-white p-10`}
-            style={
-                (props.video === true
-                    ?   {}
-                    :   {backgroundImage: `url(${props.header})`}
-                )}
-        >
-            <div className="absolute top-0 left-0 w-full h-full bg-black opacity-40"></div>            
-            <div className="flex flex-col relative z-5 break-words">
-                {(props?.category !== null
-                    ?   <p className="mb-10 text-lg tracking-wide">
-                            {props.category}
-                        </p>
-                    :   <></>
-                )}
-                <p className="tracking-wide font-semibold leading-tight text-5xl xs:text-5xl lg:text-7xl 2xl:text-8xl">
+        <div className={`flex w-screen h-[100vh] bg-no-repeat bg-cover bg-center`}>
+            <div className="flex flex-col text-white w-full z-100 justify-end px-6 py-20 lg:px-32 lg:pt-32 lg:pb-20">
+                <motion.p
+                    initial={{ opacity: 0, y: 50 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.9, ease: "easeInOut" }}
+                    className="text-5xl lg:text-8xl uppercase font-semibold"
+                >
                     {props.title}
-                </p>
-                {(props?.subtitle !== null
-                    ?   <p className="tracking-wide mt-10 text-xl">
-                            {props.subtitle}
-                        </p>
-                    :   <></>
+                </motion.p>
+                {props.composer !== undefined && (
+                    <motion.p 
+                    initial={{ opacity: 0, y: 50 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 1, ease: "easeInOut" }}
+                    className="text-base lg:text-2xl pt-1 flex inline">
+                        {props.composer}
+                        {props.year !== undefined && (
+                            <span> | ({props.year})</span>
+                        )}
+                    </motion.p>
+                )}
+                {props.subtitle !== undefined && (
+                    <motion.p 
+                    initial={{ opacity: 0, y: 50 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 1.1, ease: "easeInOut" }}
+                    className="text-base lg:text-2xl pt-1 flex inline">
+                        {props.subtitle}
+                    </motion.p>
                 )}
             </div>
             {(props?.video === true
-                    ?   <video playsInline autoPlay muted loop className="absolute top-0 left-0 w-screen h-[70vh] object-cover -z-10">
-                            <source src={props.headerVideo} type="video/mp4"/>
-                        </video>
-                    :   <></>
+                ?   <video playsInline autoPlay muted loop className="absolute top-0 left-0 w-screen h-[100vh] object-cover -z-10 brightness-50">
+                        <source src={props.headerVideo} type="video/mp4"/>
+                    </video>
+                :   <img src={props.header} alt={props.title} className="absolute -z-10 h-full w-full object-cover object-center brightness-50" />
             )}
         </div>
     )

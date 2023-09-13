@@ -1,23 +1,41 @@
 {
     "global": {
         "welcome": "Bienvenido",
-        "exhibitions": "En exposición",
-        "why": "¿Por qué Teatro Colón Fábrica?",
+        "exhibitions": "En exhibición",
+        "about": "Sobre",
+        "info": "Información",
+        "visit": "Visitar",
         "see_more": "Ver más",
         "follow_us": "¡Seguínos en las redes!",
         "opera":"Ópera",
         "ballet":"Ballet",
-        "text_home": "Preparate para descubrir la magia que late detrás de escena en uno de los teatros más importantes del mundo: el Teatro Colón.",
+        "text_home": "Preparate para descubrir la magia que late detrás de escena en uno de los teatros más importantes del mundo.",
         "subtext_home": "Estas son las grandes producciones de los talleres del Teatro Colón que vas a poder disfrutar en este recorrido.",
         "new":"¡Nuevo!",
-        "featured_n1-name":"¿Por qué TeatroColónFábrica?",
-        "featured_n2-name":"La carrera del libertino",
-        "featured_n2-href":"es/la_carrera_del_libertino",
         "you_may_also_like": "También te puede interesar",
         "view_grid": "Ver grilla",
         "view_list": "Ver lista",
         "filters": "Filtros",
-        "category": "Categoría"
+        "category": "Categoría",
+        "return": "Volver",
+        "sort": "Ordenar",
+        "newest": "Más nuevo",
+        "alphabetically_az": "Alfabéticamente (A-Z)",
+        "alphabetically_za": "Alfabéticamente (Z-A)"
+    },
+
+    "about": {
+        "subtitle": "Preparate para descubrir la magia que late detrás de escena en uno de los teatros más importantes del mundo.",
+        "text": [
+            "El Teatro Colón es uno de los pocos teatros del mundo que puede realizar las producciones de sus espectáculos integralmente en talleres propios. Su personal escenotécnico lo hace posible manteniendo vivos oficios teatrales que se transmiten de generación en generación.",
+            "Esas tareas se llevan a cabo en sus talleres escenotécnicos ubicados en los subsuelos del teatro, a metros del Obelisco, y en otros emplazados en el barrio de Chacarita. La producción de cada título lleva varias semanas de realización. Algunas, hasta cuatro meses. Hasta ahora, luego del estreno y de las funciones programadas, las escenografías se desguazaban debido a la dificultad para su guardado, lo que afectaba su preservación y las posibilidades de ser reutilizadas.",
+            "Por eso, Teatro Colón Fábrica es un gran logro para el Teatro Colón. En primer lugar, porque abre un espacio de 7500 metros cuadrados para almacenar la producción escenográfica, utilería y telones, que se amplía exponencialmente temporada tras temporada. Por otro lado, porque contribuye a resolver el guardado y la conservación de las piezas escenográficas.",
+            "Estas ventajas se complementan con otro objetivo del espacio: ofrecer una oportunidad única para que los vecinos de la Ciudad y los turistas que nos visitan puedan conocer el detrás de escena del teatro y ver en detalle las maravillas que impactaron a miles de espectadores.",
+            "Las dimensiones de Teatro Colón Fábrica permitirán además que se convierta en un nuevo espacio de trabajo para tareas que requieren de mucho espacio, como la pintura a la italiana de los telones, que se realiza de pie sobre los propios lienzos, que pueden superar los 300 metros cuadrados.",
+            "La preservación del material escenográfico fortalece el acervo de la institución, facilita la reposición de esos títulos de ópera y ballet, para que vuelvan al escenario nuevamente, y también permite prestarlos o alquilarlos a otras casas de ópera del país y del mundo.",
+            "Conservar la calidad reconocida en todo el mundo de la realización de las escenografías, los vestuarios y la utilería producida en los talleres del Teatro Colón, su reutilización, su exhibición y la circulación por otros escenarios es una meta orientada por el concepto de sustentabilidad institucional que rige la gestión del organismo.",
+            "Por todas estas razones, Teatro Colón Fábrica es un espacio único en la Ciudad donde conviven el arte y el patrimonio, la producción de nivel internacional y los ancestrales oficios teatrales."
+        ]
     },
 
     "productions": {
@@ -27,7 +45,8 @@
                 "featured": true,
                 "id": "la_carrera_del_libertino",
                 "title": "La carrera del libertino",
-                "subtitle": "Igor Stravinsky, 1951",
+                "composer": "Igor Stravinsky",
+                "year": 1951,
                 "short_text": "Es una ópera en tres actos y un epílogo, con música de Igor Stravinski y libreto en inglés de W. H. Auden y Chester Kallman.",
                 "text": [
                     "<em>La carrera del libertino</em> (título original en inglés: <em>The rake's progress</em>) es una ópera en tres actos y un epílogo, con música de Igor Stravinski y libreto en inglés de W. H. Auden y Chester Kallman. La primera aproximación de Igor Stravinsky a la idea del pacto con el diablo fue con <em>La historia del soldado</em>, en 1918, a partir de un cuento popular. Más de treinta años después volvió sobre esa temática.",
@@ -69,7 +88,8 @@
                 "featured": true,
                 "id": "lelisirdamore",
                 "title": "L'elisir d'amore",
-                "subtitle": "Gaetano Donizetti, 2022",
+                "composer": "Gaetano Donizetti",
+                "year": 2022,
                 "short_text": "Esta nueva producción de 2022 de <em>L'elisir d'amore</em>, de Gaetano Donizetti, estuvo bajo la dirección escénica del español Emilio Sagi.",
                 "text": [
                     "<em>El elixir de amor</em> (en italiano, <em>“L'elisir d'amore”</em>) es una ópera cómica en dos actos con música de Gaetano Donizetti y libreto de Felice Romani. Está basada en el libreto original del dramaturgo francés Eugène Scribe titulado <em>Le philetre</em> del año 1831. Se trata, junto con <em>Don Pasquale</em> y <em>Lucia de Lammermoor</em>, de una de las óperas más representadas del compositor. El número más reconocido de esta composición es el aria para tenor titulada <em>Una furtiva lágrima</em> del segundo acto. El estreno tuvo lugar el 12 de mayo de 1832 en Milán.",
@@ -115,7 +135,8 @@
             {
                 "id": "la_finta_giardiniera",
                 "title": "La Finta Giardiniera",
-                "subtitle": "Wolfgang Amadeus Mozart, 1775",
+                "composer": "Wolfgang Amadeus Mozart",
+                "year": 1775,
                 "short_text": "La producción de <em>La finta giardiniera</em> fue realizada en los talleres del Teatro Colón en 2021 cumpliendo con todos los protocolos sanitarios impuestos por la pandemia.",
                 "text": [
                     "<em>La finta giardiniera</em> de Wolfgang Amadeus Mozart presenta la historia de una marquesa que se disfraza de jardinera para escapar de su marido. Ese es el núcleo de esta ópera bufa plena de contrastes de clase, equívocos y amoríos. Con libreto de Giuseppe Petrosellini se estrenó en el Carnaval de Munich en 1775.",
@@ -132,7 +153,8 @@
             {
                 "id": "un_tranvia_llamado_deseo",
                 "title": "Un tranvía llamado Deseo",
-                "subtitle": "André Previn, 1998",
+                "composer": "André Previn",
+                "year": 1998,
                 "short_text": "Estreno de la versión lírica del clásico teatral de Tennessee Williams con vestuario de Gino Bogani.",
                 "text": [
                     "<em>Un tranvía llamado Deseo</em> es la versión lírica del compositor estadounidense André Previn sobre el clásico teatral de Tennessee Williams. Cuenta la historia de Blanche, una mujer madura del sur de los Estados Unidos con aires aristocráticos pero venida a menos, que se ve obligada a mudarse al estrecho departamento de su hermana Stella. Ante la indiferencia y luego el ataque salvaje de su cuñado Stanley, solo encuentra amparo en la locura.",
@@ -174,7 +196,8 @@
             {
                 "id": "los_cuentos_de_hoffmann",
                 "title": "Los cuentos de Hoffmann",
-                "subtitle": "Adolphe Adam, Cesare Pugni, Leo Delibes, Riccardo Drigo, 1856",
+                "composer": "Adolphe Adam, Cesare Pugni, Leo Delibes, Riccardo Drigo",
+                "year": 1856,
                 "short_text": "El despliegue visual del ganador del premio Óscar Eugenio Zanetti para la versión de la ópera de Offenbach creada en 2019.",
                 "text": [
                     "xxx",
@@ -220,7 +243,8 @@
             {
                 "id": "rigoletto",
                 "title": "Rigoletto",
-                "subtitle": "Giuseppe Verdi, 1851",
+                "composer": "Giuseppe Verdi",
+                "year": 1851,
                 "short_text": "Una nueva producción de uno de los grandes títulos del género lírico realizada íntegramente entre 2018 y 2019.",
                 "text": [
                     "xxx",
@@ -266,7 +290,8 @@
             {
                 "id": "aida",
                 "title": "Aida",
-                "subtitle": "Giuseppe Verdi, 1871",
+                "composer": "Giuseppe Verdi",
+                "year": 1871,
                 "short_text": "La ópera que inauguró el edificio en 1908 revisitada en la imponente producción para celebrar el 110 aniversario.",
                 "text": [
                     "xxx",
@@ -312,7 +337,8 @@
             {
                 "id": "turandot",
                 "title": "Turandot",
-                "subtitle": "Giacomo Puccini, 1926",
+                "composer": "Giacomo Puccini",
+                "year": 1926,
                 "short_text": "El clásico de Puccini con idea original, concepción escénica y diseño de escenografía de Roberto Oswald.",
                 "text": [
                     "Ambientada en la China antigua, la idea original, la concepción escénica y la escenografía de esta puesta de Turandot de 1993 pertenecen a Roberto Oswald. Su reposición en 2018 estuvo a cargo de Matías Cambiasso. Las estructuras colosales y la magia escénica creada con telas y luces se combinan con las procesiones de una obra de masas, donde el pueblo tiene un papel fundamental, encarnado por numerosos actores figurantes y cantantes.",
@@ -361,7 +387,8 @@
             {
                 "id": "la_boheme",
                 "title": "La Bohème",
-                "subtitle": "Giacomo Puccini, 1896",
+                "composer": "Giacomo Puccini",
+                "year": 1896,
                 "short_text": "Una superproducción realizada íntegramente en 2018 en los talleres escenotécnicos del Teatro Colón.",
                 "text": [
                     "xxx",
@@ -409,7 +436,8 @@
             {
                 "id": "don_quijote",
                 "title": "Don Quijote",
-                "subtitle": "Ludwig Minkus, 1869",
+                "composer": "Ludwig Minkus",
+                "year": 1869,
                 "short_text": "La producción del ballet <em>Don Quijote</em> de Ludwig Minkus fue realizada íntegramente por los equipos escenotécnicos del Teatro Colón en 2013.",
                 "text": [
                     "La producción del ballet <em>Don Quijote</em> de Ludwig Minkus fue realizada íntegramente por los equipos escenotécnicos del Teatro Colón en 2013. Esta versión contó con la coreografía de Lidia Segni sobre la del francés Marius Petipa y la dirección musical de Javier Logioia Orbe al frente de la Orquesta Estable del Teatro Colón.",
@@ -457,7 +485,8 @@
             {
                 "id": "el_corsario",
                 "title": "El Corsario",
-                "subtitle": "Adolphe Adam, Cesare Pugni, Leo Delibes, Riccardo Drigo, 1856",
+                "composer": "Adolphe Adam, Cesare Pugni, Leo Delibes, Riccardo Drigo",
+                "year": 1856,
                 "short_text": "Una producción para ballet realizada en 2011 que triunfó en Argentina y en los Estados Unidos.",
                 "text": [
                     "xxx",

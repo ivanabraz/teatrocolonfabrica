@@ -28,7 +28,6 @@ const ItemDetailContainer = () => {
                 const itemData = allProductions.find(prod => prod.id === id);
                 
                 if (itemData) {
-                    // Find the category from the parent array
                     const categoryKey = Object.keys(data.productions).find(cat =>
                         data.productions[cat].some(prod => prod.id === id)
                     );
@@ -91,7 +90,8 @@ const ItemDetailContainer = () => {
 
     const title = item.title || '';
     const header = `${process.env.PUBLIC_URL}/images/productions/${item.id}/img-header.jpg`;
-    const subtitle = item.subtitle || '';
+    const composer = item.composer || '';
+    const year = item.year || '';
     const text = item.text || '';
     const datasheet = item.data_sheet || '';
 
@@ -100,7 +100,7 @@ const ItemDetailContainer = () => {
 
     return (
         <>
-            <HeroImage video={false} header={header} title={title} subtitle={subtitle} />
+            <HeroImage video={false} header={header} title={title} category={category} composer={composer} year={year} />
             <ItemContent category={category} title={title} text={text} productions={productions} />
             <DataSheet datasheet={datasheet} sliceStart={0} sliceEnd={4} />
             <SwiperSlider images={imageArray} title={title} />

@@ -42,7 +42,7 @@ const NavBarLanguage = () => {
                     alt={languages[oppositeLanguageIndex].name}
                     className="block h-auto w-5 flex-shrink-0"
                 />
-                <span className="ml-3 block text-base font-medium text-gray-900 uppercase">{languages[oppositeLanguageIndex].code}</span>
+                <span className="ml-3 block text-base font-medium text-gray-900 sm:text-gray-900 lg:text-white uppercase">{languages[oppositeLanguageIndex].code}</span>
                 <span className="sr-only">{languages[oppositeLanguageIndex].text}</span>
             </button>
         </div>

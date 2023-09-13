@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { useTranslation } from 'react-i18next';
 import NavBarMobile from "./NavBarMobile";
-import NavBarLogo from "./NavBarLogo";
 import NavBarBurger from "./NavBarBurger";
+import NavBarReturn from "./NavBarReturn";
 import NavBarDesktop from "./NavBarDesktop";
+import NavBarLanguage from "./NavBarLanguage";
 
 const NavBar = () => {
     const { t, i18n } = useTranslation();
@@ -91,22 +92,33 @@ const NavBar = () => {
         ],
         pages: [
             { 
-                id: t('global.why'),
-                name: t('global.why'), 
-                href: t('global.why') 
+                id: t('global.about'),
+                name: t('global.about') +  " Teatro Colón Fábrica", 
+                href: ((text) => `${i18n.language}/${text.toLowerCase().replace(/[áäàâ]/g, 'a').replace(/[óöòô]/g, 'o').replace(/\s/g, '_')}`)(t('global.about'))
+            },
+            { 
+                id: t('global.visit'),
+                name: t('global.visit'), 
+                href: ((text) => `${i18n.language}/${text.toLowerCase().replace(/[áäàâ]/g, 'a').replace(/[óöòô]/g, 'o').replace(/\s/g, '_')}`)(t('global.visit'))
             },
         ],
     };
 
     return (
-        <div className="bg-white">
-            <NavBarMobile navigation={navigation} productions={productions} />
-            <header className="relative bg-white mx-auto px-4 sm:px-6 lg:px-8 flex h-16 items-center max-w-7xl z-60">
-                <NavBarBurger />
-                <NavBarLogo />
-                <NavBarDesktop navigation={navigation} productions={productions} />
-            </header>
-        </div>
+        <>
+            <div className="absolute flex w-full h-16 lg:hidden mx-auto px-4 sm:px-6 items-center z-10">
+                <NavBarBurger/>
+                <NavBarReturn/>
+                <NavBarMobile navigation={navigation} productions={productions}>
+                    <NavBarLanguage/>
+                </NavBarMobile>
+            </div>
+            <div className="absolute flex w-full h-16 hidden lg:flex mx-auto px-32 py-14 items-center z-10 justify-center">
+                <NavBarDesktop navigation={navigation} productions={productions}>
+                    <NavBarLanguage/>
+                </NavBarDesktop>
+            </div>
+        </>
     );
 };
 

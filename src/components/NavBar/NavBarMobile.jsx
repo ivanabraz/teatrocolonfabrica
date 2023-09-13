@@ -3,17 +3,17 @@ import { Dialog, Tab, Transition } from '@headlessui/react'
 import { XMarkIcon } from '@heroicons/react/24/outline'
 import { useTranslation } from 'react-i18next';
 import { Link } from "react-router-dom";
-import NavBarLanguage from "./NavBarLanguage";
 import NewBadge from "../NewBadge/NewBadge";
 
 // CONTEXT
 import { NavBarContext } from '../../context/NavBarContext';
+import NavBarLogo from "./NavBarLogo";
 
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
     }
 
-const NavBarMobile = ({ navigation, productions }) => {
+const NavBarMobile = ({ navigation, productions, children }) => {
     const { t, i18n } = useTranslation();
     const { open, setOpen } = useContext(NavBarContext);
 
@@ -58,6 +58,7 @@ const NavBarMobile = ({ navigation, productions }) => {
                             </div>
                             {/* Links */}
                             <Tab.Group as="div" className="mt-2">
+                                <NavBarLogo customClassName="invert text-center w-100 mt-2 mb-5 px-4"/>
                                 <div className="border-b border-gray-200">
                                     <Tab.List className="-mb-px flex space-x-8 px-4">
                                         {navigation.categories.map((category) => (
@@ -142,7 +143,7 @@ const NavBarMobile = ({ navigation, productions }) => {
                                         ))}
                                     </div>
                                 }
-                            <NavBarLanguage/>
+                            {children}
                         </Dialog.Panel>
                     </Transition.Child>
                 </div>

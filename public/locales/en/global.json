@@ -1,23 +1,45 @@
 {
     "global": {
         "welcome": "Welcome",
-        "exhibitions": "In exhibition",
-        "why": "Why Teatro Colón Fábrica?",
+        "exhibitions": "What's on",
+        "about": "About",
+        "info": "Info",
+        "visit": "Visit",
         "see_more": "See more",
         "follow_us": "Follow us!",
-        "opera":"Opera",
-        "ballet":"Ballet",
-        "text_home": "Get ready to discover the magic that beats behind the scenes at one of the most important theaters in the world: the Teatro Colón.",
+        "opera": "Opera",
+        "ballet": "Ballet",
+        "text_home": "Get ready to discover the magic that beats behind the scenes at one of the most important theaters in the world.",
         "subtext_home": "These are the great productions of the Teatro Colón workshops that you will enjoy in this tour.",
-        "new":"New!",
-        "featured_n1-name":"Why TeatroColónFábrica?",
-        "featured_n2-name":"The rake’s progress",
-        "featured_n2-href":"en/la_carrera_del_libertino",
+        "new": "New!",
+        "featured_n1-name": "Why TeatroColónFábrica?",
+        "featured_n2-name": "The rake’s progress",
+        "featured_n2-href": "en/la_carrera_del_libertino",
         "you_may_also_like": "You may also like",
         "view_grid": "View grid",
         "view_list": "View list",
         "filters": "Filters",
-        "category": "Category"
+        "category": "Category",
+        "return": "Return",
+        "sort": "Sort",
+        "newest": "Newest",
+        "alphabetically_az": "Alphabetically (A-Z)",
+        "alphabetically_za": "Alphabetically (Z-A)"
+    },
+
+    "about": {
+        "subtitle": "Get ready to discover the magic that beats behind the scenes at one of the most important theaters in the world.",
+        "text": [
+            "The Teatro Colón is one of the few theaters in the world that can produce its titles entirely in its own workshops. Its scenotechnical staff makes this possible by keeping alive theatrical trades that have been passed down from generation to generation.",
+            "These tasks are carried out in its scenotechnical workshops located in the basement of the theater, a few meters from the Obelisk, and in other workshops located in the district of Chacarita. The production of each title takes several weeks. Some of them take up to four months. Until now, after the premiere and the programmed performances, the sets were scrapped due to the difficulty of storing them, which affected their preservation and the possibilities of being reused.",
+            "For this reason, Teatro Colón Fábrica is a great achievement for the Teatro Colón. First, because it opens a space of 7,500 square meters to store the scenery production, props and curtains which expand exponentially season after season. On the other hand, because it helps to solve the storage and conservation of the set pieces.",
+            "These advantages are complemented by another objective of the space: to offer a unique opportunity for the neighbors of the City and tourists to get to know the behind-the-scenes of the theater and take a detailed look at the wonders that impressed thousands of spectators.",
+            "The dimensions of Teatro Colón Fábrica will also allow it to become a new work space for tasks that require a lot of space, such as the Italian painting of the curtains, which is done standing on the canvases and can exceed 300 square meters.",
+            "The preservation of the scenery material strengthens the institution's collection, facilitates the replacement of these opera and ballet titles, so that they can return to the stage and also allows us to lend or rent them to other opera houses in the country and around the world.",
+            "Preserving the world-renowned quality of the scenery, costumes and props produced in the Teatro Colón workshops, their reutilization, exhibition and circulation on other stages is a goal guided by the concept of institutional sustainability that guides the organization's management.",
+            "For all these reasons, Teatro Colón Fábrica is a unique space in the City where art and heritage, international level production and ancestral theatrical trades.",
+            "Por todas estas razones, Teatro Colón Fábrica es un espacio único en la Ciudad donde conviven el arte y el patrimonio, la producción de nivel internacional y los ancestrales oficios teatrales."
+        ]
     },
 
     "productions": {
@@ -27,7 +49,8 @@
                 "featured": true,
                 "id": "la_carrera_del_libertino",
                 "title": "The rake’s progress",
-                "subtitle": "Igor Stravinsky, 1951",
+                "composer": "Igor Stravinsky",
+                "year": 1951,
                 "short_text": "xxx",
                 "text": [
                     "xxx",
@@ -75,7 +98,8 @@
                 "featured": true,
                 "id": "lelisirdamore",
                 "title": "L'elisir d'amore",
-                "subtitle": " Gaetano Donizetti, 2022",
+                "composer": " Gaetano Donizetti",
+                "year": 2022,
                 "short_text": "xxx",
                 "text": [
                     "xxx",
@@ -121,7 +145,8 @@
             {
             "id": "la_finta_giardiniera",
             "title": "La Finta Giardiniera",
-            "subtitle": "Wolfgang Amadeus Mozart, 1775",
+            "composer": "Wolfgang Amadeus Mozart",
+            "year": 1775,
             "short_text": "xxx",
             "text": [
                 "xxx",
@@ -133,10 +158,11 @@
             {
                 "id": "un_tranvia_llamado_deseo",
                 "title": "A Streetcar named Desire",
-                "subtitle": "André Previn, 1998",
-                "short_text": "Versión lírica del compositor estadounidense André Previn sobre el clásico teatral de Tennessee Williams.",
+                "composer": "André Previn",
+                "year": 1998,
+                "short_text": "Versión lírica del composer estadounidense André Previn sobre el clásico teatral de Tennessee Williams.",
                 "text": [
-                    "<span className='italic'>Un tranvía llamado Deseo</span> es la versión lírica del compositor estadounidense André Previn sobre el clásico teatral de Tennessee Williams. Cuenta la historia de Blanche, una mujer madura del sur de los Estados Unidos con aires aristocráticos pero venida a menos, que se ve obligada a mudarse al estrecho departamento de su hermana Stella. Ante la indiferencia y luego el ataque salvaje de su cuñado Stanley, solo encuentra amparo en la locura.",
+                    "<span className='italic'>Un tranvía llamado Deseo</span> es la versión lírica del composer estadounidense André Previn sobre el clásico teatral de Tennessee Williams. Cuenta la historia de Blanche, una mujer madura del sur de los Estados Unidos con aires aristocráticos pero venida a menos, que se ve obligada a mudarse al estrecho departamento de su hermana Stella. Ante la indiferencia y luego el ataque salvaje de su cuñado Stanley, solo encuentra amparo en la locura.",
                     "Rita Cosentino fue la directora de escena de esta producción con escenografía de Enrique Bordolini y vestuario de Gino Bogani.",
                     "Estrenada en 1998 en la Ópera de San Francisco, se presentó por primera vez en el Teatro Colón en 2019 con esta producción que demandó dos meses y medio de realización.",
                     "Previn escribió esta obra para la soprano Renée Fleming, quien la estrenó y encarnó a Blanche DuBois, que se transformó en un personaje emblemático de la dramaturgia universal.",
@@ -149,7 +175,8 @@
             {
                 "id": "los_cuentos_de_hoffmann",
                 "title": "The Tales of Hoffmann",
-                "subtitle": "Adolphe Adam, Cesare Pugni, Leo Delibes, Riccardo Drigo, 1856",
+                "composer": "Adolphe Adam, Cesare Pugni, Leo Delibes, Riccardo Drigo",
+                "year": 1856,
                 "short_text": "xxx",
                 "text": [
                     "xxx",
@@ -195,7 +222,8 @@
             {
                 "id": "rigoletto",
                 "title": "Rigoletto",
-                "subtitle": "Giuseppe Verdi, 1851",
+                "composer": "Giuseppe Verdi",
+                "year": 1851,
                 "short_text": "xxx",
                 "text": [
                     "xxx",
@@ -241,7 +269,8 @@
             {
                 "id": "aida",
                 "title": "Aida",
-                "subtitle": "Giuseppe Verdi, 1871",
+                "composer": "Giuseppe Verdi",
+                "year": 1871,
                 "short_text": "xxx",
                 "text": [
                     "xxx",
@@ -287,7 +316,8 @@
             {
                 "id": "turandot",
                 "title": "Turandot",
-                "subtitle": "Giacomo Puccini, 1926",
+                "composer": "Giacomo Puccini",
+                "year": 1926,
                 "short_text": "xxx",
                 "text": [
                     "xxx",
@@ -333,7 +363,8 @@
             {
                 "id": "la_boheme",
                 "title": "La Bohème",
-                "subtitle": "Giacomo Puccini, 1896",
+                "composer": "Giacomo Puccini",
+                "year": 1896,
                 "short_text": "xxx",
                 "text": [
                     "xxx",
@@ -381,7 +412,8 @@
             {
                 "id": "don_quijote",
                 "title": "Don Quixote",
-                "subtitle": "Ludwig Minkus, 1869",
+                "composer": "Ludwig Minkus",
+                "year": 1869,
                 "short_text": "xxx",
                 "text": [
                     "xxx",
@@ -427,7 +459,8 @@
             {
                 "id": "el_corsario",
                 "title": "Le Corsaire",
-                "subtitle": "Adolphe Adam, Cesare Pugni, Leo Delibes, Riccardo Drigo, 1856",
+                "composer": "Adolphe Adam, Cesare Pugni, Leo Delibes, Riccardo Drigo",
+                "year": 1856,
                 "header": "xxx",
                 "short_text": "xxx",
                 "text": [

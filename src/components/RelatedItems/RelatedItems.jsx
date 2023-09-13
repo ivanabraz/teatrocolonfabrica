@@ -1,16 +1,26 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
+import { motion } from "framer-motion";
+import { v4 as uuidv4 } from "uuid";
 
 const RelatedItems = ({ relatedItems, lang }) => {
-    const { t, i18n } = useTranslation();
+    const { t } = useTranslation();
+    const uniqueKey = uuidv4();
 
     return (
-            <div className='mx-auto max-w-2xl px-12 xs:px-12 sm:px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl'>
+            <motion.div 
+                key={uniqueKey}
+                initial={{ opacity: 0, y: 50 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 1, ease: "easeInOut" }}
+                viewport={{ once: true }}
+                className='mx-auto max-w-2xl px-12 xs:px-12 sm:px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl'
+            >
                 <h2 className="text-center text-xl font-medium tracking-tight text-gray-900">{t('global.you_may_also_like')}</h2>
                 <div className="mt-6 grid grid-cols-1 md:grid-cols-3 gap-y-10">
                     {relatedItems.map(relatedItem => (
-                        <Link key={relatedItem.id} to={`/${i18n.language}/${relatedItem.id}`} className="group">
+                        <Link key={relatedItem.id} to={`/${lang}/${relatedItem.id}`} className="group">
                             <div className="aspect-h-5 aspect-w-8 w-full overflow-hidden bg-gray-200">
                                 <img
                                 src={`${process.env.PUBLIC_URL}/images/productions/${relatedItem.id}/img-header.jpg`}
@@ -23,7 +33,7 @@ const RelatedItems = ({ relatedItems, lang }) => {
                         </Link>
                     ))}
                 </div>
-            </div>
+            </motion.div>
     )
 }
 export default RelatedItems;

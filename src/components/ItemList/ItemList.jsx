@@ -18,16 +18,10 @@ const ItemList = () => {
     const [dynamicFilters, setDynamicFilters] = useState([]);
 
     const sortOptions = [
-        { name: t('global.newest'), href: '#', current: true },
-        { name: t('global.alphabetically_az'), href: '#', current: false },
-        { name: t('global.alphabetically_za'), href: '#', current: false },
+        { name: t('global.newest'), value: 'position', current: true },
+        { name: t('global.alphabetically_az'), value: 'title_asc', current: false },
+        { name: t('global.alphabetically_za'), value: 'title_desc', current: false },
     ]
-
-    const [selectedSort, setSelectedSort] = useState(sortOptions[0]);
-    
-    const handleSortChange = (selectedOption) => {
-        setSelectedSort(selectedOption);
-    };
 
     useEffect(() => {
         const fetchData = async () => {
@@ -78,7 +72,7 @@ const ItemList = () => {
                         {t('global.exhibitions')}
                     </h1>
                     <div className="flex items-center">
-                        <FiltersSort sortOptions={sortOptions} onSortChange={handleSortChange} />
+                        <FiltersSort sortOptions={sortOptions} section={section} setSection={setSection} />
                         <ButtonListView isGridView={isGridView} setIsGridView={setIsGridView}/>
                         <ButtonFilters setMobileFiltersOpen={setMobileFiltersOpen}/>
                     </div>

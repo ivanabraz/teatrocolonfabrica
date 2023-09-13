@@ -24,7 +24,8 @@
         "sort": "Sort",
         "newest": "Newest",
         "alphabetically_az": "Alphabetically (A-Z)",
-        "alphabetically_za": "Alphabetically (Z-A)"
+        "alphabetically_za": "Alphabetically (Z-A)",
+        "data_sheet": "Data sheet"
     },
 
     "about": {
@@ -47,10 +48,12 @@
             {
                 "new": true,
                 "featured": true,
+                "position": 1,
                 "id": "la_carrera_del_libertino",
                 "title": "The rake’s progress",
                 "composer": "Igor Stravinsky",
                 "year": 1951,
+                "images": 12,
                 "short_text": "xxx",
                 "text": [
                     "xxx",
@@ -96,10 +99,12 @@
             {
                 "new": true,
                 "featured": true,
+                "position": 2,
                 "id": "lelisirdamore",
                 "title": "L'elisir d'amore",
                 "composer": " Gaetano Donizetti",
                 "year": 2022,
+                "images": 12,
                 "short_text": "xxx",
                 "text": [
                     "xxx",
@@ -143,26 +148,30 @@
                 ]
             },
             {
-            "id": "la_finta_giardiniera",
-            "title": "La Finta Giardiniera",
-            "composer": "Wolfgang Amadeus Mozart",
-            "year": 1775,
-            "short_text": "xxx",
-            "text": [
-                "xxx",
-                "xxx",
-                "xxx",
-                "xxx"
-            ]
+                "position": 3,
+                "id": "la_finta_giardiniera",
+                "title": "La Finta Giardiniera",
+                "composer": "Wolfgang Amadeus Mozart",
+                "year": 1775,
+                "images": 12,
+                "short_text": "xxx",
+                "text": [
+                    "xxx",
+                    "xxx",
+                    "xxx",
+                    "xxx"
+                ]
             },
             {
+                "position": 4,
                 "id": "un_tranvia_llamado_deseo",
                 "title": "A Streetcar named Desire",
                 "composer": "André Previn",
                 "year": 1998,
+                "images": 12,
                 "short_text": "Versión lírica del composer estadounidense André Previn sobre el clásico teatral de Tennessee Williams.",
                 "text": [
-                    "<span className='italic'>Un tranvía llamado Deseo</span> es la versión lírica del composer estadounidense André Previn sobre el clásico teatral de Tennessee Williams. Cuenta la historia de Blanche, una mujer madura del sur de los Estados Unidos con aires aristocráticos pero venida a menos, que se ve obligada a mudarse al estrecho departamento de su hermana Stella. Ante la indiferencia y luego el ataque salvaje de su cuñado Stanley, solo encuentra amparo en la locura.",
+                    "<em>Un tranvía llamado Deseo</em> es la versión lírica del composer estadounidense André Previn sobre el clásico teatral de Tennessee Williams. Cuenta la historia de Blanche, una mujer madura del sur de los Estados Unidos con aires aristocráticos pero venida a menos, que se ve obligada a mudarse al estrecho departamento de su hermana Stella. Ante la indiferencia y luego el ataque salvaje de su cuñado Stanley, solo encuentra amparo en la locura.",
                     "Rita Cosentino fue la directora de escena de esta producción con escenografía de Enrique Bordolini y vestuario de Gino Bogani.",
                     "Estrenada en 1998 en la Ópera de San Francisco, se presentó por primera vez en el Teatro Colón en 2019 con esta producción que demandó dos meses y medio de realización.",
                     "Previn escribió esta obra para la soprano Renée Fleming, quien la estrenó y encarnó a Blanche DuBois, que se transformó en un personaje emblemático de la dramaturgia universal.",
@@ -173,10 +182,12 @@
                 ]
             },
             {
+                "position": 5,
                 "id": "los_cuentos_de_hoffmann",
                 "title": "The Tales of Hoffmann",
                 "composer": "Adolphe Adam, Cesare Pugni, Leo Delibes, Riccardo Drigo",
                 "year": 1856,
+                "images": 12,
                 "short_text": "xxx",
                 "text": [
                     "xxx",
@@ -220,10 +231,12 @@
                 ]
             },
             {
+                "position": 6,
                 "id": "rigoletto",
                 "title": "Rigoletto",
                 "composer": "Giuseppe Verdi",
                 "year": 1851,
+                "images": 12,
                 "short_text": "xxx",
                 "text": [
                     "xxx",
@@ -267,10 +280,12 @@
                 ]
             },
             {
+                "position": 7,
                 "id": "aida",
                 "title": "Aida",
                 "composer": "Giuseppe Verdi",
                 "year": 1871,
+                "images": 12,
                 "short_text": "xxx",
                 "text": [
                     "xxx",
@@ -314,10 +329,12 @@
                 ]
             },
             {
+                "position": 8,
                 "id": "turandot",
                 "title": "Turandot",
                 "composer": "Giacomo Puccini",
                 "year": 1926,
+                "images": 12,
                 "short_text": "xxx",
                 "text": [
                     "xxx",
@@ -361,10 +378,12 @@
                 ]
             },
             {
+                "position": 9,
                 "id": "la_boheme",
                 "title": "La Bohème",
                 "composer": "Giacomo Puccini",
                 "year": 1896,
+                "images": 12,
                 "short_text": "xxx",
                 "text": [
                     "xxx",
@@ -410,10 +429,12 @@
         ],
         "ballet": [
             {
+                "position": 10,
                 "id": "don_quijote",
                 "title": "Don Quixote",
                 "composer": "Ludwig Minkus",
                 "year": 1869,
+                "images": 12,
                 "short_text": "xxx",
                 "text": [
                     "xxx",
@@ -457,10 +478,12 @@
                 ]
             },
             {
+                "position": 11,
                 "id": "el_corsario",
                 "title": "Le Corsaire",
                 "composer": "Adolphe Adam, Cesare Pugni, Leo Delibes, Riccardo Drigo",
                 "year": 1856,
+                "images": 12,
                 "header": "xxx",
                 "short_text": "xxx",
                 "text": [

@@ -26,8 +26,12 @@ const ItemListCardGrid = ({ item, lang }) => {
                         : <></>
                     }
                 </div>
-                <p className="mt-4 text-lg font-medium text-gray-900">{item.title}</p>
-                <p className="mt-1 text-sm text-gray-500 capitalize">{categoryLabel}</p>
+                <p className="mt-4 text-lg font-medium text-gray-900">
+                    {item.title}
+                </p>
+                <p className="mt-1 text-sm text-gray-500 capitalize">
+                    {categoryLabel}
+                </p>
             </Link>
         </motion.div>
     )

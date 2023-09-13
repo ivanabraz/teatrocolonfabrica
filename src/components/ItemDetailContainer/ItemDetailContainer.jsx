@@ -7,6 +7,7 @@ import SwiperSlider from '../SwiperSlider/SwiperSlider';
 import DataSheet from '../DataSheet/DataSheet';
 import ItemContent from '../ItemContent/ItemContent';
 import RelatedItems from '../RelatedItems/RelatedItems';
+// import DataFigures from '../DataFigures/DataFigures';
 
 const ItemDetailContainer = () => {
     const { i18n } = useTranslation();
@@ -53,14 +54,15 @@ const ItemDetailContainer = () => {
 
     useEffect(() => {
         if (!item) return;
-
+    
         const loadImages = async () => {
             const imagesToLoad = [];
-
-            for (let index = 1; index <= 10; index++) {
+            const maxImages = item.images || 0;
+    
+            for (let index = 1; index <= maxImages; index++) {
                 const filename = `img-${index}.jpg`;
                 const imageUrl = `${process.env.PUBLIC_URL}/images/productions/${item.id}/${filename}`;
-
+    
                 if (imageRef.current.includes(imageUrl)) {
                     break;
                 }
@@ -77,10 +79,10 @@ const ItemDetailContainer = () => {
                     break;
                 }
             }
-
-            setImageArray(imagesToLoad.slice(0, 10));
+    
+            setImageArray(imagesToLoad.slice(0, maxImages));
         };
-
+    
         loadImages();
     }, [item]);
 
@@ -100,9 +102,11 @@ const ItemDetailContainer = () => {
 
     return (
         <>
-            <HeroImage video={false} header={header} title={title} category={category} composer={composer} year={year} />
-            <ItemContent category={category} title={title} text={text} productions={productions} />
-            <DataSheet datasheet={datasheet} sliceStart={0} sliceEnd={4} />
+            <HeroImage video={false} header={header} title={title} category={category} composer={composer} year={year}/>
+            <ItemContent category={category} title={title} text={text} productions={productions}>
+                {/* <DataFigures datasheet={datasheet} sliceStart={0} sliceEnd={2} /> */}
+            </ItemContent>
+            <DataSheet datasheet={datasheet}/>
             <SwiperSlider images={imageArray} title={title} />
             <RelatedItems relatedItems={shuffledRelatedItems.slice(0, 3)} lang={i18n.language} />
         </>

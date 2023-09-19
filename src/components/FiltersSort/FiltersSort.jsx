@@ -6,8 +6,12 @@ import { ChevronDownIcon } from '@heroicons/react/20/solid';
 const FiltersSort = ({ sortOptions, section, setSection }) => {
     const { t } = useTranslation();
     const [ascendingOrder] = useState(true);
-    const [selectedSort] = useState(sortOptions.find(option => option.current));
     const [activeOption, setActiveOption] = useState(null);
+
+    // Condición para establecer "position" como opción activa por defecto
+    if (activeOption === null) {
+        setActiveOption(sortOptions.find(option => option.value === 'position'));
+    }
 
     const handleSortChange = (selectedOption) => {
         if (section && Array.isArray(section)) {
@@ -28,6 +32,7 @@ const FiltersSort = ({ sortOptions, section, setSection }) => {
                 setSection(sortedSection);
             }
         }
+        setActiveOption(selectedOption);
     };
 
     return (
@@ -55,23 +60,13 @@ const FiltersSort = ({ sortOptions, section, setSection }) => {
                         {sortOptions.map((option) => (
                             <Menu.Item key={option.name}>
                                 {() => (
-                                    <a
-                                        href={option.href}
-                                        className={`${
-                                            selectedSort === option
-                                                ? 'font-medium text-gray-900 bg-gray-100 font-bold'
-                                                : activeOption === option
-                                                    ? 'font-medium text-gray-900 bg-gray-100'
-                                                    : 'text-gray-500'
+                                    <a href={option.href}
+                                        className={`hover:text-gray-900 ${
+                                            activeOption && activeOption.value === option.value
+                                                ? 'font-medium text-indigo-600 bg-gray-100 font-bold'
+                                                : 'text-gray-500'
                                         } block px-4 py-2 text-sm`}
-                                        onClick={() => {
-                                            handleSortChange(option);
-                                        }}
-                                        onMouseEnter={() => {
-                                            setActiveOption(option);
-                                        }}
-                                        onMouseLeave={() => {
-                                            setActiveOption(null);
+                                        onClick={() => {handleSortChange(option);
                                         }}
                                     >
                                         {option.name}

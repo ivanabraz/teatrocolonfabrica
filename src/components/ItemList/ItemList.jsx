@@ -31,6 +31,9 @@ const ItemList = () => {
                 const balletProductions = data.productions.ballet.map(item => ({ ...item, category: 'ballet' }));
                 const operaProductions = data.productions.opera.map(item => ({ ...item, category: 'opera' }));
                 const mergedProductions = [...operaProductions, ...balletProductions];
+                
+                mergedProductions.sort((a, b) => a.position - b.position);
+                
                 const uniqueCategories = [...new Set(mergedProductions.map(item => item.category))];
                 const newDynamicFilters = [
                     {
@@ -51,6 +54,7 @@ const ItemList = () => {
         };
         fetchData();
     }, [t, i18n.language, selectedFilters]);
+    
 
     const filteredItems = section.filter(item => {
         const categoryFilterValues = selectedFilters['category'] || [];

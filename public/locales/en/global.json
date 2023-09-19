@@ -1,0 +1,525 @@
+{
+    "global": {
+        "welcome": "Welcome",
+        "exhibitions": "What's on",
+        "about": "About",
+        "info": "Info",
+        "visit": "Visit",
+        "see_more": "See more",
+        "follow_us": "Follow us!",
+        "opera": "Opera",
+        "ballet": "Ballet",
+        "text_home": "Get ready to discover the magic that beats behind the scenes at one of the most important theaters in the world.",
+        "subtext_home": "These are the great productions of the Teatro Colón workshops that you will enjoy in this tour.",
+        "new": "New!",
+        "you_may_also_like": "You may also like",
+        "view_grid": "View grid",
+        "view_list": "View list",
+        "filters": "Filters",
+        "category": "Category",
+        "return": "Return",
+        "sort": "Sort",
+        "newest": "Newest",
+        "alphabetically_az": "Alphabetically (A-Z)",
+        "alphabetically_za": "Alphabetically (Z-A)",
+        "data_sheet": "Data sheet",
+        "slogan": "The best kept secrets of the Teatro Colón",
+        "rights":"All rights reserved",
+        "loading": "Cargando"
+    },
+
+    "about": {
+        "subtitle": "Get ready to discover the magic that beats behind the scenes at one of the most important theaters in the world.",
+        "text": [
+            "The Teatro Colón is one of the few theaters in the world that can produce its titles entirely in its own workshops. Its scenotechnical staff makes this possible by keeping alive theatrical trades that have been passed down from generation to generation.",
+            "These tasks are carried out in its scenotechnical workshops located in the basement of the theater, a few meters from the Obelisk, and in other workshops located in the district of Chacarita. The production of each title takes several weeks. Some of them take up to four months. Until now, after the premiere and the programmed performances, the sets were scrapped due to the difficulty of storing them, which affected their preservation and the possibilities of being reused.",
+            "For this reason, Teatro Colón Fábrica is a great achievement for the Teatro Colón. First, because it opens a space of 7,500 square meters to store the scenery production, props and curtains which expand exponentially season after season. On the other hand, because it helps to solve the storage and conservation of the set pieces.",
+            "These advantages are complemented by another objective of the space: to offer a unique opportunity for the neighbors of the City and tourists to get to know the behind-the-scenes of the theater and take a detailed look at the wonders that impressed thousands of spectators.",
+            "The dimensions of Teatro Colón Fábrica will also allow it to become a new work space for tasks that require a lot of space, such as the Italian painting of the curtains, which is done standing on the canvases and can exceed 300 square meters.",
+            "The preservation of the scenery material strengthens the institution's collection, facilitates the replacement of these opera and ballet titles, so that they can return to the stage and also allows us to lend or rent them to other opera houses in the country and around the world.",
+            "Preserving the world-renowned quality of the scenery, costumes and props produced in the Teatro Colón workshops, their reutilization, exhibition and circulation on other stages is a goal guided by the concept of institutional sustainability that guides the organization's management.",
+            "For all these reasons, Teatro Colón Fábrica is a unique space in the City where art and heritage, international level production and ancestral theatrical trades.",
+            "Por todas estas razones, Teatro Colón Fábrica es un espacio único en la Ciudad donde conviven el arte y el patrimonio, la producción de nivel internacional y los ancestrales oficios teatrales."
+        ]
+    },
+
+    "productions": {
+        "opera": [
+            {
+                "new": true,
+                "featured": true,
+                "position": 1,
+                "id": "la_carrera_del_libertino",
+                "title": "The rake’s progress",
+                "composer": "Igor Stravinsky",
+                "year": 1951,
+                "images": 11,
+                "short_text": "xxx",
+                "text": [
+                    "xxx",
+                    "xxx",
+                    "xxx",
+                    "xxx"
+                ],
+                "data_sheet": [
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    }
+                ]
+            },
+            {
+                "new": true,
+                "featured": true,
+                "position": 2,
+                "id": "lelisirdamore",
+                "title": "L'elisir d'amore",
+                "composer": " Gaetano Donizetti",
+                "year": 2022,
+                "images": 9,
+                "short_text": "xxx",
+                "text": [
+                    "xxx",
+                    "xxx",
+                    "xxx",
+                    "xxx"
+                ],
+                "data_sheet": [
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    }
+                ]
+            },
+            {
+                "position": 3,
+                "id": "la_finta_giardiniera",
+                "title": "La Finta Giardiniera",
+                "composer": "Wolfgang Amadeus Mozart",
+                "year": 1775,
+                "images": 14,
+                "short_text": "xxx",
+                "text": [
+                    "xxx",
+                    "xxx",
+                    "xxx",
+                    "xxx"
+                ]
+            },
+            {
+                "position": 4,
+                "id": "un_tranvia_llamado_deseo",
+                "title": "A Streetcar named Desire",
+                "composer": "André Previn",
+                "year": 1998,
+                "images": 6,
+                "short_text": "xx",
+                "text": [
+                    ""
+                ]
+            },
+            {
+                "position": 5,
+                "id": "los_cuentos_de_hoffmann",
+                "title": "The Tales of Hoffmann",
+                "composer": "Adolphe Adam, Cesare Pugni, Leo Delibes, Riccardo Drigo",
+                "year": 1856,
+                "images": 8,
+                "short_text": "xxx",
+                "text": [
+                    "xxx",
+                    "xxx",
+                    "xxx",
+                    "xxx"
+                ],
+                "data_sheet": [
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    }
+                ]
+            },
+            {
+                "position": 6,
+                "id": "rigoletto",
+                "title": "Rigoletto",
+                "composer": "Giuseppe Verdi",
+                "year": 1851,
+                "images": 8,
+                "short_text": "xxx",
+                "text": [
+                    "xxx",
+                    "xxx",
+                    "xxx",
+                    "xxx"
+                ],
+                "data_sheet": [
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    }
+                ]
+            },
+            {
+                "position": 7,
+                "id": "aida",
+                "title": "Aida",
+                "composer": "Giuseppe Verdi",
+                "year": 1871,
+                "images": 14,
+                "short_text": "xxx",
+                "text": [
+                    "xxx",
+                    "xxx",
+                    "xxx",
+                    "xxx"
+                ],
+                "data_sheet": [
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    }
+                ]
+            },
+            {
+                "position": 8,
+                "id": "turandot",
+                "title": "Turandot",
+                "composer": "Giacomo Puccini",
+                "year": 1926,
+                "images": 10,
+                "short_text": "xxx",
+                "text": [
+                    "xxx",
+                    "xxx",
+                    "xxx",
+                    "xxx"
+                ],
+                "data_sheet": [
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    }
+                ]
+            },
+            {
+                "position": 9,
+                "id": "la_boheme",
+                "title": "La Bohème",
+                "composer": "Giacomo Puccini",
+                "year": 1896,
+                "images": 14,
+                "short_text": "xxx",
+                "text": [
+                    "xxx",
+                    "xxx",
+                    "xxx",
+                    "xxx"
+                ],
+                "data_sheet": [
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    }
+                ]
+            }
+        ],
+        "ballet": [
+            {
+                "position": 10,
+                "id": "don_quijote",
+                "title": "Don Quixote",
+                "composer": "Ludwig Minkus",
+                "year": 1869,
+                "images": 14,
+                "short_text": "xxx",
+                "text": [
+                    "xxx",
+                    "xxx",
+                    "xxx",
+                    "xxx"
+                ],
+                "data_sheet": [
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    }
+                ]
+            },
+            {
+                "position": 11,
+                "id": "el_corsario",
+                "title": "Le Corsaire",
+                "composer": "Adolphe Adam, Cesare Pugni, Leo Delibes, Riccardo Drigo",
+                "year": 1856,
+                "images": 14,
+                "header": "xxx",
+                "short_text": "xxx",
+                "text": [
+                    "xxx",
+                    "xxx",
+                    "xxx",
+                    "xxx"
+                ],
+                "data_sheet": [
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    }
+                ]
+            }
+        ]
+    }
+}

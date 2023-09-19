@@ -1,0 +1,556 @@
+{
+    "global": {
+        "welcome": "Bienvenido",
+        "exhibitions": "En exhibición",
+        "about": "Sobre",
+        "info": "Información",
+        "visit": "Visitar",
+        "see_more": "Ver más",
+        "follow_us": "¡Seguínos en las redes!",
+        "opera":"Ópera",
+        "ballet":"Ballet",
+        "text_home": "Preparate para descubrir la magia que late detrás de escena en uno de los teatros más importantes del mundo.",
+        "subtext_home": "Estas son las grandes producciones de los talleres del Teatro Colón que vas a poder disfrutar en este recorrido.",
+        "new":"¡Nuevo!",
+        "you_may_also_like": "También te puede interesar",
+        "view_grid": "Ver grilla",
+        "view_list": "Ver lista",
+        "filters": "Filtros",
+        "category": "Categoría",
+        "return": "Volver",
+        "sort": "Ordenar",
+        "newest": "Más nuevo",
+        "alphabetically_az": "Alfabéticamente (A-Z)",
+        "alphabetically_za": "Alfabéticamente (Z-A)",
+        "data_sheet": "Ficha técnica",
+        "slogan": "Los secretos mejor guardados del Teatro Colón",
+        "rights":"Todos los derechos reservados",
+        "loading": "Cargando"
+    },
+
+    "about": {
+        "subtitle": "Preparate para descubrir la magia que late detrás de escena en uno de los teatros más importantes del mundo.",
+        "text": [
+            "El Teatro Colón es uno de los pocos teatros del mundo que puede realizar las producciones de sus espectáculos integralmente en talleres propios. Su personal escenotécnico lo hace posible manteniendo vivos oficios teatrales que se transmiten de generación en generación.",
+            "Esas tareas se llevan a cabo en sus talleres escenotécnicos ubicados en los subsuelos del teatro, a metros del Obelisco, y en otros emplazados en el barrio de Chacarita. La producción de cada título lleva varias semanas de realización. Algunas, hasta cuatro meses. Hasta ahora, luego del estreno y de las funciones programadas, las escenografías se desguazaban debido a la dificultad para su guardado, lo que afectaba su preservación y las posibilidades de ser reutilizadas.",
+            "Por eso, Teatro Colón Fábrica es un gran logro para el Teatro Colón. En primer lugar, porque abre un espacio de 7500 metros cuadrados para almacenar la producción escenográfica, utilería y telones, que se amplía exponencialmente temporada tras temporada. Por otro lado, porque contribuye a resolver el guardado y la conservación de las piezas escenográficas.",
+            "Estas ventajas se complementan con otro objetivo del espacio: ofrecer una oportunidad única para que los vecinos de la Ciudad y los turistas que nos visitan puedan conocer el detrás de escena del teatro y ver en detalle las maravillas que impactaron a miles de espectadores.",
+            "Las dimensiones de Teatro Colón Fábrica permitirán además que se convierta en un nuevo espacio de trabajo para tareas que requieren de mucho espacio, como la pintura a la italiana de los telones, que se realiza de pie sobre los propios lienzos, que pueden superar los 300 metros cuadrados.",
+            "La preservación del material escenográfico fortalece el acervo de la institución, facilita la reposición de esos títulos de ópera y ballet, para que vuelvan al escenario nuevamente, y también permite prestarlos o alquilarlos a otras casas de ópera del país y del mundo.",
+            "Conservar la calidad reconocida en todo el mundo de la realización de las escenografías, los vestuarios y la utilería producida en los talleres del Teatro Colón, su reutilización, su exhibición y la circulación por otros escenarios es una meta orientada por el concepto de sustentabilidad institucional que rige la gestión del organismo.",
+            "Por todas estas razones, Teatro Colón Fábrica es un espacio único en la Ciudad donde conviven el arte y el patrimonio, la producción de nivel internacional y los ancestrales oficios teatrales."
+        ]
+    },
+
+    "productions": {
+        "opera": [
+            {
+                "new": true,
+                "featured": true,
+                "position": 1,
+                "id": "la_carrera_del_libertino",
+                "title": "La carrera del libertino",
+                "composer": "Igor Stravinsky",
+                "year": 1951,
+                "images": 11,
+                "short_text": "Es una ópera en tres actos y un epílogo, con música de Igor Stravinski y libreto en inglés de W. H. Auden y Chester Kallman.",
+                "text": [
+                    "<em>La carrera del libertino</em> (título original en inglés: <em>The rake's progress</em>) es una ópera en tres actos y un epílogo, con música de Igor Stravinski y libreto en inglés de W. H. Auden y Chester Kallman. La primera aproximación de Igor Stravinsky a la idea del pacto con el diablo fue con <em>La historia del soldado</em>, en 1918, a partir de un cuento popular. Más de treinta años después volvió sobre esa temática.",
+                    "La acción tiene lugar en Londres, en el siglo XVIII. Tom Rakewell, un muchacho provinciano y sin recursos, está enamorado de Anne Trulove, quien lo corresponde incondicionalmente. Un desconocido, Nick Shadow, llega para comunicar a Tom que un lejano tío ha fallecido nombrándolo único heredero de una millonaria fortuna. Tom deberá viajar inmediatamente a Londres para hacerse de la herencia, mientras Shadow ofrece acompañarlo como criado. Shadow no es ni mas ni menos que la encarnación del diablo quien, tras una serie de desventuras, llevará a Tom poco a poco a la ruina económica, moral y espiritual.",
+                    "En <em>La carrera del libertino</em>, ya los nombres de los personajes indican a las claras un mensaje moral. El apellido de Anne es Truelove (amor verdadero) y el de Tom es Rakewell (algo así como un buen libertino) mientras que la figura que lo tienta y lo lleva a perder lo que más ama lleva por apellido Shadow (sombra). El libreto de los poetas W. H. Auden y C. Kallman se inspira en una serie de grabados publicados en 1735 por el artista británico William Hogarth, y Stravinsky, como Picasso con el rostro humano, recurre a Mozart y la ópera cómica del siglo XVIII para inventar una figura nueva en este título que, de alguna manera, inaugura el posmodernismo musical.",
+                    "Esta nueva producción, presentada en 2023, estuvo a cargo del regisseur argentino Alfredo Arias, quien también fue responsable de la última puesta en escena ofrecida en el Teatro Colón en 2001. Arias elabora una disposición escenográfica que evoca al antiguo teatro griego. Una plataforma semicircular escalonada en el centro de la escena, funcionaba como cama, púlpito o incluso como camilla de operaciones. En el fondo, se erige un reloj que juega con la percepción del tiempo, marcando alternadamente su paso o distorsionando de manera surrealista la dimensión temporal.",
+                    "La plataforma central fue fabricada íntegramente en petiribi, una variedad de madera muy apreciada en carpintería y ebanistería por su apariencia, ductilidad y tolerancia a distintos acabados. A ésta se adicionaron pasamanos hechos de caño cilíndrico de hierro, una medida de seguridad fundamental para los artistas en escena. El alma de la estructura fue realizada con caño estructural rectangular de distintos diámetros.",
+                    "Encuadraban la escena imponentes paredes laterales y de fondo, también fabricadas en la misma variedad de madera. Las dimensiones de estas piezas alcanzaron los 15 metros de altura y una profundidad de 25. Una peculiaridad de esta producción fue la convivencia de vestimentas del siglo XVIII con otras más notablemente modernas. El taller de sastrería produjo un total de 180 trajes para este título. El diseño de vestuario estuvo a cargo de Julio Suárez."
+                ],
+                "data_sheet": [
+                    {
+                        "item_title":"Personal escenotécnico trabajando durante la puesta",
+                        "item_data":"60"
+                    },
+                    {
+                        "item_title":"Personal escenotécnico de realización",
+                        "item_data":"400"
+                    },
+                    {
+                        "item_title":"Tiempo de pre producción y realización",
+                        "item_data":"4 meses"
+                    },
+                    {
+                        "item_title":"Cantidad de trajes",
+                        "item_data":"180"
+                    },
+                    {
+                        "item_title":"Pelucas",
+                        "item_data":"50"
+                    },
+                    {
+                        "item_title":"Pares de zapatos",
+                        "item_data":"90"
+                    }
+                ]
+            },
+            {
+                "new": true,
+                "featured": true,
+                "position": 2,
+                "id": "lelisirdamore",
+                "title": "L'elisir d'amore",
+                "composer": "Gaetano Donizetti",
+                "year": 2022,
+                "images": 9,
+                "short_text": "Esta nueva producción de 2022 de <em>L'elisir d'amore</em>, de Gaetano Donizetti, estuvo bajo la dirección escénica del español Emilio Sagi.",
+                "text": [
+                    "<em>El elixir de amor</em> (en italiano, <em>“L'elisir d'amore”</em>) es una ópera cómica en dos actos con música de Gaetano Donizetti y libreto de Felice Romani. Está basada en el libreto original del dramaturgo francés Eugène Scribe titulado <em>Le philetre</em> del año 1831. Se trata, junto con <em>Don Pasquale</em> y <em>Lucia de Lammermoor</em>, de una de las óperas más representadas del compositor. El número más reconocido de esta composición es el aria para tenor titulada <em>Una furtiva lágrima</em> del segundo acto. El estreno tuvo lugar el 12 de mayo de 1832 en Milán.",
+                    "Nemorino, un joven melancólico e inocente, está perdidamente enamorado de Adina que sólo le transmite celos e indiferencia. Desesperado, Nemorino compra un misterioso elixir que vende el doctor Dulcamara, un charlatán y embaucador quien asegura despertará una pasión incontenible en su amada. Se trata, de hecho, de vino de Burdeos. Este hecho irrita a Adina, quien, por despecho, anuncia su casamiento con Belcore, un sargento que ha llegado al pueblo con su regimiento.",
+                    "La dirección escenográfica de esta versión del año 2022 estuvo a cargo del español Emilio Sagi, responsable de las puestas de <em>I due Figaro</em> (2012) y <em>Don Giovanni</em> (2016). La escenificación de esta ópera fue la misma para los dos actos. Se trata de un campus universitario, representado en los edificios laterales, y una cancha de baloncesto con gradas para los asistentes al juego. El fondo de la escena se cerró con un lienzo pintado donde continúa el vecindario y un gran telón de proyecciones para las alternancias día/noche.","La acción transcurría en la cancha de baloncesto, ubicada al centro del escenario. La acompañaban dos edificios, parte de un campus universitario, ubicados a extremos de la misma, a través de cuyas ventanas asomaban algunos personajes en distintos momentos de la obra. La construcción de los armazones de la escenografía requirió más de 1500 metros de caño estructural. Estas estructuras debían tolerar su propio peso y el de actores y actrices.",
+                    "La sección central de la escena fue ocupada por la cancha de baloncesto, con sus respectivos tableros y aros, e incluso las gradas para los espectadores del juego, que fueron representados por el Coro Estable del Teatro Colón. El piso se hizo con planchas de madera pintada. Los aros de básquet, sus bases y postes fueron fabricados en metal y luego cromados en el taller de pintura. Las redes fueron tejidas a mano con hilo de algodón mediante la técnica de macramé. El marcador es un entablillado de madera, los números se calaron y finalmente fueron pintados. La contención de la cancha se hizo con tejido de alambre romboidal; para esto se necesitaron 60 metros lineales sobre bastidores de caño redondo.",
+                    "Las pancartas del final, con imágenes de cantantes de la década de 1950 tales como Marilyn Monroe y Elvis Presley, fueron impresas a partir de registros fotográficos y posteriormente se colorearon a mano. Se pintaron carteles con el soplete y estopa para crear el efecto visual de metal envejecido. Para la utilería de mano se imprimieron y cortaron billetes que usaron tanto los miembros del Coro Estable como el Coro de Niños para comprar el elixir de Dulcamara.",
+                    "Se armaron banderines decorativos para las guirnaldas. Están hechos en celón, también llamado polipropileno esmeril, y los colores se cortaron y aplicaron en papel adhesivo tipo <em>contact</em> color rojo, verde y azul. Las tiras doradas y plateadas se hicieron en mylar, un material altamente resistente, aunque flexible, y con altas propiedades reflectantes. Se pintaron de distintos colores las bombillas de luz que acompañan a las guirnaldas.",
+                    "Para la torta de bodas del final se tallaron en telgopor tres cilindros de distintos diámetros que luego fueron adheridos entre sí. Luego fue forrada en goma EVA blanca y las hojitas, del mismo material, fueron dadas forma por medio de calor con moldes. En cada piso decoraba un arreglo floral hecho en tela color rojo. La base se hizo con un torneado en madera en el sector de Utilería; se pintó de blanco con pintura al agua y finalmente se adornó con un calado hecho en plástico por una impresora de corte.",
+                    "Este título también requirió un auto de colección, un DeSoto de 1952, para el cual fue confeccionada la chapa patente con los tamaños y colores originales, y cuatro bicicletas.<em>El elixir del amor</em> fue una de las más grandes producciones de la temporada 2022 que requirió un centenar de artistas en escena, entre los cuales cabe destacar la participación estelar de la soprano Nadine Sierra y el tenor Javier Camarena."
+                ],
+                "data_sheet": [
+                    {
+                        "item_title":"Personal escenotécnico trabajando durante la puesta",
+                        "item_data":"90"
+                    },
+                    {
+                        "item_title":"Personal escenotécnico de realización",
+                        "item_data":"400"
+                    },
+                    {
+                        "item_title":"Tiempo de pre producción y realización",
+                        "item_data":"3 meses y medio"
+                    },
+                    {
+                        "item_title":"Cantidad de trajes",
+                        "item_data":"160"
+                    },
+                    {
+                        "item_title":"Pelucas",
+                        "item_data":"70"
+                    },
+                    {
+                        "item_title":"Tocados",
+                        "item_data":"50"
+                    },
+                    {
+                        "item_title":"Pares de zapatos",
+                        "item_data":"120"
+                    }
+                ]
+            },
+            {
+                "position": 3,
+                "id": "la_finta_giardiniera",
+                "title": "La Finta Giardiniera",
+                "composer": "Wolfgang Amadeus Mozart",
+                "year": 1775,
+                "images": 14,
+                "short_text": "La producción de <em>La finta giardiniera</em> fue realizada en los talleres del Teatro Colón en 2021 cumpliendo con todos los protocolos sanitarios impuestos por la pandemia.",
+                "text": [
+                    "<em>La finta giardiniera</em> de Wolfgang Amadeus Mozart presenta la historia de una marquesa que se disfraza de jardinera para escapar de su marido. Ese es el núcleo de esta ópera bufa plena de contrastes de clase, equívocos y amoríos. Con libreto de Giuseppe Petrosellini se estrenó en el Carnaval de Munich en 1775.",
+                    "Con solo 18 años de edad, Mozart logró en esta obra una unión efectiva de episodios serios y cómicos, y una síntesis estilística entre los estilos italiano y alemán, sentando las bases para la famosa trilogía de óperas que compuso en la década siguiente, en colaboración con Lorenzo Da Ponte (<em>Le nozze di Figaro, Don Giovanni </em> y <em>Così fan tutte</em>).",
+                    "La producción de la ópera <em>La finta giardiniera</em> fue realizada íntegramente por los equipos escenotécnicos del Teatro Colón en 2021, con la participación de todos los talleres y sectores del escenario para su estreno. La dirección de escena y el diseño de escenografía, vestuario, iluminación y video pertenecen a Hugo de Ana.",
+                    "Esta producción se realizó en pandemia cumpliendo con los protocolos sanitarios, con equipos de trabajo en formato de burbuja para asegurar la continuidad del proceso y con el consecuente aislamiento del grupo que presentara un caso sospechoso. Esta situación atípica le imprimió una dinámica inusual a la producción.",
+                    "La escena es prácticamente autoportante y alcanza una altura final de 9 metros. Se trata de una estructura en herradura con niveles concéntricos. La planta baja se estructuró con hierro de sección liviana, al igual que el balcón volado que soportó 20 personas en escena.",
+                    "Las columnas de escenografía escondían columnas estructurales que unificaban los dos niveles. Los muros curvos fueron realizados en madera liviana, por su movimiento permanente a cargo de la figuración. Además de las puertas del primer piso y desembarcos especiales, se construyó una contra rampa con diseño semicircular que se adelanta hasta el proscenio del escenario llevando la puesta en escena muy cerca del espectador.",
+                    "El primer piso fue construido en madera para alivianar el peso. La escena está diseñada al servicio de las voces de los cantantes, para producir un efecto de cámara acústica. En la escenografía se utilizaron unos 2.800 kg. de hierro, en especial en la baranda y la escalera caracol. Además, se necesitaron más de 500 litros de pintura de distintos tipos para las diferentes terminaciones (látex, hidroesmalte, nitraseal, cetol, aerosol oro, etc.)",
+                    "Para construir las escaleras, partiendo del plano, se realizó una plantilla de curva con hierro y madera y luego un molde flexible de silicona con un contra molde rígido de fibra poliéster con estructura. Con el mismo procedimiento, se trabajó en una parábola doble curva para lograr los módulos de la escalera caracol, pintados para obtener el efecto hierro forjado con oro.",
+                    "La gigantografía de la palabra LOVE tiene letras de 1,60 metros de altura construidas en fibrofácil. Un policarbonato de alta densidad en el perímetro externo de cada letra produce una profundidad de 14 centímetros, donde se coloca el tubo de neón."
+                ]
+            },
+            {
+                "position": 4,
+                "id": "un_tranvia_llamado_deseo",
+                "title": "Un tranvía llamado Deseo",
+                "composer": "André Previn",
+                "year": 1998,
+                "images": 6,
+                "short_text": "Estreno de la versión lírica del clásico teatral de Tennessee Williams con vestuario de Gino Bogani.",
+                "text": [
+                    "<em>Un tranvía llamado Deseo</em> es la versión lírica del compositor estadounidense André Previn sobre el clásico teatral de Tennessee Williams. Cuenta la historia de Blanche, una mujer madura del sur de los Estados Unidos con aires aristocráticos pero venida a menos, que se ve obligada a mudarse al estrecho departamento de su hermana Stella. Ante la indiferencia y luego el ataque salvaje de su cuñado Stanley, solo encuentra amparo en la locura.",
+                    "Rita Cosentino fue la directora de escena de esta producción con escenografía de Enrique Bordolini y vestuario de Gino Bogani.",
+                    "Estrenada en 1998 en la Ópera de San Francisco, se presentó por primera vez en el Teatro Colón en 2019 con esta producción que demandó dos meses y medio de realización.",
+                    "Previn escribió esta obra para la soprano Renée Fleming, quien la estrenó y encarnó a Blanche DuBois, que se transformó en un personaje emblemático de la dramaturgia universal.",
+                    "La escenografía de esta producción está diseñada para destacar la teatralización continua que el personaje de Blanche hace de sí mismo. Aquí vemos parte de la escenografía donde todo sucede. La cocina, que continuaba con la habitación y el baño al final.",
+                    "Bordolini diseñó una suerte de teatro dentro del teatro. El agobiante departamento donde conviven Blanche, Stella y Stanley condensa el universo traumático de la protagonista. El pequeño dormitorio se transforma en escenario para sus “personajes”. El baño, visible en esta puesta, es el <em>backstage</em> de la verdadera Blanche.",
+                    "El vestuario fue diseñado por el maestro de alta costura Gino Bogani quien creó una indumentaria inspirada en la moda de los años '50. Para la producción se confeccionaron 60 trajes, 60 pares de zapatos y carteras y sombreros con diseño original de Bogani.",
+                    "El vestuario debió ceñirse a la época y expresar una síntesis de los personajes que animan la historia, situada en Nueva Orleans. Para lograr ese objetivo, Bogani apeló a pequeños detalles, como el prendedor de plata con forma de hipocampo de Blanche, personaje con el que Bogani, según sus propias palabras, “se tomó una licencia poética para definir más su personalidad”."
+                ],
+                "data_sheet": [
+                    {
+                        "item_title":"Personal escenotécnico trabajando durante la puesta",
+                        "item_data":"60"
+                    },
+                    {
+                        "item_title":"Personal escenotécnico de realización",
+                        "item_data":"400"
+                    },
+                    {
+                        "item_title":"Tiempo de pre producción y realización",
+                        "item_data":"2 meses y medio"
+                    },
+                    {
+                        "item_title":"Cantidad de trajes",
+                        "item_data":"60"
+                    },
+                    {
+                        "item_title":"Pelucas",
+                        "item_data":"8"
+                    },
+                    {
+                        "item_title":"Pares de zapatos",
+                        "item_data":"60"
+                    }
+                ]
+            },
+            {
+                "position": 5,
+                "id": "los_cuentos_de_hoffmann",
+                "title": "Los cuentos de Hoffmann",
+                "composer": "Adolphe Adam, Cesare Pugni, Leo Delibes, Riccardo Drigo",
+                "year": 1856,
+                "images": 8,
+                "short_text": "El despliegue visual del ganador del premio Óscar Eugenio Zanetti para la versión de la ópera de Offenbach creada en 2019.",
+                "text": [
+                    "Proyecciones, grandes escalinatas, escenarios giratorios, arneses y hasta un automóvil constituyen la puesta de <em>Los cuentos de Hoffmann</em> creada en 2019. La dirección de escena fue realizada por Eugenio Zanetti, pintor, cineasta, director de arte y ganador del premio Óscar a mejor diseño de producción/dirección de arte en 1995. Su predilección por el gran despliegue visual quedó plasmada en esta versión de la ópera de Jacques Offenbach",
+                    "<em>Los cuentos de Hoffmann</em> es la última ópera de Jacques Offenbach. Está basada en la pieza teatral de Jules Barbier y Michel Carré, quienes se inspiraron en algunos de los cuentos del alemán ETA Hoffmann.",
+                    "En una noche de borrachera, Hoffmann cuenta cómo cortejó y perdió a tres muchachas, sus amores imposibles: Olympia, una muñeca mecánica que solo él cree humana; Giulietta, la cortesana que le roba su reflejo en un espejo; y Antonia, una joven que canta, literalmente, hasta morir.",
+                    "Proyecciones, grandes escalinatas, escenarios giratorios, arneses y hasta un automóvil forman parte de esta producción de 2019, que tuvo la dirección de escena de Eugenio Zanetti, cineasta, director de arte y ganador del premio Óscar a mejor diseño de producción/dirección de arte en 1995.400 personas participaron en la realización de este título. La preproducción insumió cuatro meses de trabajo. El despliegue visual de esta versión incluyó la confección de 160 trajes, 120 pelucas y tocados y 120 pares de zapatos en los talleres del teatro.El vestuario mezcla libremente elementos que van de 1900 hasta 1950, pero todo ocurre vagamente entre los años 40 y 50. A su vez, mezcla elementos que generan una atmósfera cinematográfica.",
+                    "El octógono giratorio de 4 metros de altura es el elemento clave de la escenografía. Muestra distintas vistas de los dispositivos que ocupan el centro de la escena: dos escaleras laterales conectadas con un cilindro octogonal, de inspiración gótica, donde están las tres mujeres –Olimpia, Antonia y Giulietta-- que protagonizarán sucesivamente cada uno de los tres actos. Este octógono se construyó sobre un disco giratorio mecanizado con motores especiales, adaptados a los tiempos y pausas de los movimientos de escena, que eran controlados en vivo según la partitura, respetando la acción y los tiempos musicales. Representa el paso del tiempo en la obertura de la obra y luego sirve para la escena en donde Olimpia corre desconsolada, sube y se tira (en realidad una muñeca idéntica a la cantante) y se rompe, representando el desencanto del primer amor.",
+                    "Las escalinatas son simétricas y forman una herradura alrededor del octógono y la glorieta. Para acceder a la parte más alta, la estructura posee una escalera caracol en su interior. También tiene escaleras rectas escondidas en los denominados ''hombros''. La terminación está pintada simulando un estilo de grabado con relieves. La estructura para rigidizar la escalera queda completamente escondida para el público.",
+                    "Los videos proyectados sobre tres pantallas que formaron parte de los fondos de escenario completan el cuadro escenográfico, al formar una especie de panorama por detrás de la escenografía. El posicionamiento y ajuste de los proyectores está a cargo del sector de video. Además, se utilizaron grandes telones muy cerca de la boca de escena para hacer los cambios de escenografía por detrás. Por sus grandes dimensiones, están pintados con la técnica a la italiana, en la que la tela se clava sobre un piso de madera, y se la pinta con pinceles largos caminando por encima. Esta tarea se lleva a cabo en el taller de Escenografía. Primero, se da un color de base para que tense la tela y se pueda dibujar el diseño de la pintura que se lleva a escala desde un boceto entregado por el escenógrafo. Luego, se da la primera tinta que plantea el general de las luces y sombras y el tono de la pintura. Después, se definen los volúmenes principales para finalmente terminar con los detalles.",
+                    "Esta producción incluye otros elementos sorprendentes como la barcarola de 6,20 metros de largo por 1,70 metros de ancho, diseñada por Zanetti, que tiene como mascarón de proa un caballo dorado que reproduce uno de los caballos de la basílica de San Marcos en Venecia. También la góndola que aparece en el tercer acto, que posee un timón de dirección y ruedas para mover la estructura de 4,60 metros de largo y una altura de casi 4 metros en el extremo del mástil. Como se utiliza en una escena con gran cantidad de personajes circulando, el mecanismo no fue motorizado: simplemente, dos figurantes lo accionaban y otro lo direccionaba con la rueda timón.La diosa de la fertilidad, de 5 x 2 metros, es otra de las piezas monumentales de la producción."
+                ],
+                "data_sheet": [
+                    {
+                        "item_title":"Personal escenotécnico trabajando durante la puesta",
+                        "item_data":"125"
+                    },
+                    {
+                        "item_title":"Personal escenotécnico de realización",
+                        "item_data":"400"
+                    },
+                    {
+                        "item_title":"Tiempo de pre producción y realización",
+                        "item_data":"4 meses"
+                    },
+                    {
+                        "item_title":"Cantidad de trajes",
+                        "item_data":"160"
+                    },
+                    {
+                        "item_title":"Pelucas",
+                        "item_data":"70"
+                    },
+                    {
+                        "item_title":"Tocados",
+                        "item_data":"50"
+                    },
+                    {
+                        "item_title":"Pares de zapatos",
+                        "item_data":"120"
+                    }
+                ]
+            },
+            {
+                "position": 6,
+                "id": "rigoletto",
+                "title": "Rigoletto",
+                "composer": "Giuseppe Verdi",
+                "year": 1851,
+                "images": 8,
+                "short_text": "Una nueva producción de uno de los grandes títulos del género lírico realizada íntegramente entre 2018 y 2019.",
+                "text": [
+                    "El <em>regisseur</em> brasileño Jorge Takla fue el responsable de la dirección en escena de esta puesta de <em>Rigoletto</em>, una nueva producción del Teatro Colón realizada íntegramente entre 2018 y 2019. La escenografía, en la que se destacan las grandes esculturas, estuvo cargo de Nicolás Boni. El diseño de indumentaria fue de Jesús Ruiz y demandó la realización de 110 trajes y 90 pares de calzado.",
+                    "La nueva producción de <em>Rigoletto</em>, la célebre ópera de Giuseppe Verdi, fue realizada íntegramente entre 2018 y 2019 en el Teatro Colón. El bufón Rigoletto es un individuo que se mueve entre el amor por su inocente hija Gilda y el odio hacia el mujeriego Duque de Mantua y los inescrupulosos cortesanos que lo secundan.",
+                    "El <em>regisseur</em> brasileño Jorge Takla fue el responsable de la dirección en escena. La escenografía de esta producción, en la que se destacan las grandes esculturas, estuvo cargo de Nicolás Boni. El diseño de iluminación perteneció a José Luis Fiorruccio, uno de los más respetados y solicitados diseñadores de iluminación de nuestro medio. El diseño de indumentaria fue de Jesús Ruiz y demandó la realización de 110 trajes y 90 pares de calzado.",
+                    "<em>Rigoletto</em>, estrenada en 1851 en el Teatro La Fenice de Venecia, es una de las óperas más representadas en el mundo. En el Teatro Colón subió a escena en 35 temporadas oficiales, siendo su primera vez el 14 de junio de 1908, a solo tres semanas de la inauguración del teatro. Es la primera ópera de lo que más tarde se denominó la “Trilogía popular” de Verdi, que culmina en 1853 con <em>Il trovatore</em> y <em>La traviata</em>, con la que el compositor alcanzó la consagración. Fue un giro temático rotundo que llevó a Verdi de ser el catalizador de la sociedad italiana, en sus óperas tempranas, a interesarse más por la psicología de los afectos y la intimidad de la conducta humana. <em>Rigoletto</em> es un drama que combina pasión, engaño y venganza, basado en una obra teatral de Victor Hugo. Conmovió al mundo desde su estreno hasta nuestros días.",
+                    "El diseño de indumentaria fue de Jesús Ruiz y demandó la realización de 110 trajes y 90 pares de calzado. La monumental escultura que reina en el primer acto posee 4,41 metros de altura, 3,81 metros de largo y 2 metros de profundidad. Es una reproducción de una de las célebres obras de Giambologna, uno de los mayores escultores europeos del siglo 16. Está realizada en telgopor de alta densidad para permitir su tallado. Luego, se la forró con papel y cola mediante la tradicional técnica de cartapesta. Finalmente, se le dio textura y color.",
+                    "Estas esculturas de gran tamaño se realizan por piezas. Del plano con el diseño y las dimensiones finales de la escultura, se realiza primero un prototitpo a escala. Se determinan así las divisiones para su traslado y posterior armado en el escenario. También se evalúa si necesita un refuerzo estructural con hierro. Esto requiere la necesaria coordinación entre dos o más talleres. En este caso puntual, la escultura solo presenta una división a nivel de la clavícula que separa el torso de la cabeza y un brazo. Esas partes son montadas y retocadas luego en el escenario.",
+                    "Los videos que se utilizan como fondos de escenario con diseños provistos por el escenógrafo, como el que remite a un callejón de la ciudad de Mantua donde se desarrolla la obra, se retroproyectaron sobre una pantalla. Lo mismo ocurre con el <em>plafond</em> que despide una luz cenital, que simplemente es una retroproyección cuya perspectiva produce el efecto visual de una construcción corpórea.",
+                    "Para la escena final de <em>Rigoletto</em>, una estructura de tubos que soporta una rampa y muestra al público una superficie terminada con tablas rotas conforma el espectacular barco encallado en la orilla de una playa. Para lograr esta escena, se colocó sobre todo el piso del escenario una rampa con doble pendiente, sobre la cual se desplegó un tapete con relieve de gomaespuma. Encima se ubicaron los restos de barco realizados por los talleres de Herrería y Escultura que, sumados a la iluminación y la proyección del mar y el cielo en movimiento, componen el clima fantasmagórico que preludia el trágico final."
+                ],
+                "data_sheet": [
+                    {
+                        "item_title":"Personal escenotécnico trabajando durante la puesta",
+                        "item_data":"80"
+                    },
+                    {
+                        "item_title":"Personal escenotécnico de realización",
+                        "item_data":"400"
+                    },
+                    {
+                        "item_title":"Tiempo de pre producción y realización",
+                        "item_data":"2 meses y medio"
+                    },
+                    {
+                        "item_title":"Cantidad de trajes",
+                        "item_data":"110"
+                    },
+                    {
+                        "item_title":"Pelucas",
+                        "item_data":"10"
+                    },
+                    {
+                        "item_title":"Pares de zapatos",
+                        "item_data":"90"
+                    }
+                ]
+            },
+            {
+                "position": 7,
+                "id": "aida",
+                "title": "Aida",
+                "composer": "Giuseppe Verdi",
+                "year": 1871,
+                "images": 14,
+                "short_text": "La ópera que inauguró el edificio en 1908 revisitada en la imponente producción para celebrar el 110 aniversario.",
+                "text": [
+                    "xxx",
+                    "xxx",
+                    "xxx",
+                    "xxx"
+                ],
+                "data_sheet": [
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    }
+                ]
+            },
+            {
+                "position": 8,
+                "id": "turandot",
+                "title": "Turandot",
+                "composer": "Giacomo Puccini",
+                "year": 1926,
+                "images": 10,
+                "short_text": "El clásico de Puccini con idea original, concepción escénica y diseño de escenografía de Roberto Oswald.",
+                "text": [
+                    "Ambientada en la China antigua, la idea original, la concepción escénica y la escenografía de esta puesta de Turandot de 1993 pertenecen a Roberto Oswald. Su reposición en 2018 estuvo a cargo de Matías Cambiasso. Las estructuras colosales y la magia escénica creada con telas y luces se combinan con las procesiones de una obra de masas, donde el pueblo tiene un papel fundamental, encarnado por numerosos actores figurantes y cantantes.",
+                    "Ambientada en la China antigua, esta ópera narra la historia de Turandot, hija del emperador, y Calaf, el único de sus pretendientes que evitó la muerte al descifrar los enigmas impuestos como condición para casarse con la cruel princesa.",
+                    "La reposición de Turandot de Giacomo Puccini en 2019 estuvo a cargo de Matías Cambiasso sobre la versión realizada en el Teatro Colón en 1993. Aquella versión de 1993 tenía idea original, concepción escénica y escenografía de Roberto Oswald, y se presentó también en 2006 en el Luna Park. Según Cambiasso, para concretar las decisiones estéticas que debió tomar para la puesta de 2019 dialogó mucho con Cristian Prego y Aníbal Lápiz, responsables de la escenografía y el vestuario.",
+                    "Turandot es una ópera que tiene menos de un siglo. Se estrenó en la Scala de Milán en 1926. Con libreto de Giuseppe Adami y Renato Simoni, su partitura quedó inconclusa por la muerte de Puccini, y fue completada por el compositor Franco Alfano.",
+                    "Las estructuras colosales y la magia escénica creada con telas y luces se combinan con las procesiones de una obra de masas, donde el pueblo tiene un papel fundamental, y numerosos actores figurantes y cantantes, con la participación del Coro Estable y el Coro de Niños del Teatro Colón, se conjugan la obra presenta por momentos más de un centenar de artistas en escena.",
+                    "Turandot fue una superproducción que incluyó la realización de 200 trajes, 300 pelucas, 400 tocados, 200 postizos y 160 pares de zapatos. Los objetos de esta producción están inspirados en la ciudad prohibida de Beijing. El maquillaje se realizó en base a documentación histórica entregada por el responsable del vestuario, así como los tocados y todos los accesorios de indumentaria.",
+                    "Entre los elementos que desacan en la puesta está el trono del emperador, realizado por el sector Utilería en madera, con calados y ornamentación tallada por escultura posteriormente protegida con cartapesta, dorado a la hoja y patinado. También las esculturas gigantes de los guerreros, que tienen una altura de 4,50 metros, 2,50 metros de ancho y 1,80 de profundidad. Los 19 banderines imperiales que forman parte de la escenografía tienen entre 7 y 10 metros de largo. Pero sin dudas, el gong es el emblema de la puesta. Tiene un diámetro de 4,60 metros y en su interior posee una estructura de hierro denominada 'alma' que da sostén a la pieza y permite su traslado. En el taller de Escultura, se talló la figura corpórea en telgopor y se la revistió con cartapesta y dorado a la hoja, para darle su aspecto final."
+                ],
+                "data_sheet": [
+                    {
+                        "item_title":"Personal escenotécnico trabajando durante la puesta",
+                        "item_data":"125"
+                    },
+                    {
+                        "item_title":"Personal escenotécnico de realización",
+                        "item_data":"400"
+                    },
+                    {
+                        "item_title":"Tiempo de pre producción y realización",
+                        "item_data":"4 meses"
+                    },
+                    {
+                        "item_title":"Cantidad de trajes",
+                        "item_data":"200"
+                    },
+                    {
+                        "item_title":"Pelucas",
+                        "item_data":"300"
+                    },
+                    {
+                        "item_title":"Tocados",
+                        "item_data":"400"
+                    },
+                    {
+                        "item_title":"Postizos",
+                        "item_data":"200"
+                    },
+                    {
+                        "item_title":"Pares de zapatos",
+                        "item_data":"160"
+                    }
+                ]
+            },
+            {
+                "position": 9,
+                "id": "la_boheme",
+                "title": "La Bohème",
+                "composer": "Giacomo Puccini",
+                "year": 1896,
+                "images": 14,
+                "short_text": "Una superproducción realizada íntegramente en 2018 en los talleres escenotécnicos del Teatro Colón.",
+                "text": [
+                    "xxx",
+                    "xxx",
+                    "xxx",
+                    "xxx"
+                ],
+                "data_sheet": [
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    }
+                ]
+            }
+        ],
+        "ballet": [
+            {
+                "position": 10,
+                "id": "don_quijote",
+                "title": "Don Quijote",
+                "composer": "Ludwig Minkus",
+                "year": 1869,
+                "images": 14,
+                "short_text": "La producción del ballet <em>Don Quijote</em> de Ludwig Minkus fue realizada íntegramente por los equipos escenotécnicos del Teatro Colón en 2013.",
+                "text": [
+                    "La producción del ballet <em>Don Quijote</em> de Ludwig Minkus fue realizada íntegramente por los equipos escenotécnicos del Teatro Colón en 2013. Esta versión contó con la coreografía de Lidia Segni sobre la del francés Marius Petipa y la dirección musical de Javier Logioia Orbe al frente de la Orquesta Estable del Teatro Colón.",
+                    "El diseño de escenografía estuvo a cargo de Enrique Bordolini. La ambientación y el diseño de vestuario pertenecen a Eduardo Caldirola. El estreno mundial de este ballet clásico tuvo lugar a fines de 1869 en el Teatro Bolshoi de Moscú. Si bien está basado en la novela de Miguel de Cervantes, no pretende ser fiel a la obra literaria. El foco está puesto en una historia romántica, con elementos picarescos.",
+                    "El ballet se creó en base al capítulo de la novela cervantina “Las bodas de Camacho”. La historia se cuenta a través de Kitri, la hija del tabernero Lorenzo, que quiere casarla con Camacho, y Basilio, un barbero sin dinero. La realización de esta producción demandó unos 120 días e involucró a todos los talleres escenotécnicos del teatro.",
+                    "Las escenografías para ballet deben ser livianas, para proteger el piso arlequín que se monta sobre el escenario. Es un piso de rebote que preserva a los bailarines en el impacto del salto.","Los cambios de escenas que requiere la historia son armados por superposición de telones y rompimientos temáticos, cuyo diseño corresponden a la creación del escenógrafo.",
+                    "Los rompimientos son telones pintados que dejan ver otro u otros en el fondo. Los rompimientos de las escenas de la Alhambra y de Dríades están realizados con la técnica de telones calados y red, que proporcionan al espectador un efecto 3D a partir de la superposición con perspectiva. Poseen grandes dimensiones. Los rompimientos de la escena de Dríades tienen 22 por 11 metros.",
+                    "Los molinos tienen 8,50 metros de altura. El radio de las aspas supera los 3 metros. Los molinos de viento son el elemento icónico de Don Quijote. Su movimiento fue mecanizado por medio un sistema de poleas accionado desde el sector de Maquinaria. Además, se incorporó a la realización la máquina de ruteo por computadora sobre madera, para optimizar la precisión de los pequeños detalles."
+                ],
+                "data_sheet": [
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    }
+                ]
+            },
+            {
+                "position": 11,
+                "id": "el_corsario",
+                "title": "El Corsario",
+                "composer": "Adolphe Adam, Cesare Pugni, Leo Delibes, Riccardo Drigo",
+                "year": 1856,
+                "images": 14,
+                "short_text": "Una producción para ballet realizada en 2011 que triunfó en Argentina y en los Estados Unidos.",
+                "text": [
+                    "xxx",
+                    "xxx",
+                    "xxx",
+                    "xxx"
+                ],
+                "data_sheet": [
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    },
+                    {
+                        "item_title":"xxx",
+                        "item_data":"xxx"
+                    }
+                ]
+            }
+        ]
+    }
+}

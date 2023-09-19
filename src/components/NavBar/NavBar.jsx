@@ -14,11 +14,7 @@ const NavBar = () => {
     useEffect(() => {
         const fetchJson = async (language) => {
             try {
-<<<<<<< HEAD
                 const response = await fetch(`${process.env.PUBLIC_URL}/locales/${language}/global.json`);
-=======
-                const response = await fetch(`/locales/${language}/global.json`);
->>>>>>> 3927ea4a8d894d1c0d886d97b751677aef046e0f
                 if (!response.ok) {
                     throw new Error('Fetch error: ' + response.statusText);
                 }

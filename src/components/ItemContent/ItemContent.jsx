@@ -7,11 +7,7 @@ const ItemContent = ({ category, title, text, children }) => {
     const uniqueKey = uuidv4();
 
     return (
-<<<<<<< HEAD
         (Array.isArray(text) && text.length >= 1
-=======
-        (text.length >= 1
->>>>>>> 3927ea4a8d894d1c0d886d97b751677aef046e0f
             ?   <motion.div
                     key={uniqueKey}
                     initial={{ opacity: 0, y: 50 }}

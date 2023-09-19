@@ -12,12 +12,6 @@
         "text_home": "Get ready to discover the magic that beats behind the scenes at one of the most important theaters in the world.",
         "subtext_home": "These are the great productions of the Teatro Colón workshops that you will enjoy in this tour.",
         "new": "New!",
-<<<<<<< HEAD
-=======
-        "featured_n1-name": "Why TeatroColónFábrica?",
-        "featured_n2-name": "The rake’s progress",
-        "featured_n2-href": "en/la_carrera_del_libertino",
->>>>>>> 3927ea4a8d894d1c0d886d97b751677aef046e0f
         "you_may_also_like": "You may also like",
         "view_grid": "View grid",
         "view_list": "View list",
@@ -28,14 +22,10 @@
         "newest": "Newest",
         "alphabetically_az": "Alphabetically (A-Z)",
         "alphabetically_za": "Alphabetically (Z-A)",
-<<<<<<< HEAD
         "data_sheet": "Data sheet",
         "slogan": "The best kept secrets of the Teatro Colón",
         "rights":"All rights reserved",
         "loading": "Cargando"
-=======
-        "data_sheet": "Data sheet"
->>>>>>> 3927ea4a8d894d1c0d886d97b751677aef046e0f
     },
 
     "about": {
@@ -63,11 +53,7 @@
                 "title": "The rake’s progress",
                 "composer": "Igor Stravinsky",
                 "year": 1951,
-<<<<<<< HEAD
                 "images": 11,
-=======
-                "images": 12,
->>>>>>> 3927ea4a8d894d1c0d886d97b751677aef046e0f
                 "short_text": "xxx",
                 "text": [
                     "xxx",
@@ -118,11 +104,7 @@
                 "title": "L'elisir d'amore",
                 "composer": " Gaetano Donizetti",
                 "year": 2022,
-<<<<<<< HEAD
                 "images": 9,
-=======
-                "images": 12,
->>>>>>> 3927ea4a8d894d1c0d886d97b751677aef046e0f
                 "short_text": "xxx",
                 "text": [
                     "xxx",
@@ -171,11 +153,7 @@
                 "title": "La Finta Giardiniera",
                 "composer": "Wolfgang Amadeus Mozart",
                 "year": 1775,
-<<<<<<< HEAD
                 "images": 14,
-=======
-                "images": 12,
->>>>>>> 3927ea4a8d894d1c0d886d97b751677aef046e0f
                 "short_text": "xxx",
                 "text": [
                     "xxx",
@@ -190,24 +168,10 @@
                 "title": "A Streetcar named Desire",
                 "composer": "André Previn",
                 "year": 1998,
-<<<<<<< HEAD
                 "images": 6,
                 "short_text": "xx",
                 "text": [
                     ""
-=======
-                "images": 12,
-                "short_text": "Versión lírica del composer estadounidense André Previn sobre el clásico teatral de Tennessee Williams.",
-                "text": [
-                    "<em>Un tranvía llamado Deseo</em> es la versión lírica del composer estadounidense André Previn sobre el clásico teatral de Tennessee Williams. Cuenta la historia de Blanche, una mujer madura del sur de los Estados Unidos con aires aristocráticos pero venida a menos, que se ve obligada a mudarse al estrecho departamento de su hermana Stella. Ante la indiferencia y luego el ataque salvaje de su cuñado Stanley, solo encuentra amparo en la locura.",
-                    "Rita Cosentino fue la directora de escena de esta producción con escenografía de Enrique Bordolini y vestuario de Gino Bogani.",
-                    "Estrenada en 1998 en la Ópera de San Francisco, se presentó por primera vez en el Teatro Colón en 2019 con esta producción que demandó dos meses y medio de realización.",
-                    "Previn escribió esta obra para la soprano Renée Fleming, quien la estrenó y encarnó a Blanche DuBois, que se transformó en un personaje emblemático de la dramaturgia universal.",
-                    "La escenografía de esta producción está diseñada para destacar la teatralización continua que el personaje de Blanche hace de sí mismo. Aquí vemos parte de la escenografía donde todo sucede. La cocina, que continuaba con la habitación y el baño al final.",
-                    "Bordolini diseñó una suerte de teatro dentro del teatro. El agobiante departamento donde conviven Blanche, Stella y Stanley condensa el universo traumático de la protagonista. El pequeño dormitorio se transforma en escenario para sus “personajes”. El baño, visible en esta puesta, es el <em>backstage</em> de la verdadera Blanche.",
-                    "El vestuario fue diseñado por el maestro de alta costura Gino Bogani quien creó una indumentaria inspirada en la moda de los años '50. Para la producción se confeccionaron 60 trajes, 60 pares de zapatos y carteras y sombreros con diseño original de Bogani.",
-                    "El vestuario debió ceñirse a la época y expresar una síntesis de los personajes que animan la historia, situada en Nueva Orleans. Para lograr ese objetivo, Bogani apeló a pequeños detalles, como el prendedor de plata con forma de hipocampo de Blanche, personaje con el que Bogani, según sus propias palabras, “se tomó una licencia poética para definir más su personalidad”."
->>>>>>> 3927ea4a8d894d1c0d886d97b751677aef046e0f
                 ]
             },
             {
@@ -216,11 +180,7 @@
                 "title": "The Tales of Hoffmann",
                 "composer": "Adolphe Adam, Cesare Pugni, Leo Delibes, Riccardo Drigo",
                 "year": 1856,
-<<<<<<< HEAD
                 "images": 8,
-=======
-                "images": 12,
->>>>>>> 3927ea4a8d894d1c0d886d97b751677aef046e0f
                 "short_text": "xxx",
                 "text": [
                     "xxx",
@@ -269,11 +229,7 @@
                 "title": "Rigoletto",
                 "composer": "Giuseppe Verdi",
                 "year": 1851,
-<<<<<<< HEAD
                 "images": 8,
-=======
-                "images": 12,
->>>>>>> 3927ea4a8d894d1c0d886d97b751677aef046e0f
                 "short_text": "xxx",
                 "text": [
                     "xxx",
@@ -322,11 +278,7 @@
                 "title": "Aida",
                 "composer": "Giuseppe Verdi",
                 "year": 1871,
-<<<<<<< HEAD
                 "images": 14,
-=======
-                "images": 12,
->>>>>>> 3927ea4a8d894d1c0d886d97b751677aef046e0f
                 "short_text": "xxx",
                 "text": [
                     "xxx",
@@ -375,11 +327,7 @@
                 "title": "Turandot",
                 "composer": "Giacomo Puccini",
                 "year": 1926,
-<<<<<<< HEAD
                 "images": 10,
-=======
-                "images": 12,
->>>>>>> 3927ea4a8d894d1c0d886d97b751677aef046e0f
                 "short_text": "xxx",
                 "text": [
                     "xxx",
@@ -428,11 +376,7 @@
                 "title": "La Bohème",
                 "composer": "Giacomo Puccini",
                 "year": 1896,
-<<<<<<< HEAD
                 "images": 14,
-=======
-                "images": 12,
->>>>>>> 3927ea4a8d894d1c0d886d97b751677aef046e0f
                 "short_text": "xxx",
                 "text": [
                     "xxx",
@@ -483,11 +427,7 @@
                 "title": "Don Quixote",
                 "composer": "Ludwig Minkus",
                 "year": 1869,
-<<<<<<< HEAD
                 "images": 14,
-=======
-                "images": 12,
->>>>>>> 3927ea4a8d894d1c0d886d97b751677aef046e0f
                 "short_text": "xxx",
                 "text": [
                     "xxx",
@@ -536,11 +476,7 @@
                 "title": "Le Corsaire",
                 "composer": "Adolphe Adam, Cesare Pugni, Leo Delibes, Riccardo Drigo",
                 "year": 1856,
-<<<<<<< HEAD
                 "images": 14,
-=======
-                "images": 12,
->>>>>>> 3927ea4a8d894d1c0d886d97b751677aef046e0f
                 "header": "xxx",
                 "short_text": "xxx",
                 "text": [

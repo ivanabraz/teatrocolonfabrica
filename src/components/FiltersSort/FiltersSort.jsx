@@ -5,11 +5,7 @@ import { ChevronDownIcon } from '@heroicons/react/20/solid';
 
 const FiltersSort = ({ sortOptions, section, setSection }) => {
     const { t } = useTranslation();
-<<<<<<< HEAD
     const [ascendingOrder] = useState(true);
-=======
-    const [ascendingOrder, setAscendingOrder] = useState(true);
->>>>>>> 3927ea4a8d894d1c0d886d97b751677aef046e0f
     const [selectedSort] = useState(sortOptions.find(option => option.current));
     const [activeOption, setActiveOption] = useState(null);
 

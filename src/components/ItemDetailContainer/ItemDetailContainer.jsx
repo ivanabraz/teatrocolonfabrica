@@ -7,11 +7,7 @@ import SwiperSlider from '../SwiperSlider/SwiperSlider';
 import DataSheet from '../DataSheet/DataSheet';
 import ItemContent from '../ItemContent/ItemContent';
 import RelatedItems from '../RelatedItems/RelatedItems';
-<<<<<<< HEAD
 import VideoPlayer from '../Video/VideoPlayer';
-=======
-// import DataFigures from '../DataFigures/DataFigures';
->>>>>>> 3927ea4a8d894d1c0d886d97b751677aef046e0f
 
 const ItemDetailContainer = () => {
     const { i18n } = useTranslation();
@@ -27,11 +23,7 @@ const ItemDetailContainer = () => {
     useEffect(() => {
         const fetchItem = async () => {
             try {
-<<<<<<< HEAD
                 const response = await fetch(`${process.env.PUBLIC_URL}/locales/${i18n.language}/global.json`);
-=======
-                const response = await fetch(`/locales/${i18n.language}/global.json`);
->>>>>>> 3927ea4a8d894d1c0d886d97b751677aef046e0f
                 const data = await response.json();
                 const allProductions = [...data.productions.ballet, ...data.productions.opera];
                 const itemData = allProductions.find(prod => prod.id === id);
@@ -70,10 +62,6 @@ const ItemDetailContainer = () => {
             for (let index = 1; index <= maxImages; index++) {
                 const filename = `img-${index}.jpg`;
                 const imageUrl = `${process.env.PUBLIC_URL}/images/productions/${item.id}/${filename}`;
-<<<<<<< HEAD
-=======
-    
->>>>>>> 3927ea4a8d894d1c0d886d97b751677aef046e0f
                 if (imageRef.current.includes(imageUrl)) {
                     break;
                 }
@@ -90,10 +78,6 @@ const ItemDetailContainer = () => {
                     break;
                 }
             }
-<<<<<<< HEAD
-=======
-    
->>>>>>> 3927ea4a8d894d1c0d886d97b751677aef046e0f
             setImageArray(imagesToLoad.slice(0, maxImages));
         };
     
@@ -110,28 +94,16 @@ const ItemDetailContainer = () => {
     const year = item.year || '';
     const text = item.text || '';
     const datasheet = item.data_sheet || '';
-<<<<<<< HEAD
     const video = `${process.env.PUBLIC_URL}/images/productions/${item.id}/video.mp4`;
-=======
-
->>>>>>> 3927ea4a8d894d1c0d886d97b751677aef046e0f
     const relatedItems = productions.filter(prod => prod.id !== item.id);
     const shuffledRelatedItems = shuffle(relatedItems);
 
     return (
         <>
-<<<<<<< HEAD
             <HeroImage video={false} header={header} title={title} category={category} composer={composer} year={year} />
             <ItemContent category={category} title={title} text={text} productions={productions} />
             <VideoPlayer video={video} />
             <DataSheet datasheet={datasheet} />
-=======
-            <HeroImage video={false} header={header} title={title} category={category} composer={composer} year={year}/>
-            <ItemContent category={category} title={title} text={text} productions={productions}>
-                {/* <DataFigures datasheet={datasheet} sliceStart={0} sliceEnd={2} /> */}
-            </ItemContent>
-            <DataSheet datasheet={datasheet}/>
->>>>>>> 3927ea4a8d894d1c0d886d97b751677aef046e0f
             <SwiperSlider images={imageArray} title={title} />
             <RelatedItems relatedItems={shuffledRelatedItems.slice(0, 3)} lang={i18n.language} />
         </>

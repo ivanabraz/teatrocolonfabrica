@@ -22,14 +22,10 @@
         "newest": "Más nuevo",
         "alphabetically_az": "Alfabéticamente (A-Z)",
         "alphabetically_za": "Alfabéticamente (Z-A)",
-<<<<<<< HEAD
         "data_sheet": "Ficha técnica",
         "slogan": "Los secretos mejor guardados del Teatro Colón",
         "rights":"Todos los derechos reservados",
         "loading": "Cargando"
-=======
-        "data_sheet": "Ficha técnica"
->>>>>>> 3927ea4a8d894d1c0d886d97b751677aef046e0f
     },
 
     "about": {
@@ -56,11 +52,7 @@
                 "title": "La carrera del libertino",
                 "composer": "Igor Stravinsky",
                 "year": 1951,
-<<<<<<< HEAD
                 "images": 11,
-=======
-                "images": 12,
->>>>>>> 3927ea4a8d894d1c0d886d97b751677aef046e0f
                 "short_text": "Es una ópera en tres actos y un epílogo, con música de Igor Stravinski y libreto en inglés de W. H. Auden y Chester Kallman.",
                 "text": [
                     "<em>La carrera del libertino</em> (título original en inglés: <em>The rake's progress</em>) es una ópera en tres actos y un epílogo, con música de Igor Stravinski y libreto en inglés de W. H. Auden y Chester Kallman. La primera aproximación de Igor Stravinsky a la idea del pacto con el diablo fue con <em>La historia del soldado</em>, en 1918, a partir de un cuento popular. Más de treinta años después volvió sobre esa temática.",
@@ -105,11 +97,7 @@
                 "title": "L'elisir d'amore",
                 "composer": "Gaetano Donizetti",
                 "year": 2022,
-<<<<<<< HEAD
                 "images": 9,
-=======
-                "images": 12,
->>>>>>> 3927ea4a8d894d1c0d886d97b751677aef046e0f
                 "short_text": "Esta nueva producción de 2022 de <em>L'elisir d'amore</em>, de Gaetano Donizetti, estuvo bajo la dirección escénica del español Emilio Sagi.",
                 "text": [
                     "<em>El elixir de amor</em> (en italiano, <em>“L'elisir d'amore”</em>) es una ópera cómica en dos actos con música de Gaetano Donizetti y libreto de Felice Romani. Está basada en el libreto original del dramaturgo francés Eugène Scribe titulado <em>Le philetre</em> del año 1831. Se trata, junto con <em>Don Pasquale</em> y <em>Lucia de Lammermoor</em>, de una de las óperas más representadas del compositor. El número más reconocido de esta composición es el aria para tenor titulada <em>Una furtiva lágrima</em> del segundo acto. El estreno tuvo lugar el 12 de mayo de 1832 en Milán.",
@@ -158,11 +146,7 @@
                 "title": "La Finta Giardiniera",
                 "composer": "Wolfgang Amadeus Mozart",
                 "year": 1775,
-<<<<<<< HEAD
                 "images": 14,
-=======
-                "images": 12,
->>>>>>> 3927ea4a8d894d1c0d886d97b751677aef046e0f
                 "short_text": "La producción de <em>La finta giardiniera</em> fue realizada en los talleres del Teatro Colón en 2021 cumpliendo con todos los protocolos sanitarios impuestos por la pandemia.",
                 "text": [
                     "<em>La finta giardiniera</em> de Wolfgang Amadeus Mozart presenta la historia de una marquesa que se disfraza de jardinera para escapar de su marido. Ese es el núcleo de esta ópera bufa plena de contrastes de clase, equívocos y amoríos. Con libreto de Giuseppe Petrosellini se estrenó en el Carnaval de Munich en 1775.",
@@ -182,11 +166,7 @@
                 "title": "Un tranvía llamado Deseo",
                 "composer": "André Previn",
                 "year": 1998,
-<<<<<<< HEAD
                 "images": 6,
-=======
-                "images": 12,
->>>>>>> 3927ea4a8d894d1c0d886d97b751677aef046e0f
                 "short_text": "Estreno de la versión lírica del clásico teatral de Tennessee Williams con vestuario de Gino Bogani.",
                 "text": [
                     "<em>Un tranvía llamado Deseo</em> es la versión lírica del compositor estadounidense André Previn sobre el clásico teatral de Tennessee Williams. Cuenta la historia de Blanche, una mujer madura del sur de los Estados Unidos con aires aristocráticos pero venida a menos, que se ve obligada a mudarse al estrecho departamento de su hermana Stella. Ante la indiferencia y luego el ataque salvaje de su cuñado Stanley, solo encuentra amparo en la locura.",
@@ -231,7 +211,6 @@
                 "title": "Los cuentos de Hoffmann",
                 "composer": "Adolphe Adam, Cesare Pugni, Leo Delibes, Riccardo Drigo",
                 "year": 1856,
-<<<<<<< HEAD
                 "images": 8,
                 "short_text": "El despliegue visual del ganador del premio Óscar Eugenio Zanetti para la versión de la ópera de Offenbach creada en 2019.",
                 "text": [
@@ -272,48 +251,6 @@
                     {
                         "item_title":"Pares de zapatos",
                         "item_data":"120"
-=======
-                "images": 12,
-                "short_text": "El despliegue visual del ganador del premio Óscar Eugenio Zanetti para la versión de la ópera de Offenbach creada en 2019.",
-                "text": [
-                    "xxx",
-                    "xxx",
-                    "xxx",
-                    "xxx"
-                ],
-                "data_sheet": [
-                    {
-                        "item_title":"xxx",
-                        "item_data":"xxx"
-                    },
-                    {
-                        "item_title":"xxx",
-                        "item_data":"xxx"
-                    },
-                    {
-                        "item_title":"xxx",
-                        "item_data":"xx"
-                    },
-                    {
-                        "item_title":"xxx",
-                        "item_data":"xxx"
-                    },
-                    {
-                        "item_title":"xxx",
-                        "item_data":"xxx"
-                    },
-                    {
-                        "item_title":"xxx",
-                        "item_data":"xxx"
-                    },
-                    {
-                        "item_title":"xxx",
-                        "item_data":"xxx"
-                    },
-                    {
-                        "item_title":"xxx",
-                        "item_data":"xxx"
->>>>>>> 3927ea4a8d894d1c0d886d97b751677aef046e0f
                     }
                 ]
             },
@@ -323,7 +260,6 @@
                 "title": "Rigoletto",
                 "composer": "Giuseppe Verdi",
                 "year": 1851,
-<<<<<<< HEAD
                 "images": 8,
                 "short_text": "Una nueva producción de uno de los grandes títulos del género lírico realizada íntegramente entre 2018 y 2019.",
                 "text": [
@@ -360,48 +296,6 @@
                     {
                         "item_title":"Pares de zapatos",
                         "item_data":"90"
-=======
-                "images": 12,
-                "short_text": "Una nueva producción de uno de los grandes títulos del género lírico realizada íntegramente entre 2018 y 2019.",
-                "text": [
-                    "xxx",
-                    "xxx",
-                    "xxx",
-                    "xxx"
-                ],
-                "data_sheet": [
-                    {
-                        "item_title":"xxx",
-                        "item_data":"xxx"
-                    },
-                    {
-                        "item_title":"xxx",
-                        "item_data":"xxx"
-                    },
-                    {
-                        "item_title":"xxx",
-                        "item_data":"xx"
-                    },
-                    {
-                        "item_title":"xxx",
-                        "item_data":"xxx"
-                    },
-                    {
-                        "item_title":"xxx",
-                        "item_data":"xxx"
-                    },
-                    {
-                        "item_title":"xxx",
-                        "item_data":"xxx"
-                    },
-                    {
-                        "item_title":"xxx",
-                        "item_data":"xxx"
-                    },
-                    {
-                        "item_title":"xxx",
-                        "item_data":"xxx"
->>>>>>> 3927ea4a8d894d1c0d886d97b751677aef046e0f
                     }
                 ]
             },
@@ -411,11 +305,7 @@
                 "title": "Aida",
                 "composer": "Giuseppe Verdi",
                 "year": 1871,
-<<<<<<< HEAD
                 "images": 14,
-=======
-                "images": 12,
->>>>>>> 3927ea4a8d894d1c0d886d97b751677aef046e0f
                 "short_text": "La ópera que inauguró el edificio en 1908 revisitada en la imponente producción para celebrar el 110 aniversario.",
                 "text": [
                     "xxx",
@@ -464,11 +354,7 @@
                 "title": "Turandot",
                 "composer": "Giacomo Puccini",
                 "year": 1926,
-<<<<<<< HEAD
                 "images": 10,
-=======
-                "images": 12,
->>>>>>> 3927ea4a8d894d1c0d886d97b751677aef046e0f
                 "short_text": "El clásico de Puccini con idea original, concepción escénica y diseño de escenografía de Roberto Oswald.",
                 "text": [
                     "Ambientada en la China antigua, la idea original, la concepción escénica y la escenografía de esta puesta de Turandot de 1993 pertenecen a Roberto Oswald. Su reposición en 2018 estuvo a cargo de Matías Cambiasso. Las estructuras colosales y la magia escénica creada con telas y luces se combinan con las procesiones de una obra de masas, donde el pueblo tiene un papel fundamental, encarnado por numerosos actores figurantes y cantantes.",
@@ -520,11 +406,7 @@
                 "title": "La Bohème",
                 "composer": "Giacomo Puccini",
                 "year": 1896,
-<<<<<<< HEAD
                 "images": 14,
-=======
-                "images": 12,
->>>>>>> 3927ea4a8d894d1c0d886d97b751677aef046e0f
                 "short_text": "Una superproducción realizada íntegramente en 2018 en los talleres escenotécnicos del Teatro Colón.",
                 "text": [
                     "xxx",
@@ -575,11 +457,7 @@
                 "title": "Don Quijote",
                 "composer": "Ludwig Minkus",
                 "year": 1869,
-<<<<<<< HEAD
                 "images": 14,
-=======
-                "images": 12,
->>>>>>> 3927ea4a8d894d1c0d886d97b751677aef046e0f
                 "short_text": "La producción del ballet <em>Don Quijote</em> de Ludwig Minkus fue realizada íntegramente por los equipos escenotécnicos del Teatro Colón en 2013.",
                 "text": [
                     "La producción del ballet <em>Don Quijote</em> de Ludwig Minkus fue realizada íntegramente por los equipos escenotécnicos del Teatro Colón en 2013. Esta versión contó con la coreografía de Lidia Segni sobre la del francés Marius Petipa y la dirección musical de Javier Logioia Orbe al frente de la Orquesta Estable del Teatro Colón.",
@@ -630,11 +508,7 @@
                 "title": "El Corsario",
                 "composer": "Adolphe Adam, Cesare Pugni, Leo Delibes, Riccardo Drigo",
                 "year": 1856,
-<<<<<<< HEAD
                 "images": 14,
-=======
-                "images": 12,
->>>>>>> 3927ea4a8d894d1c0d886d97b751677aef046e0f
                 "short_text": "Una producción para ballet realizada en 2011 que triunfó en Argentina y en los Estados Unidos.",
                 "text": [
                     "xxx",

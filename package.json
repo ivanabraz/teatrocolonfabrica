@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "name": "teatrocolonfabrica",
   "homepage": ".",
   "version": "0.1.0",
@@ -10,17 +9,6 @@
     "@fortawesome/free-regular-svg-icons": "^6.4.2",
     "@fortawesome/free-solid-svg-icons": "^6.4.2",
     "@fortawesome/react-fontawesome": "^0.2.0",
-=======
-  "name": "colonfabrica",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.36",
-    "@fortawesome/free-brands-svg-icons": "^5.15.4",
-    "@fortawesome/free-regular-svg-icons": "^5.15.4",
-    "@fortawesome/free-solid-svg-icons": "^5.15.4",
-    "@fortawesome/react-fontawesome": "^0.1.15",
->>>>>>> 3927ea4a8d894d1c0d886d97b751677aef046e0f
     "@headlessui/react": "^1.5.0",
     "@heroicons/react": "^2.0.18",
     "@tailwindcss/aspect-ratio": "^0.4.0",
@@ -38,10 +26,7 @@
     "js-cookie": "^3.0.5",
     "lodash": "^4.17.21",
     "npm": "^9.8.1",
-<<<<<<< HEAD
     "prop-types": "^15.8.1",
-=======
->>>>>>> 3927ea4a8d894d1c0d886d97b751677aef046e0f
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-fast-marquee": "^1.3.1",
@@ -49,11 +34,7 @@
     "react-i18next": "^13.0.3",
     "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.2.1",
-<<<<<<< HEAD
     "react-youtube": "^10.1.0",
-=======
-    "react-scripts": "5.0.0",
->>>>>>> 3927ea4a8d894d1c0d886d97b751677aef046e0f
     "start": "^5.1.0",
     "swiper": "^9.4.1",
     "web-vitals": "^2.1.4"
@@ -83,16 +64,12 @@
     ]
   },
   "devDependencies": {
-<<<<<<< HEAD
     "@babel/core": "^7.22.19",
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@babel/preset-env": "^7.22.15",
     "@babel/preset-react": "^7.22.15",
     "babel-eslint": "^10.1.0",
     "react-scripts": "^5.0.1",
-=======
-    "babel-eslint": "^10.1.0",
->>>>>>> 3927ea4a8d894d1c0d886d97b751677aef046e0f
     "tailwindcss": "^3.3.3"
   }
 }

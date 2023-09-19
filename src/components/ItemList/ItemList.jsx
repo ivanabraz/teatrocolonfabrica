@@ -26,7 +26,11 @@ const ItemList = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
+<<<<<<< HEAD
                 const response = await fetch(`${process.env.PUBLIC_URL}/locales/${i18n.language}/global.json`);
+=======
+                const response = await fetch(`/locales/${i18n.language}/global.json`);
+>>>>>>> 3927ea4a8d894d1c0d886d97b751677aef046e0f
                 const data = await response.json();
                 const balletProductions = data.productions.ballet.map(item => ({ ...item, category: 'ballet' }));
                 const operaProductions = data.productions.opera.map(item => ({ ...item, category: 'opera' }));

@@ -12,7 +12,11 @@ const HeaderHome = (props) => {
                 initial={{ opacity: 0, y: 50 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.9, ease: "easeInOut" }}
+<<<<<<< HEAD
                 src={Logo} alt={props.title} className="w-full z-100 invert"
+=======
+                src={Logo} alt={props.title} className="w-full z-100"
+>>>>>>> 3927ea4a8d894d1c0d886d97b751677aef046e0f
             />
             <div className="text-white w-full z-100">
                 <motion.p

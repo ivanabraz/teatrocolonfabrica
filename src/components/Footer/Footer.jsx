@@ -1,5 +1,6 @@
 import React from "react";
 import NavBarLogo from "../NavBar/NavBarLogo";
+<<<<<<< HEAD
 import { useTranslation } from 'react-i18next';
 import { MapPinIcon } from '@heroicons/react/24/outline';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -99,6 +100,15 @@ const Footer = () => {
                     </p>
                 </div>
             </div>
+=======
+
+const Footer = () => {
+    return (
+        <footer className="w-full h-auto p-10 text-md text-white bg-black text-center flex justify-around">
+            <NavBarLogo customClassName={"invert"} />
+
+            <p>© 2023</p>
+>>>>>>> 3927ea4a8d894d1c0d886d97b751677aef046e0f
         </footer>
     )
 }

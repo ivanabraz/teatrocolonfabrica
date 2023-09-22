@@ -46,7 +46,12 @@ const App = () => {
                     <LoadingHero i18n={i18n} />
                 ) : (
                     <>
-                        <MessageBar textPrimary={"Teatro Colón Fábrica"} textSecondary={"Join us in Denver from June 7 – 9 to see what’s coming next."} textButton={"Lorem ipsum"}/>
+                        <MessageBar
+                            textPrimary={'Teatro Colón Fábrica'}
+                            textSecondary={i18n.t('global.visit_info')}
+                            textButton={i18n.t('global.visit')}
+                            linkButton={`/${i18n.language}/visit`}
+                        />
                         <NavBar onLanguageChange={changeLanguage} />
                         <ScrollToTop/>
                         <Routes>

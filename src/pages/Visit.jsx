@@ -10,7 +10,6 @@ const Visit = () => {
     const [aboutSubtitle, setAboutSubtitle] = useState([]);
 
     useEffect(() => {
-        // Fetch the JSON data dynamically
         async function fetchJsonData() {
             try {
                 const response = await fetch(`${process.env.PUBLIC_URL}/locales/${i18n.language}/global.json`);

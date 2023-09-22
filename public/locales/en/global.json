@@ -5,6 +5,7 @@
         "about": "About",
         "info": "Info",
         "visit": "Visit",
+        "visit_info": "Visit us on Fridays, Saturdays, Sundays and holidays 12 - 18H",
         "see_more": "See more",
         "follow_us": "Follow us!",
         "opera": "Opera",
@@ -25,7 +26,7 @@
         "data_sheet": "Data sheet",
         "slogan": "The best kept secrets of the Teatro Colón",
         "rights":"All rights reserved",
-        "loading": "Cargando"
+        "loading": "Loading"
     },
 
     "about": {

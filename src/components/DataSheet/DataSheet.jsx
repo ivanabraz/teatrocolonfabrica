@@ -20,13 +20,13 @@ const DataSheet = ({ datasheet, sliceStart, sliceEnd }) => {
                     <div className="max-w-3xl gap-x-6 gap-y-8 grid-cols-2 items-start">
                         <div className="px-4 sm:px-0">
                             <h3 className="text-base font-semibold leading-7 text-gray-900">{t('global.data_sheet')}</h3>
-                            <p className="mt-1 text-sm leading-6 text-gray-500">Lorem ipsum</p>
+                            {/* <p className="mt-1 text-sm leading-6 text-gray-500">Lorem ipsum</p> */}
                         </div>
                         <div className="mt-6 border-t border-gray-100">
                             <dl className="divide-y divide-gray-100">
                                 {datasheet.slice(sliceStart, sliceEnd).map((item, index) => (
-                                    <div key={index} className="px-4 py-6 grid grid-cols-3 sm:gap-4 sm:px-0">
-                                        <dt className="text-sm font-medium leading-6 text-gray-900">{item.item_data}</dt>
+                                    <div key={index} className="px-4 py-6 grid grid-cols-3 sm:gap-4 sm:px-0 items-center">
+                                        <dt className="text-md font-medium leading-6 text-indigo-600">{item.item_data}</dt>
                                         <dd className="mt-1 text-sm leading-6 col-span-2 text-gray-700">{item.item_title}</dd>
                                     </div>
                                 ))}

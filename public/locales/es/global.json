@@ -428,36 +428,32 @@
                 ],
                 "data_sheet": [
                     {
-                        "item_title":"xxx",
-                        "item_data":"xxx"
+                        "item_title":"Personal escenotécnico trabajando durante la puesta",
+                        "item_data":"125"
                     },
                     {
-                        "item_title":"xxx",
-                        "item_data":"xxx"
+                        "item_title":"Personal escenotécnico de realización",
+                        "item_data":"400"
                     },
                     {
-                        "item_title":"xxx",
-                        "item_data":"xx"
+                        "item_title":"Tiempo de pre producción y realización",
+                        "item_data":"4 meses"
                     },
                     {
-                        "item_title":"xxx",
-                        "item_data":"xxx"
+                        "item_title":"Cantidad de trajes",
+                        "item_data":"180"
                     },
                     {
-                        "item_title":"xxx",
-                        "item_data":"xxx"
+                        "item_title":"Pelucas",
+                        "item_data":"100"
                     },
                     {
-                        "item_title":"xxx",
-                        "item_data":"xxx"
+                        "item_title":"Tocados",
+                        "item_data":"80"
                     },
                     {
-                        "item_title":"xxx",
-                        "item_data":"xxx"
-                    },
-                    {
-                        "item_title":"xxx",
-                        "item_data":"xxx"
+                        "item_title":"Pares de zapatos",
+                        "item_data":"110"
                     }
                 ]
             }
@@ -478,41 +474,7 @@
                     "Las escenografías para ballet deben ser livianas, para proteger el piso arlequín que se monta sobre el escenario. Es un piso de rebote que preserva a los bailarines en el impacto del salto.",
                     "Los cambios de escenas que requiere la historia son armados por superposición de telones y rompimientos temáticos, cuyo diseño corresponden a la creación del escenógrafo.",
                     "Los rompimientos son telones pintados que dejan ver otro u otros en el fondo. Los rompimientos de las escenas de la Alhambra y de Dríades están realizados con la técnica de telones calados y red, que proporcionan al espectador un efecto 3D a partir de la superposición con perspectiva. Poseen grandes dimensiones. Los rompimientos de la escena de Dríades tienen 22 por 11 metros.",
-                    "Los molinos tienen 8,50 metros de altura. El radio de las aspas supera los 3 metros. Los molinos de viento son el elemento icónico de Don Quijote. Su movimiento fue mecanizado por medio un sistema de poleas accionado desde el sector de Maquinaria. Además, se incorporó a la realización la máquina de ruteo por computadora sobre madera, para optimizar la precisión de los pequeños detalles."
-                ],
-                "data_sheet": [
-                    {
-                        "item_title":"xxx",
-                        "item_data":"xxx"
-                    },
-                    {
-                        "item_title":"xxx",
-                        "item_data":"xxx"
-                    },
-                    {
-                        "item_title":"xxx",
-                        "item_data":"xx"
-                    },
-                    {
-                        "item_title":"xxx",
-                        "item_data":"xxx"
-                    },
-                    {
-                        "item_title":"xxx",
-                        "item_data":"xxx"
-                    },
-                    {
-                        "item_title":"xxx",
-                        "item_data":"xxx"
-                    },
-                    {
-                        "item_title":"xxx",
-                        "item_data":"xxx"
-                    },
-                    {
-                        "item_title":"xxx",
-                        "item_data":"xxx"
-                    }
+                    "Los molinos tienen 8,50 metros de altura. El radio de las aspas supera los 3 metros. Los molinos de viento son el elemento icónico de <em>Don Quijote</em>. Su movimiento fue mecanizado por medio un sistema de poleas accionado desde el sector de Maquinaria. Además, se incorporó a la realización la máquina de ruteo por computadora sobre madera, para optimizar la precisión de los pequeños detalles."
                 ]
             },
             {
@@ -524,43 +486,43 @@
                 "images": 14,
                 "short_text": "Una producción para ballet realizada en 2011 que triunfó en Argentina y en los Estados Unidos.",
                 "text": [
-                    "xxx",
-                    "xxx",
-                    "xxx",
-                    "xxx"
+                    "La producción del ballet <em>El corsario</em> fue realizada íntegramente por los equipos escenotécnicos del Teatro Colón en 2011, con diseño de escenografía de Cristian Prego y diseño de vestuario de Aníbal Lápiz. En 2012, se presentó en diversas salas de los Estados Unidos como el Kennedy Center for the Performing Arts de Washington, y el Metropolitan Opera House de Nueva York, entre otras.",
+                    "<em>El corsario</em> es un ballet inspirado en un poema de Lord Byron acerca del amor entre un pirata y una esclava. La puesta original es de diciembre de 2011, con diseño de escenografía de Cristian Prego y diseño de vestuario de Aníbal Lápiz.",
+                    "En 2012, esta producción realizada íntegramente por los equipos técnicos de nuestra casa, se presentó en los EEUU en el Kennedy Center for the Performing Arts de Washington y el Metropolitan Opera House de Nueva York, entre otras salas.",
+                    "Unas 400 personas del plantel escenotécnico trabajaron durante tres meses en la producción y realización de este título, para el que se confeccionaron 95 trajes en el sector de Sastrería y 150 tocados en Peluquería.",
+                    "Entre los muchos trucos y hallazgos de esta versión, el barco del pirata Conrad es el icono de la producción. Con un ancho de 7 metros y una altura total de 10 metros incluyendo el sistema de velas, fue un desafío constructivo para los talleres del teatro.",
+                    "Una de sus características es que en escena se mueve y genera un efecto de viento con los velos. El suplemento que crea la sensación de oleaje del mar tiene 21 metros de ancho. Está realizado en <em>voile</em> de <em>nylon</em>.",
+                    "El mascarón de proa está inspirado en un barco corsario europeo del mar jónico durante el imperio otomano. Es un trabajo en conjunto de varios talleres: la base es una estructura de hierro que pivotea balanceándose sobre un eje. Luego se lo revistió en madera y telgopor para darle el carácter escultórico del tiempo y la profundidad.",
+                    "Los mástiles y velas están realizados en madera y tela. Se vinculan con una serie de poleas para dar la ilusión de movimiento en la tormenta, incluido el truco de mástil que se quiebra y cae.",
+                    "Este elemento escenográfico, con todos sus movimientos, debió ser lo suficientemente seguro como para contener a los siete bailarines que son parte de la escena. En esta construcción, participaron los talleres de Herrería, Maquinaria, Escultura, Escenografía, Tapicería y Efectos especiales.",
+                    "Los toldos de mimbre caracterizan al primer acto. Están colgados a más 3 metros del piso del escenario. Las bandejas florales del segundo acto tienen entre 1,65 y 3 metros de diámetro. Algunas están pintadas sobre un tul y otras, que se ubican más cerca de la boca del escenario, son una silueta de madera con tul, acrílico y tela. Tienen apliques de flores de tela, purpurina y dorado a la hoja para darles riqueza.",
+                    "Las lámparas que le dan marco al tercer acto conjugan diferentes diseños que refuerzan su presencia escénica. Son 11 lámparas con aspecto volumétrico, pero que en realidad son semicorpóreas. Se realizaron usando la técnica de perspectiva forzada, para que su espesor real fuera mínimo y se puedan subir a la parrilla del escenario. Se construyeron en madera y acrílico, con terminaciones de dorado a la hoja realizadas por el taller de Pintura y artesanía teatral. Las más grandes alcanzan 1,70 metros de ancho por 1,70 metros de altura.",
+                    "Las alfombras colgantes fueron pintadas sobre lona, también usando una perspectiva forzada, que aparentan volumen cuando son completamente planas, como siluetas. La extensión de tela es mucho menor a la que aparenta visualmente."
                 ],
                 "data_sheet": [
                     {
-                        "item_title":"xxx",
-                        "item_data":"xxx"
+                        "item_title":"Personal escenotécnico trabajando durante la puesta",
+                        "item_data":"110"
                     },
                     {
-                        "item_title":"xxx",
-                        "item_data":"xxx"
+                        "item_title":"Personal escenotécnico de realización",
+                        "item_data":"400"
                     },
                     {
-                        "item_title":"xxx",
-                        "item_data":"xx"
+                        "item_title":"Tiempo de pre producción y realización",
+                        "item_data":"3 meses"
                     },
                     {
-                        "item_title":"xxx",
-                        "item_data":"xxx"
+                        "item_title":"Cantidad de trajes",
+                        "item_data":"95"
                     },
                     {
-                        "item_title":"xxx",
-                        "item_data":"xxx"
+                        "item_title":"Tocados",
+                        "item_data":"150"
                     },
                     {
-                        "item_title":"xxx",
-                        "item_data":"xxx"
-                    },
-                    {
-                        "item_title":"xxx",
-                        "item_data":"xxx"
-                    },
-                    {
-                        "item_title":"xxx",
-                        "item_data":"xxx"
+                        "item_title":"Pares de zapatos",
+                        "item_data":"30"
                     }
                 ]
             }

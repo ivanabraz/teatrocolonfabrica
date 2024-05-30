@@ -9,7 +9,7 @@ const ButtonListView = ({ isGridView, setIsGridView }) => {
     return (
         <>
             {isGridView ? (
-                <button onClick={() => setIsGridView(false)} type="button" className="-m-2 ml-5 p-2 text-gray-400 hover:text-gray-500 sm:ml-7">
+                <button onClick={() => setIsGridView(false)} type="button" className="-m-2 ml-5 p-2 text-neutral-400 hover:text-neutral-500 sm:ml-7">
                     <span className="sr-only">
                         {t('global.view_list')}
                     </span>
@@ -18,7 +18,7 @@ const ButtonListView = ({ isGridView, setIsGridView }) => {
             ) : null}
             {/* Botón de vista de lista */}
             {!isGridView ? (
-                <button onClick={() => setIsGridView(true)} type="button" className="-m-2 ml-5 p-2 text-gray-400 hover:text-gray-500 sm:ml-7">
+                <button onClick={() => setIsGridView(true)} type="button" className="-m-2 ml-5 p-2 text-neutral-400 hover:text-neutral-500 sm:ml-7">
                     <span className="sr-only">
                         {t('global.view_grid')}
                     </span>

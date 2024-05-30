@@ -26,7 +26,7 @@ const HeroImage = (props) => {
                     </p>
                 )}
                 {props.subtitle !== undefined && (
-                    <p className="text-base lg:text-2xl pt-1 flex inline">
+                    <p className="w-[50ch] text-base lg:text-2xl pt-1 flex inline">
                         {props.subtitle}
                     </p>
                 )}

@@ -19,17 +19,17 @@ const ItemContent = ({ category, title, text, children }) => {
                     <div className="max-w-3xl gap-x-6 gap-y-8 grid-cols-1 lg:grid-cols-2 lg:items-start">
                         {category !== undefined &&
                             <p className="text-base font-semibold leading-7 ">
-                                <span className="text-indigo-600 capitalize">{category}</span><span className="text-gray-600"> / {title}</span>
+                                <span className="text-indigo-600 capitalize">{category}</span><span className="text-neutral-600"> / {title}</span>
                             </p>
                         }
                         {text.slice(0, 1).map((text, index) => (
-                            <p key={index} className="mt-12 mb-8 text-xl leading-8 text-gray-700">
+                            <p key={index} className="mt-12 mb-8 text-xl leading-8 text-neutral-700">
                                 {ReactHtmlParser(text)}
                             </p>
                         ))}
                         {children}
                         {text.slice(2).map((text, index) => (
-                            <p key={index} className="mt-3 text-base leading-7 text-gray-600">
+                            <p key={index} className="mt-3 text-base leading-7 text-neutral-600">
                                 {ReactHtmlParser(text)}
                             </p>
                         ))}

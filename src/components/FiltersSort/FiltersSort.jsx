@@ -8,7 +8,6 @@ const FiltersSort = ({ sortOptions, section, setSection }) => {
     const [ascendingOrder] = useState(true);
     const [activeOption, setActiveOption] = useState(null);
 
-    // Condición para establecer "position" como opción activa por defecto
     if (activeOption === null) {
         setActiveOption(sortOptions.find(option => option.value === 'position'));
     }
@@ -38,11 +37,11 @@ const FiltersSort = ({ sortOptions, section, setSection }) => {
     return (
         <Menu as="div" className="relative inline-block text-left">
             <Menu.Button
-                className="group inline-flex justify-center text-sm font-medium text-gray-700 hover:text-gray-900"
+                className="group inline-flex justify-center text-sm font-medium text-neutral-700 hover:text-neutral-900"
             >
                 {t('global.sort')}
                 <ChevronDownIcon
-                    className="-mr-1 ml-1 h-5 w-5 flex-shrink-0 text-gray-400 group-hover:text-gray-500"
+                    className="-mr-1 ml-1 h-5 w-5 flex-shrink-0 text-neutral-400 group-hover:text-neutral-500"
                     aria-hidden="true"
                 />
             </Menu.Button>
@@ -61,10 +60,10 @@ const FiltersSort = ({ sortOptions, section, setSection }) => {
                             <Menu.Item key={option.name}>
                                 {() => (
                                     <a href={option.href}
-                                        className={`hover:text-gray-900 ${
+                                        className={`hover:text-neutral-900 ${
                                             activeOption && activeOption.value === option.value
-                                                ? 'font-medium text-indigo-600 bg-gray-100 font-bold'
-                                                : 'text-gray-500'
+                                                ? 'font-medium text-indigo-600 bg-neutral-100 font-bold'
+                                                : 'text-neutral-500'
                                         } block px-4 py-2 text-sm`}
                                         onClick={() => {handleSortChange(option);
                                         }}

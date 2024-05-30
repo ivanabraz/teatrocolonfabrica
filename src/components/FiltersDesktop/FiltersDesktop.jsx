@@ -8,11 +8,11 @@ const FiltersDesktop = ({ dynamicFilters, selectedFilters, setSelectedFilters, c
                 {/* Filters */}
                 <form className="col-span-1 hidden lg:block">
                     {dynamicFilters.map((section) => (
-                    <Disclosure as="div" key={section.id} className="border-b border-gray-200 py-6">
+                    <Disclosure as="div" key={section.id} className="border-b border-neutral-200 py-6">
                         {({ open }) => (
                         <>
-                            <div className="flex w-full items-center justify-between bg-white py-3 text-sm text-gray-400 hover:text-gray-500">
-                                <span className="font-medium text-gray-900">{section.name}</span>
+                            <div className="flex w-full items-center justify-between bg-white py-3 text-sm text-neutral-400 hover:text-neutral-500">
+                                <span className="font-medium text-neutral-900">{section.name}</span>
                             </div>
                             {section.options.map((option, optionIdx) => (
                                 <div key={option.value} className="flex items-center mt-10">
@@ -34,11 +34,11 @@ const FiltersDesktop = ({ dynamicFilters, selectedFilters, setSelectedFilters, c
                                                 [section.id]: newSelectedValues,
                                             }));
                                         }}
-                                        className="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500"
+                                        className="h-4 w-4 rounded border-neutral-300 text-indigo-600 focus:ring-indigo-500"
                                     />
                                     <label
                                     htmlFor={`filter-${section.id}-${optionIdx}`}
-                                    className="ml-3 text-sm text-gray-600"
+                                    className="ml-3 text-sm text-neutral-600"
                                     >
                                     {option.label}
                                     </label>

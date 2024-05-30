@@ -48,7 +48,7 @@ const NavBarMobile = ({ navigation, productions, children }) => {
                             <div className="flex px-4 pb-2 pt-5">
                                 <button
                                     type="button"
-                                    className="relative -m-2 inline-flex items-center justify-center rounded-md p-2 text-gray-400"
+                                    className="relative -m-2 inline-flex items-center justify-center rounded-md p-2 text-neutral-400"
                                     onClick={() => setOpen(false)}
                                 >
                                     <span className="absolute -inset-0.5" />
@@ -59,14 +59,14 @@ const NavBarMobile = ({ navigation, productions, children }) => {
                             {/* Links */}
                             <Tab.Group as="div" className="mt-2">
                                 <NavBarLogo customClassName="invert text-center w-100 mt-2 mb-5 px-4"/>
-                                <div className="border-b border-gray-200">
+                                <div className="border-b border-neutral-200">
                                     <Tab.List className="-mb-px flex space-x-8 px-4">
                                         {navigation.categories.map((category) => (
                                             <Tab
                                             key={category.id}
                                             className={({ selected }) =>
                                                 classNames(
-                                                selected ? 'border-indigo-600 text-indigo-600' : 'border-transparent text-gray-900',
+                                                selected ? 'border-indigo-600 text-indigo-600' : 'border-transparent text-neutral-900',
                                                 'flex-1 whitespace-nowrap border-b-2 px-1 py-4 text-base font-medium'
                                                 )
                                             }
@@ -81,7 +81,7 @@ const NavBarMobile = ({ navigation, productions, children }) => {
                                             <div className="grid grid-cols-2 gap-x-4">
                                                 {navigation.featured.map((item) => (
                                                     <Link to={`/${i18n.language}/${item.id}`} key={item.id} className="group relative text-sm">
-                                                        <div className="aspect-h-1 aspect-w-1 overflow-hidden rounded-lg bg-gray-100 group-hover:opacity-75">
+                                                        <div className="aspect-h-1 aspect-w-1 overflow-hidden rounded-lg bg-neutral-100 group-hover:opacity-75">
                                                             {/* IMAGE */}
                                                             <img src={item.imageSrc} alt={item.imageAlt} className="object-cover object-center" />
                                                             {/* NEW BADGE */}
@@ -90,7 +90,7 @@ const NavBarMobile = ({ navigation, productions, children }) => {
                                                                 : <></>
                                                             }
                                                         </div>
-                                                        <p className="mt-6 block font-medium text-gray-900">
+                                                        <p className="mt-6 block font-medium text-neutral-900">
                                                             <span className="absolute inset-0 z-10" aria-hidden="true" />
                                                             {item.name}
                                                         </p>
@@ -101,13 +101,13 @@ const NavBarMobile = ({ navigation, productions, children }) => {
                                                 ))}
                                             </div>
                                             <div>
-                                                <p className="font-medium text-gray-900">
+                                                <p className="font-medium text-neutral-900">
                                                     {t('global.ballet')}
                                                 </p>
                                                 <ul className="mt-6 flex flex-col space-y-6">
                                                     {balletProductions.map((production, index) => (
                                                         <li key={index} className="flow-root">
-                                                            <Link to={`/${i18n.language}/${production.id}`} className="-m-2 block p-2 text-gray-500">
+                                                            <Link to={`/${i18n.language}/${production.id}`} className="-m-2 block p-2 text-neutral-500">
                                                                 {t(production.title)}
                                                             </Link>
                                                         </li>
@@ -115,13 +115,13 @@ const NavBarMobile = ({ navigation, productions, children }) => {
                                                 </ul>
                                             </div>
                                             <div>
-                                                <p className="font-medium text-gray-900">
+                                                <p className="font-medium text-neutral-900">
                                                     {t('global.opera')}
                                                 </p>
                                                 <ul className="mt-6 flex flex-col space-y-6">
                                                     {operaProductions.map((production, index) => (
                                                         <li key={index} className="flow-root">
-                                                            <Link to={`/${i18n.language}/${production.id}`} className="-m-2 block p-2 text-gray-500">
+                                                            <Link to={`/${i18n.language}/${production.id}`} className="-m-2 block p-2 text-neutral-500">
                                                                 {t(production.title)}
                                                             </Link>
                                                         </li>
@@ -133,10 +133,10 @@ const NavBarMobile = ({ navigation, productions, children }) => {
                             </Tab.Group>
                                 {navigation.pages.length === 0
                                     ?   <></>
-                                    : <div className="space-y-6 border-t border-gray-200 px-4 py-6">
+                                    : <div className="space-y-6 border-t border-neutral-200 px-4 py-6">
                                         {navigation.pages.map((page) => (
                                             <div key={page.id} className="flow-root">
-                                                <Link to={page.href} className="-m-2 block p-2 font-medium text-gray-900">
+                                                <Link to={page.href} className="-m-2 block p-2 font-medium text-neutral-900">
                                                     {page.name}
                                                 </Link>
                                             </div>

@@ -19,8 +19,8 @@ const DataFigures = ({ datasheet, sliceStart, sliceEnd }) => {
                         <dl className="grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-2">
                             {datasheet.slice(sliceStart, sliceEnd).map((item, index) => (
                                 <div key={index} className="mx-auto flex max-w-xs flex-col gap-y-4">
-                                    <dt className="text-base leading-7 text-gray-500">{item.item_title}</dt>
-                                    <dd className="order-first text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">{item.item_data}</dd>
+                                    <dt className="text-base leading-7 text-neutral-500">{item.item_title}</dt>
+                                    <dd className="order-first text-3xl font-semibold tracking-tight text-neutral-900 sm:text-5xl">{item.item_data}</dd>
                                 </div>
                             ))}
                         </dl>

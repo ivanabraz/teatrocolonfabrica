@@ -29,6 +29,94 @@
         "loading": "Cargando"
     },
 
+    "visit": {
+        "subtitle": "Los secretos del Teatro Colón.",
+        "text": [
+            "Una experiencia en la que vas a poder descubrir las grandes producciones surgidas de los talleres de uno de los pocos Teatros Fábrica del mundo, en el que se puede crear y realizar todo lo que necesita una programación de excelencia: escenografías, trajes, pelucas, zapatos, efectos especiales."
+        ],
+        "selfguided": "Recorrido libre",
+        "guided": "Visita Guiada",
+        "tickets": [
+            {
+                "type_ticket":"Entrada",
+                "selfguided":"$3500",
+                "guided":"$4500"
+            },
+            {
+                "type_ticket":"Residentes¹",
+                "selfguided":"$1500",
+                "guided":"$2000"
+            },
+            {
+                "type_ticket":"Jubilados y Estudiantes universitarios²",
+                "selfguided":"$700⁴",
+                "guided":"$1000⁴"
+            },
+            {
+                "type_ticket":"Pase cultural",
+                "selfguided":"$700⁴",
+                "guided":"$1000⁴"
+            },
+            {
+                "type_ticket":"Menores de 7 años",
+                "selfguided":"Gratis⁴",
+                "guided":"Gratis⁴"
+            },
+            {
+                "type_ticket":"Personas con discapacidad³",
+                "selfguided":"Gratis⁴",
+                "guided":"Gratis⁴"
+            }
+        ],
+        "hours": [
+            {
+                "day":"Lunes",
+                "selfguided":"Cerrado",
+                "guided":"Cerrado"
+            },
+            {
+                "day":"Martes",
+                "selfguided":"Cerrado",
+                "guided":"Cerrado"
+            },
+            {
+                "day":"Miércoles",
+                "selfguided":"Cerrado",
+                "guided":"Cerrado"
+            },
+            {
+                "day":"Jueves",
+                "selfguided":"Cerrado",
+                "guided":"Cerrado"
+            },
+            {
+                "day":"Viernes",
+                "selfguided":"15:00 a 18:00*",
+                "guided":"12:00, 12:15, 12:30, 13:00, 13:15, 13:30, 14:00, 14:15, 14:30"
+            },
+            {
+                "day":"Sábado",
+                "selfguided":"15:00 a 18:00*",
+                "guided":"12:00, 12:15, 12:30, 13:00, 13:15, 13:30, 14:00, 14:15, 14:30"
+            },
+            {
+                "day":"Domingo",
+                "selfguided":"15:00 a 18:00*",
+                "guided":"12:00, 12:15, 12:30, 13:00, 13:15, 13:30, 14:00, 14:15, 14:30"
+            },
+            {
+                "day":"Feriados",
+                "selfguided":"15:00 a 18:00*",
+                "guided":"12:00, 12:15, 12:30, 13:00, 13:15, 13:30, 14:00, 14:15, 14:30"
+            }
+        ],
+        "legal": [
+            "Las entradas pueden comprarse únicamente con tarjeta de crédito o débito online o en la boletería de Teatro Colón Fábrica (Avenida Pedro de Mendoza 2163). Son personales e intransferibles y son válidas sólo para el día y horario para el que fueron adquiridas. Los cupos diarios son limitados. El recorrido de la Visita Guiada tiene una duración aproximada de 40 minutos. La tolerancia máxima de ingreso a las visitas será de 5 minutos. Las visitas guiadas pueden realizarse únicamente con el personal designado por el Teatro Colón. Para la modalidad de recorrido libre, el tiempo de permanencia es de 1 hora. Se permite tomar fotografías durante el recorrido #Teatro Colón Fábrica.",
+            "<b>¹</b>Se considera Residentes a todas aquellas personas que tengan en su DNI domicilio registrado en la República Argentina. <b>²</b>Las entradas correspondientes a las tarifas “Jubilados” y “Estudiantes” podrán ser adquiridas mediante tarjeta de crédito o débito únicamente en boletería de Teatro Colón Fábrica contra presentación de la documentación oficial que acredite dicha situación. <b>³</b>Las personas con discapacidad podrán solicitar la entrada gratuita únicamente de manera presencial en la boletería de Teatro Colón Fábrica, presentando el certificado oficial correspondiente conforme lo establecido por Ley 3546, y sujeto a la disponibilidad de cupo que establece la misma. <b>⁴</b>Disponibles en boletería.",
+            "Para más información sobre las visitas guiadas, <a href='https://teatrocolon.org.ar/es/reglamento-de-visitas-guiadas' target='_blank' class='underline font-bold'>consultar acá</a>."
+        ]
+    },
+
     "about": {
         "subtitle": "Preparate para descubrir la magia que late detrás de escena en uno de los teatros más importantes del mundo.",
         "text": [

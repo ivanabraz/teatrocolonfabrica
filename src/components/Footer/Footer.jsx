@@ -51,7 +51,7 @@ const Footer = () => {
         ]
     }
     return (
-        <footer className="w-full text-gray-700 bg-gray-100">
+        <footer className="w-full text-neutral-700 bg-neutral-100">
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 px-5 py-24 lg:max-w-screen-2xl text-center lg:text-left m-auto">
                 <motion.div
                     key={uniqueKey}
@@ -62,12 +62,12 @@ const Footer = () => {
                     className="w-64 mx-auto"
                 >
                     <NavBarLogo customClassName=""/>
-                    <p className="mt-4 mb-10 text-sm text-gray-500">
+                    <p className="mt-4 mb-10 text-sm text-neutral-500">
                         {t('global.slogan')}
                     </p>
                     <div className="mt-4 mb-10 flex flex-row justify-center lg:justify-start gap-4">
                         {navigation.social.map((item) => (
-                            <a href={item.href} key={item.name} className="text-gray-500 cursor-pointer hover:text-gray-700 mr-1">
+                            <a href={item.href} key={item.name} className="text-neutral-500 cursor-pointer hover:text-neutral-700 mr-1">
                                 <FontAwesomeIcon className="fa-lg" icon={item.icon} />
                             </a>
                         ))}
@@ -80,21 +80,21 @@ const Footer = () => {
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ duration: 1, ease: "easeInOut" }}
                         viewport={{ once: true }}
-                        className="w-64 mx-auto border-t border-gray-500 lg:border-none"
+                        className="w-64 mx-auto border-t border-neutral-500 lg:border-none"
                     >
-                        <h2  className="pt-5 mb-3 text-sm font-medium tracking-widest text-gray-900 uppercase">
+                        <h2  className="pt-5 mb-3 text-sm font-medium tracking-widest text-neutral-900 uppercase">
                             {item.name}
                         </h2>
-                        <div className="text-gray-500 lg:flex">
+                        <div className="text-neutral-500 lg:flex">
                         <MapPinIcon className="h-6 w-6 min-w-fit m-auto lg:m-0" aria-hidden="true" />
                             {item.adress}
                         </div>
                     </motion.div>
                 ))}
             </div>
-            <div className="bg-gray-300">
+            <div className="bg-neutral-300">
                 <div className="container px-5 py-4 mx-auto">
-                    <p className="text-sm text-gray-700 xl:text-center">
+                    <p className="text-sm text-neutral-700 xl:text-center">
                         © 2023 {t('global.rights')}
                     </p>
                 </div>

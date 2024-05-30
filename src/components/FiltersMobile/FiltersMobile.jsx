@@ -32,22 +32,22 @@ const FiltersMobile = ({ mobileFiltersOpen, setMobileFiltersOpen, dynamicFilters
                     >
                         <Dialog.Panel className="relative ml-auto flex h-full w-full max-w-xs flex-col overflow-y-auto bg-white py-4 pb-12 shadow-xl">
                             <div className="flex items-center justify-between px-4">
-                                <h2 className="text-lg font-medium text-gray-900">{t('global.filters')}</h2>
+                                <h2 className="text-lg font-medium text-neutral-900">{t('global.filters')}</h2>
                                 <button
                                 type="button"
-                                className="-mr-2 flex h-10 w-10 items-center justify-center rounded-md bg-white p-2 text-gray-400"
+                                className="-mr-2 flex h-10 w-10 items-center justify-center rounded-md bg-white p-2 text-neutral-400"
                                 onClick={() => setMobileFiltersOpen(false)}
                                 >
                                     <XMarkIcon className="h-6 w-6" aria-hidden="true" />
                                 </button>
                             </div>
                             {/* Filters mobile */}
-                            <form className="mt-4 border-t border-gray-200">
+                            <form className="mt-4 border-t border-neutral-200">
                                 {dynamicFilters.map((section) => (
-                                    <Disclosure as="div" key={section.id} className="border-t border-gray-200 px-4 py-6">
+                                    <Disclosure as="div" key={section.id} className="border-t border-neutral-200 px-4 py-6">
                                         {({ open }) => (
                                         <>
-                                            <h3 className="font-medium text-gray-900">
+                                            <h3 className="font-medium text-neutral-900">
                                                 {section.name}
                                             </h3>
                                                 {section.options.map((option, optionIdx) => (
@@ -70,11 +70,11 @@ const FiltersMobile = ({ mobileFiltersOpen, setMobileFiltersOpen, dynamicFilters
                                                                     [section.id]: newSelectedValues,
                                                                 }));
                                                             }}
-                                                            className="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500"
+                                                            className="h-4 w-4 rounded border-neutral-300 text-indigo-600 focus:ring-indigo-500"
                                                         />
                                                         <label
                                                         htmlFor={`filter-mobile-${section.id}-${optionIdx}`}
-                                                        className="ml-3 min-w-0 flex-1 text-gray-500"
+                                                        className="ml-3 min-w-0 flex-1 text-neutral-500"
                                                         >
                                                             {option.label}
                                                         </label>

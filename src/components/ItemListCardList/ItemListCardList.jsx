@@ -28,7 +28,7 @@ const ItemListCardList = ({ item, lang }) => {
                     </div>
                     <div className="w-full md:w-2/3 bg-white flex flex-col space-y-5 px-5 py-2">
                         <div className="flex justify-between item-center">
-                            <p className="capitalize text-gray-500 text-xs font-medium">
+                            <p className="capitalize text-neutral-500 text-xs font-medium">
                                 {categoryLabel}
                             </p>
                             {item.new === true
@@ -36,13 +36,13 @@ const ItemListCardList = ({ item, lang }) => {
                                 : <></>
                             }
                         </div>
-                        <h3 className="font-medium text-gray-900 text-xl md:text-3xl">
+                        <h3 className="font-medium text-neutral-900 text-xl md:text-3xl">
                             {item.title}
                         </h3>
-                        <p className="text-gray-500 text-xs">
+                        <p className="text-neutral-500 text-xs">
                             {ReactHtmlParser(item.short_text)}
                         </p>
-                        <p className="text-base text-gray-600">
+                        <p className="text-base text-neutral-600">
                             {t('global.see_more')}  →
                         </p>
                     </div>

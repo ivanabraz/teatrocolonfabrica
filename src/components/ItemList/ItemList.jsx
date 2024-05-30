@@ -71,8 +71,8 @@ const ItemList = () => {
             setSelectedFilters={setSelectedFilters}
         />
             <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-                <div className="flex items-baseline justify-between border-b border-gray-200 pb-6 pt-24">
-                    <h1 className="text-4xl font-bold tracking-tight text-gray-900">
+                <div className="flex items-baseline justify-between border-b border-neutral-200 pb-6 pt-24">
+                    <h1 className="text-4xl font-bold tracking-tight text-neutral-900">
                         {t('global.exhibitions')}
                     </h1>
                     <div className="flex items-center">

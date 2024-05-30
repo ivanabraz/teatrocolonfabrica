@@ -17,19 +17,19 @@ const RelatedItems = ({ relatedItems, lang }) => {
                 viewport={{ once: true }}
                 className='mx-auto max-w-2xl px-12 xs:px-12 sm:px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl'
             >
-                <h2 className="text-center text-xl font-medium tracking-tight text-gray-900">{t('global.you_may_also_like')}</h2>
+                <h2 className="text-center text-xl font-medium tracking-tight text-neutral-900">{t('global.you_may_also_like')}</h2>
                 <div className="mt-6 grid grid-cols-1 md:grid-cols-3 gap-y-10">
                     {relatedItems.map(relatedItem => (
                         <Link key={relatedItem.id} to={`/${lang}/${relatedItem.id}`} className="group">
-                            <div className="aspect-h-5 aspect-w-8 w-full overflow-hidden bg-gray-200">
+                            <div className="aspect-h-5 aspect-w-8 w-full overflow-hidden bg-neutral-200">
                                 <img
                                 src={`${process.env.PUBLIC_URL}/images/productions/${relatedItem.id}/img-header.jpg`}
                                 alt={relatedItem.title}
                                 className="h-full w-full object-cover object-center group-hover:opacity-75"
                                 />
                             </div>
-                            <p className="mt-4 text-lg font-medium text-gray-900">{relatedItem.title}</p>
-                            <p className="mt-1 text-sm text-gray-500">{relatedItem.category}</p>
+                            <p className="mt-4 text-lg font-medium text-neutral-900">{relatedItem.title}</p>
+                            <p className="mt-1 text-sm text-neutral-500">{relatedItem.category}</p>
                         </Link>
                     ))}
                 </div>

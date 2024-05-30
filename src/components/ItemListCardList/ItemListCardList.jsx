@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import ReactHtmlParser from 'react-html-parser';
 import NewBadge from '../NewBadge/NewBadge';
 import { motion } from "framer-motion";
 
@@ -40,7 +39,7 @@ const ItemListCardList = ({ item, lang }) => {
                             {item.title}
                         </h3>
                         <p className="text-neutral-500 text-xs">
-                            {ReactHtmlParser(item.short_text)}
+                            {item.short_text}
                         </p>
                         <p className="text-base text-neutral-600">
                             {t('global.see_more')}  →

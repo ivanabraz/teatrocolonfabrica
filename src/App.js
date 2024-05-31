@@ -55,7 +55,8 @@ const App = () => {
                         <NavBar onLanguageChange={changeLanguage} />
                         <ScrollToTop/>
                         <Routes>
-                            <Route path={`/:lang?`} exact element={ <Home /> }/>
+                            <Route path="*" element={<navigate to={`/${i18n.language}`} />} />
+                            <Route path={`teatrocolonfabricatest/:lang?`} exact element={ <Home /> }/>
                             <Route path="/:lang/about" element={<About />} />
                             <Route path="/:lang/sobre" element={<About />} />
                             <Route path="/:lang/visit" element={<Visit />} />
